@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic website of Dr.ir. Kenan Niu, Assistant Professor in Robotics and Mechatronics at the University of Twente.">
+    <title>Kenan Niu | Robotics, Imaging, and Smart Sensing</title>
+    <link rel="preload" href="assets/img/research-visual.png" as="image">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Kenan Niu home">
+        <span class="brand-mark">KN</span>
+        <span>
+          <strong>Kenan Niu</strong>
+          <small>Robotics and Mechatronics</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#supervision">Supervision</a>
+        <a href="#demos">Demos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow">University of Twente - Robotics and Mechatronics</p>
+          <h1>Robotic imaging, smart sensing, and image-guided systems for medicine.</h1>
+          <p id="profile-summary" class="lead"></p>
+          <div id="profile-links" class="link-row" aria-label="Profile links"></div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/img/research-visual.png" alt="Abstract robotic ultrasound and medical imaging visual">
+          <figcaption>Research themes: robotic imaging, ultrasound, navigation, sensing, and human-centered medical robotics.</figcaption>
+        </figure>
+      </section>
+
+      <section class="quick-facts" aria-labelledby="quick-facts-heading">
+        <div class="section-inner">
+          <h2 id="quick-facts-heading">At A Glance</h2>
+          <div id="quick-facts" class="fact-grid"></div>
+        </div>
+      </section>
+
+      <section id="research" class="section-band">
+        <div class="section-inner split-heading">
+          <div>
+            <p class="eyebrow">Research</p>
+            <h2>Human intelligence in robotic systems.</h2>
+          </div>
+          <p class="section-note">The research program connects perception, robotics, medical imaging, and clinical workflows.</p>
+        </div>
+        <div class="section-inner">
+          <div id="research-themes" class="card-grid"></div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="section-inner split-heading">
+          <div>
+            <p class="eyebrow">Education</p>
+            <h2>Courses and study programs.</h2>
+          </div>
+          <p class="section-note">Teaching spans robotics, image processing, software development, internships, and project-based academic training.</p>
+        </div>
+        <div class="section-inner education-layout">
+          <div>
+            <h3>Affiliated Study Programs</h3>
+            <ul id="program-list" class="clean-list"></ul>
+          </div>
+          <div>
+            <h3>Courses</h3>
+            <ul id="course-list" class="clean-list two-column-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section-band">
+        <div class="section-inner split-heading">
+          <div>
+            <p class="eyebrow">Publications</p>
+            <h2>Selected recent work.</h2>
+          </div>
+          <p class="section-note">A compact selection is shown here; full publication lists remain linked through Google Scholar and University of Twente profiles.</p>
+        </div>
+        <div class="section-inner">
+          <div id="publication-list" class="publication-list"></div>
+          <div id="publication-links" class="link-row section-actions"></div>
+        </div>
+      </section>
+
+      <section id="supervision">
+        <div class="section-inner split-heading">
+          <div>
+            <p class="eyebrow">Student Supervision</p>
+            <h2>A maintainable home for student work.</h2>
+          </div>
+          <p class="section-note">The first version defines the structure. Individual thesis summaries, files, and media can be added after a public-safety review.</p>
+        </div>
+        <div class="section-inner">
+          <div id="supervision-categories" class="card-grid compact"></div>
+          <div class="workflow-panel">
+            <h3>Future Entry Workflow</h3>
+            <ol id="supervision-workflow"></ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="demos" class="section-band">
+        <div class="section-inner split-heading">
+          <div>
+            <p class="eyebrow">Demos</p>
+            <h2>Project media, prototypes, and presentations.</h2>
+          </div>
+          <p class="section-note">Designed for public demo videos and project highlights without committing large private archives to the site repository.</p>
+        </div>
+        <div class="section-inner">
+          <div id="demo-types" class="demo-grid"></div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-inner contact-layout">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>University of Twente</h2>
+            <p id="contact-summary" class="section-note"></p>
+          </div>
+          <div id="contact-card" class="contact-card"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="current-year"></span> Kenan Niu. Built as a static GitHub Pages website.</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="assets/data/site-data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -107,6 +107,45 @@ The workflow is:
 
 Runtime website visitors never trigger Scholar or publisher requests.
 
+## Scheduled Update Workflow
+
+GitHub Actions will check for publication changes every Monday and support manual execution through `workflow_dispatch`.
+
+The scheduled workflow will not scrape Google Scholar. Google Scholar explicitly does not provide bulk access and asks automated software to respect its robots rules. Scholar remains the canonical initial 70-entry baseline and a periodic manual audit source.
+
+The automated data-source order is:
+
+1. ORCID public works data.
+2. University of Twente Pure public research-output data.
+3. Crossref DOI metadata.
+
+Records are matched using normalized DOI, UT Pure source ID, and normalized title. A DOI match takes precedence over a title-only match.
+
+For each scheduled run:
+
+1. Fetch current public metadata from the approved sources.
+2. Normalize and deduplicate candidate records.
+3. Compare candidates with the committed publication dataset.
+4. Add newly detected publications as candidates.
+5. Update only verified metadata fields on existing records.
+6. Preserve existing records when a source stops returning them; report the discrepancy instead of deleting data.
+7. Run publication-generation, validation, and website tests.
+8. Produce a concise update report.
+9. If changes exist, create an `automated/publication-update-YYYY-MM-DD` branch and pull request.
+10. If no changes exist, create no commit or pull request.
+
+The update pull request must identify:
+
+- Newly detected publications.
+- Changed metadata fields.
+- Records requiring human review.
+- New 2022-or-later journal papers that need a licensed image.
+- Source failures or coverage differences.
+
+The workflow never merges its own pull request and never pushes a publication update directly to the live `main` branch.
+
+New journal papers initially use the appropriate RVI research-pillar fallback. The scheduled workflow does not copy images from publisher pages. Licensed or author-provided images are added through human-reviewed changes.
+
 ## Failure Handling
 
 - Scholar access failure leaves the last verified snapshot intact.
@@ -115,6 +154,9 @@ Runtime website visitors never trigger Scholar or publisher requests.
 - Missing image files render a pillar-specific fallback.
 - Unverified licences never produce copied publisher images.
 - A generated record count other than the expected snapshot count fails validation until the source difference is reviewed.
+- A scheduled-source failure leaves the committed publication dataset unchanged.
+- A source omission never triggers automatic record deletion.
+- A failed scheduled run reports the error and creates no partial data commit.
 
 ## Verification
 
@@ -128,6 +170,9 @@ Automated checks will verify:
 - Featured visual eligibility only for licensed 2022-or-later journal papers.
 - Deterministic publication generation.
 - Missing-image fallback behavior.
+- DOI, UT Pure ID, and normalized-title deduplication.
+- Scheduled-update dry runs that create no change when source data is unchanged.
+- Pull-request update reports for new, changed, review-required, and image-required records.
 
 Browser verification will cover desktop and mobile layouts, all filter combinations, result counts, image loading, fallback rendering, console errors, horizontal overflow, and text overlap.
 

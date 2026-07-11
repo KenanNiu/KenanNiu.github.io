@@ -1,43 +1,17 @@
-# Kenan Niu Academic Website
+# RVI Group Website
 
-Static personal academic website for GitHub Pages.
+Static multi-page website for the Robotic Vision and Intelligence Group at the University of Twente.
+
+The site is dependency-free and deploys directly to GitHub Pages. Repeatable content lives in `assets/data/`; homepage images live in `assets/img/hero-slides/`.
 
 ## Local Preview
-
-From this folder:
 
 ```bash
 python3 -m http.server 4173
 ```
 
-Then open:
+Then open `http://localhost:4173/`.
 
-```text
-http://localhost:4173
-```
+## Maintenance
 
-## Maintain Content
-
-Most editable content is in:
-
-```text
-assets/data/site-data.js
-```
-
-Edit the arrays for research themes, courses, publications, supervision categories, demos, and links. The page layout reads from this file automatically.
-
-## Public-Safety Rule For Student Work
-
-Do not publish student materials directly from the supervision archive without a review. Add only content that is intended to be public, such as final thesis links, public demo videos, public presentation files, and public code repositories.
-
-Do not publish assessment forms, consent forms, ethics documents, contracts, CVs, reimbursement documents, grades, private feedback, raw datasets, or private correspondence.
-
-## GitHub Pages
-
-For a personal GitHub Pages site, create a repository named:
-
-```text
-<github-username>.github.io
-```
-
-The repository root should contain `index.html`, `.nojekyll`, `assets/`, `docs/`, and this `README.md`.
+See `docs/maintenance.md` for slides, publications, people, projects, figures, and public-safety rules. See `docs/deployment.md` for GitHub Pages deployment.

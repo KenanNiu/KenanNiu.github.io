@@ -41,3 +41,6 @@ window.rviSite = {
     ]
   }
 };
+
+// Backward-compatible alias for the static-site validation helper.
+window.siteData = window.rviSite;

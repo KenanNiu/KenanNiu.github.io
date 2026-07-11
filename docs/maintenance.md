@@ -1,38 +1,45 @@
-# Maintenance Guide
+# RVI Group Website Maintenance
 
-## Update Profile Text
+## Homepage Slides
 
-Edit `profile.summary`, `profile.roles`, and `profile.contact` in `assets/data/site-data.js`.
+1. Put approved image files in `assets/img/hero-slides/`.
+2. Use JPG, PNG, WebP, AVIF, or SVG. Prefer a 4:3 image at 1600 x 1200 pixels or larger.
+3. Run `node scripts/update-hero-slides.js` from the website root.
+4. Edit the generated title, caption, pillar, and alt text in `assets/data/hero-slides.js` when the defaults are not descriptive enough.
+5. Run `node scripts/update-hero-slides.js --check` before publishing.
 
-## Update Publications
+The browser cannot scan a GitHub Pages folder directly. The generated manifest is the static index that makes the folder-based workflow possible.
 
-Edit the `publications` array in `assets/data/site-data.js`.
+## Research and Publications
 
-Use short selected entries on the website and keep full publication lists linked through Google Scholar and the University of Twente research profile.
+- Edit the four research pillars in `assets/data/research-data.js`.
+- Add publication records to `assets/data/publications-data.js`.
+- Keep publication IDs unique and use the exact pillar IDs already present in the data.
+- Link to DOI, publisher, UT Pure, or another stable public source.
+- Label published work as `published`. Describe uncompleted reasoning or causality work as a research frontier.
 
-## Add A Supervision Entry Later
+## People and Projects
 
-Use this pattern in `site-data.js`:
+- Add confirmed public profiles in `assets/data/people-data.js`.
+- Add systems, public demos, and project links in `assets/data/projects-data.js`.
+- Do not invent names, roles, results, metrics, or media links.
 
-```js
-{
-  level: "MSc thesis",
-  title: "Project title",
-  student: "Student name",
-  year: "2026",
-  topic: "Short topic label",
-  summary: "Two-sentence public summary.",
-  links: [
-    { label: "Thesis", url: "https://..." },
-    { label: "Demo", url: "https://..." }
-  ]
-}
+## Paper Figures
+
+Store confirmed figures in `assets/img/papers/`. Use a figure only when it is open access or the author has confirmed reuse. Include a source link and attribution in the page data. Leave the labelled figure placeholder when reuse has not been verified.
+
+## Student Work Safety
+
+Do not publish grades, assessment forms, private feedback, CVs, contracts, consent or ethics files, reimbursement material, raw personal or medical data, or private correspondence. Publish a thesis, presentation, code repository, or video only after public-release review.
+
+## Local Checks
+
+Run:
+
+```bash
+node --test tests/*.test.js
+node scripts/update-hero-slides.js --check
+python3 -m http.server 4173
 ```
 
-Before adding a student entry, confirm the thesis/demo/presentation is public and does not expose private assessment, medical, personal, or administrative information.
-
-## Add Demo Media Later
-
-Prefer linking to a public video host or compressed public demo file. Avoid committing large videos directly to the GitHub Pages repository.
-
-If a video must be hosted in the repository, keep it small and place it under `assets/media/`.
+Open `http://localhost:4173/` and check desktop and mobile navigation, slideshow controls, publication filters, external links, and all seven pages.

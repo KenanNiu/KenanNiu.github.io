@@ -1,0 +1,638 @@
+{
+  "capturedAt": "2026-07-11",
+  "profileUrl": "https://scholar.google.com/citations?hl=en&user=mWEOPuMAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100",
+  "sort": "pubdate",
+  "expectedCount": 70,
+  "records": [
+    {
+      "scholarId": "mWEOPuMAAAAJ:70eg2SAEIzsC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:70eg2SAEIzsC",
+      "title": "Self-derived Motion Features from sEMG for Inferring 3D Forearm Trajectories",
+      "authorsDisplay": "B Lan, D Sun, I Tamadon, K Niu",
+      "venueDisplay": "IEEE Transactions on Biomedical Engineering",
+      "year": 2026,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:vV6vV6tmYwMC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:vV6vV6tmYwMC",
+      "title": "HCCE-CUNet Based Multi-Class Musculoskeletal Segmentation for Robotic Ultrasound System",
+      "authorsDisplay": "D Sun, S Stramigioli, K Niu",
+      "venueDisplay": "IEEE Transactions on Medical Robotics and Bionics",
+      "year": 2025,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:lSLTfruPkqcC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:lSLTfruPkqcC",
+      "title": "Endoscopic sleeve gastroplasty video assessment: do technical features influence ESG integrity and weight loss at 6 and 12 months follow-up?",
+      "authorsDisplay": "M Vannucci, D Sun, B Lan, K Niu, A Riba, N Heikens, M Fehervari, ...",
+      "venueDisplay": "Surgical endoscopy 39 (10), 6819-6827",
+      "year": 2025,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:ns9cj8rnVeAC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ns9cj8rnVeAC",
+      "title": "Sex-based differences in musculoskeletal pain among surgeons: an international survey",
+      "authorsDisplay": "M Vannucci, MR Rodr�guez-Luna, B Lan, K Niu, A Lapergola, E Reitano, ...",
+      "venueDisplay": "Surgical endoscopy 39 (7), 4217-4224",
+      "year": 2025,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:RYcK_YlVTxYC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:RYcK_YlVTxYC",
+      "title": "An autonomous fluoroscopic imaging system for catheter insertions by bilateral control scheme: A numerical simulation study",
+      "authorsDisplay": "GY Ward, D Sun, K Niu",
+      "venueDisplay": "Machines 13 (6), 498",
+      "year": 2025,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:RGFaLdJalmkC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:RGFaLdJalmkC",
+      "title": "Hierarchical Transformer Fusion of Gaze Attention and Muscle Activity for Forearm Movement Estimation",
+      "authorsDisplay": "B Lan, S Stramigioli, K Niu",
+      "venueDisplay": "IEEE Transactions on Biomedical Engineering",
+      "year": 2025,
+      "citedBy": 4
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:TFP_iSt0sucC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TFP_iSt0sucC",
+      "title": "Comparable performance between automatic and manual laryngeal and hypopharyngeal gross tumor volume delineations validated with pathology",
+      "authorsDisplay": "KM Kuijer, HJG Smits, PAH Doornaert, K Niu, MHF Savenije, EJ Smid, ...",
+      "venueDisplay": "International Journal of Radiation Oncology* Biology* Physics 122 (1), 186-193",
+      "year": 2025,
+      "citedBy": 4
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:O3NaXMp0MMsC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:O3NaXMp0MMsC",
+      "title": "Deciphering Muscular Dynamics: A Dual-Attention Framework for Predicting Muscle Contraction from Activation Patterns",
+      "authorsDisplay": "B Lan, G Krijnen, S Stramigioli, K Niu",
+      "venueDisplay": "IEEE journal of biomedical and health informatics",
+      "year": 2025,
+      "citedBy": 3
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:blknAaTinKkC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:blknAaTinKkC",
+      "title": "Automatic robotic ultrasound for 3d musculoskeletal reconstruction: A comprehensive framework",
+      "authorsDisplay": "D Sun, A Cappellari, B Lan, M Abayazid, S Stramigioli, K Niu",
+      "venueDisplay": "Technologies 13 (2), 70",
+      "year": 2025,
+      "citedBy": 20
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:GnPB-g6toBAC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:GnPB-g6toBAC",
+      "title": "The Study of Relationship Between Muscle Activation and Deformation During Arm Motion",
+      "authorsDisplay": "B Lan, K Niu",
+      "venueDisplay": "10th Dutch Biomedical Engineering Conference, BME 2025",
+      "year": 2025,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:BqipwSGYUEgC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:BqipwSGYUEgC",
+      "title": "Automatic Robotic Ultrasound Scanning for Muscle Segmentation and Reconstruction",
+      "authorsDisplay": "D Sun, A Cappellari, B Lan, K Niu",
+      "venueDisplay": "10th Dutch Biomedical Engineering Conference, BME 2025",
+      "year": 2025,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:JV2RwH3_ST0C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:JV2RwH3_ST0C",
+      "title": "Muscle Activation–Deformation Correlation in Dynamic Arm Movements",
+      "authorsDisplay": "B Lan, K Niu",
+      "venueDisplay": "J 8 (1), 5",
+      "year": 2025,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:iH-uZ7U-co4C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:iH-uZ7U-co4C",
+      "title": "Advanced Robotic Ultrasound Imaging for Spine Surgery",
+      "authorsDisplay": "R Li, E Vander Poorten, K Niu",
+      "venueDisplay": "",
+      "year": 2024,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:j3f4tGmQtD8C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:j3f4tGmQtD8C",
+      "title": "Predicting muscle thickness deformation from muscle activation patterns: A dual-attention framework",
+      "authorsDisplay": "B Lan, K Niu",
+      "venueDisplay": "arXiv preprint arXiv:2409.18266",
+      "year": 2024,
+      "citedBy": 2
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:k_IJM867U9cC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:k_IJM867U9cC",
+      "title": "Controlling an MR safe robot arm with six pneumatic stepper motors using eight tubes",
+      "authorsDisplay": "V Groenhuis, M Bac, S Stramigioli, K Niu",
+      "venueDisplay": "ICRA@ 40 special conference 2024: 40th Anniversary of the IEEE International�…",
+      "year": 2024,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:4JMBOYKVnBMC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4JMBOYKVnBMC",
+      "title": "SIRC-UNet: Improving bone tracking precision of a-mode ultrasound by decoding hierarchical resolution features",
+      "authorsDisplay": "B Lan, M Abayazid, N Verdonschot, S Stramigioli, K Niu",
+      "venueDisplay": "IEEE Sensors Journal 24 (22), 38174-38184",
+      "year": 2024,
+      "citedBy": 5
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:r0BpntZqJG4C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C",
+      "title": "Augmented-reality based digital twin to control an MR safe robot for breast biopsy: A benchmark study",
+      "authorsDisplay": "L Marx, V Groenhuis, S Stramigioli, K Niu",
+      "venueDisplay": "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and�…",
+      "year": 2024,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:RHpTSmoSYBkC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:RHpTSmoSYBkC",
+      "title": "Anatomical region recognition and real-time bone tracking methods by dynamically decoding a-mode ultrasound signals",
+      "authorsDisplay": "B Lan, S Stramigioli, K Niu",
+      "venueDisplay": "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and�…",
+      "year": 2024,
+      "citedBy": 5
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:J_g5lzvAfSwC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:J_g5lzvAfSwC",
+      "title": "Bilateral Control Scheme for Surgical Robotic System Collaboration",
+      "authorsDisplay": "GY Ward",
+      "venueDisplay": "University of Twente",
+      "year": 2024,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:maZDTaKrznsC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:maZDTaKrznsC",
+      "title": "A pathologically validated deep learning model for laryngeal and hypopharyngeal tumour segmentation on MRI",
+      "authorsDisplay": "K Kuijer, H Smits, P Doornaert, K Niu, M Savenije, E Smid, C Terhaard, ...",
+      "venueDisplay": "EUROPEAN JOURNAL OF CLINICAL INVESTIGATION 54",
+      "year": 2024,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:e5wmG9Sq2KIC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:e5wmG9Sq2KIC",
+      "title": "Deep Learning based acoustic measurement approach for robotic applications on orthopedics",
+      "authorsDisplay": "B Lan, M Abayazid, N Verdonschot, S Stramigioli, K Niu",
+      "venueDisplay": "2024 IEEE International Conference on Robotics and Automation (ICRA), 921-927",
+      "year": 2024,
+      "citedBy": 7
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:M3NEmzRMIkIC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:M3NEmzRMIkIC",
+      "title": "Pathologically validated deep learning model for laryngeal and hypopharyngeal GTV delineation on MRI",
+      "authorsDisplay": "KM Kuijer, HJG Smits, PAH Doornaert, K Niu, EJ Smid, CHJ Terhaard, ...",
+      "venueDisplay": "RADIOTHERAPY AND ONCOLOGY 194, S3102-S3104",
+      "year": 2024,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:isC4tDSrTZIC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:isC4tDSrTZIC",
+      "title": "2411: Pathologically validated deep learning model for laryngeal and hypopharyngeal GTV delineation on MRI",
+      "authorsDisplay": "KM Kuijer, HJG Smits, PAH Doornaert, K Niu, EJ Smid, CHJ Terhaard, ...",
+      "venueDisplay": "Radiotherapy and Oncology 194, S3101-S3104",
+      "year": 2024,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:_Qo2XoVZTnwC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_Qo2XoVZTnwC",
+      "title": "A method to track 3d knee kinematics by multi-channel 3d-tracked a-mode ultrasound",
+      "authorsDisplay": "K Niu, V Sluiter, B Lan, J Homminga, A Sprengers, N Verdonschot",
+      "venueDisplay": "Sensors 24 (8), 2439",
+      "year": 2024,
+      "citedBy": 9
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:HDshCWvjkbEC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:HDshCWvjkbEC",
+      "title": "State-of-the-art of non-radiative, non-visual spine sensing with a focus on sensing forces, vibrations and bioelectrical properties: A systematic review",
+      "authorsDisplay": "M Timmermans, A Massalimova, R Li, A Davoodi, Q Goossens, K Niu, ...",
+      "venueDisplay": "Sensors 23 (19), 8094",
+      "year": 2023,
+      "citedBy": 10
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:qUcmZB5y_30C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qUcmZB5y_30C",
+      "title": "Robot-assisted ultrasound reconstruction for spine surgery: from bench-top to pre-clinical study",
+      "authorsDisplay": "R Li, A Davoodi, Y Cai, K Niu, G Borghesan, N Cavalcanti, A Massalimova, ...",
+      "venueDisplay": "International journal of computer assisted radiology and surgery 18 (9�…",
+      "year": 2023,
+      "citedBy": 43
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:mB3voiENLucC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mB3voiENLucC",
+      "title": "Physiological motion compensation for neuroscience research based on electrical bio-impedance sensing",
+      "authorsDisplay": "Y Zhang, E Verschooten, M Ourak, K Van Assche, G Borghesan, D Wu, ...",
+      "venueDisplay": "IEEE Sensors Journal 23 (20), 25377-25389",
+      "year": 2023,
+      "citedBy": 13
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:hFOr9nPyWt4C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:hFOr9nPyWt4C",
+      "title": "Development of robot-assisted ultrasound system for fetoscopic tracking in twin to twin transfusion syndrome surgery",
+      "authorsDisplay": "Y Cai, A Davoodi, R Li, M Ourak, K Niu, J Deprest, E Vander Poorten",
+      "venueDisplay": "2023 International Symposium on Medical Robotics (ISMR), 1-7",
+      "year": 2023,
+      "citedBy": 4
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:35N4QoGY0k4C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:35N4QoGY0k4C",
+      "title": "Robot-assisted Ultrasound Reconstruction for Spine Surgery: from Bench-top to Pre-clinical Study",
+      "authorsDisplay": "R Li, A Davoodi, Y Cai, K Niu, G Borghesan, N Cavalcanti, A Massalimova, ...",
+      "venueDisplay": "TechRxiv 2023 (0109)",
+      "year": 2023,
+      "citedBy": 2
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:TQgYirikUcIC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TQgYirikUcIC",
+      "title": "A Comparative Study for Control of Semi-Automatic Robotic-assisted Ultrasound System in Spine Surgery",
+      "authorsDisplay": "A Davoodi, R Li, Y Cai, K Niu, G Borghesan, E Vander Poorten",
+      "venueDisplay": "the Proceedings of 2023 International Conference on Advanced Robotics (ICAR�…",
+      "year": 2023,
+      "citedBy": 4
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:ZeXyd9-uunAC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ZeXyd9-uunAC",
+      "title": "RL-Based Guidance in Outpatient Hysteroscopy Training: A Feasibility Study",
+      "authorsDisplay": "V Poliakov, K Niu, E Vander Poorten, D Tsetserukou",
+      "venueDisplay": "2022 IEEE International Conference on Robotics and Biomimetics (ROBIO), 2171�…",
+      "year": 2022,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:IWHjjKOFINEC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:IWHjjKOFINEC",
+      "title": "Feasibility of using an Extended Kalman Filter for Motion Estimation based on Electrical Bioimpedance Sensing",
+      "authorsDisplay": "Y Zhang, K Van Assche, M Ourak, E Verschooten, G Borghesan, N Kenan, ...",
+      "venueDisplay": "IROS 2022 workshop: A Panacea or an Alchemy?——Benefits and Risks of Robot�…",
+      "year": 2022,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:7PzlFSSx8tAC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:7PzlFSSx8tAC",
+      "title": "An augmented reality-based interaction scheme for robotic pedicle screw placement",
+      "authorsDisplay": "V V�r�s, R Li, A Davoodi, G Wybaillie, E Vander Poorten, K Niu",
+      "venueDisplay": "Journal of imaging 8 (10), 273",
+      "year": 2022,
+      "citedBy": 17
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:QIV2ME_5wuYC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:QIV2ME_5wuYC",
+      "title": "An in-office hysteroscopy vr/haptic simulation platform for training in spatial navigation and passage of the cervical canal",
+      "authorsDisplay": "V Poliakov, K Niu, D Tsetserukou, E Vander Poorten",
+      "venueDisplay": "IEEE Transactions on Medical Robotics and Bionics 4 (3), 608-620",
+      "year": 2022,
+      "citedBy": 5
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:mVmsd5A6BfQC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mVmsd5A6BfQC",
+      "title": "Deep-learning-based compliant motion control of a pneumatically-driven robotic catheter",
+      "authorsDisplay": "D Wu, XT Ha, Y Zhang, M Ourak, G Borghesan, K Niu, F Trauzettel, ...",
+      "venueDisplay": "IEEE Robotics and Automation Letters 7 (4), 8853-8860",
+      "year": 2022,
+      "citedBy": 51
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:4DMP91E08xMC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4DMP91E08xMC",
+      "title": "3d reconstruction of local anatomy based on 2d ultrasound for fetal laser surgery",
+      "authorsDisplay": "Y Cai, MA Ahmad, M Ourak, R Li, K Niu, T Vercauteren, S Ourselin, ...",
+      "venueDisplay": "11th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+      "year": 2022,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:L8Ckcad2t8MC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:L8Ckcad2t8MC",
+      "title": "Automatic robotic scanning for real-time 3d ultrasound reconstruction in spine surgery",
+      "authorsDisplay": "R Li, A Davoodi, Y Cai, E Vander Poorten",
+      "venueDisplay": "11th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+      "year": 2022,
+      "citedBy": 5
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:qxL8FJ1GzNcC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qxL8FJ1GzNcC",
+      "title": "Controlling of a micropositioning piezoelectric actuator using an LSTM network for robotic eye surgery",
+      "authorsDisplay": "Y Zhang, M Ourak, E Verschooten, K Niu, D Wu, G Borghesan, P Joris, ...",
+      "venueDisplay": "Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+      "year": 2022,
+      "citedBy": 5
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:9ZlFYXVOiuMC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9ZlFYXVOiuMC",
+      "title": "Quantitative assessment of calibration motion profiles in robotic-assisted ultrasound system",
+      "authorsDisplay": "M Schoovaerts, R Li, K Niu, E Vander Poorten",
+      "venueDisplay": "2022 International Symposium on Medical Robotics (ISMR), 1-7",
+      "year": 2022,
+      "citedBy": 2
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:Wp0gIr-vW9MC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Wp0gIr-vW9MC",
+      "title": "Deep-learning-based position control of a robotic catheter under environmental contact",
+      "authorsDisplay": "D Wu, Y Zhang, M Ourak, XT Ha, K Niu, J Dankelman, E Vander Poorten",
+      "venueDisplay": "2022 International Symposium on Medical Robotics (ISMR), 1-7",
+      "year": 2022,
+      "citedBy": 3
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:4TOpqqG69KYC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4TOpqqG69KYC",
+      "title": "Comparative Quantitative Analysis of Robotic Ultrasound Image Calibration Methods",
+      "authorsDisplay": "R Li, Y Cai, K Niu, E Vander Poorten",
+      "venueDisplay": "20th International Conference on Advanced Robotics (ICAR)",
+      "year": 2022,
+      "citedBy": 22
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:_kc_bZDykSQC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_kc_bZDykSQC",
+      "title": "A Framework for Fast Automatic Robot Ultrasound Calibration",
+      "authorsDisplay": "R Li, K Niu, E Vander Poorten",
+      "venueDisplay": "2021 International Symposium on Medical Robotics (ISMR)",
+      "year": 2022,
+      "citedBy": 25
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:3fE2CSJIrl8C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:3fE2CSJIrl8C",
+      "title": "A method based on 3D shape analysis towards the design of flexible instruments for endoscopic maxillary sinus surgery",
+      "authorsDisplay": "J Legrand, K Niu, Z Qian, K Denis, V Vander Poorten, L Van Gerven, ...",
+      "venueDisplay": "Annals of biomedical engineering 49 (6), 1534-1550",
+      "year": 2021,
+      "citedBy": 11
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:KlAtU1dfN6UC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:KlAtU1dfN6UC",
+      "title": "Hysteresis modeling of robotic catheters based on long short-term memory network for improved environment reconstruction",
+      "authorsDisplay": "D Wu, Y Zhang, M Ourak, K Niu, J Dankelman, E Vander Poorten",
+      "venueDisplay": "IEEE Robotics and Automation Letters 6 (2), 2106-2113",
+      "year": 2021,
+      "citedBy": 91
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:8k81kl-MbHgC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:8k81kl-MbHgC",
+      "title": "A uniaxial force and stiffness model of the vagina during laparoscopic sacrocolpopexy",
+      "authorsDisplay": "J De Smet, A Page, J Deprest, S Housmans, K Niu, E Vander Poorten",
+      "venueDisplay": "Clinical Biomechanics 81, 105204",
+      "year": 2021,
+      "citedBy": 2
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:MXK_kJrjxJIC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:MXK_kJrjxJIC",
+      "title": "Towards modeling of hysteresis in robotic catheters based on LSTM",
+      "authorsDisplay": "D Wu, M Ourak, K Niu, Y Zhang, MA Ahmad, J Dankelman, ...",
+      "venueDisplay": "32nd Conference of the International Society for Medical Innovation and�…",
+      "year": 2020,
+      "citedBy": 6
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:Zph67rFs4hoC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Zph67rFs4hoC",
+      "title": "Characterizing vaginal vault interaction during laparoscopic sacrocolpopexy",
+      "authorsDisplay": "A Page, J De Smet, J Deprest, S Housmans, K Niu, E Vander Poorten",
+      "venueDisplay": "International Urogynecology Journal 31 (SUPPL 1), S241-S242",
+      "year": 2020,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:Se3iqnhoufwC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Se3iqnhoufwC",
+      "title": "A virtual reality surgical training system for office hysteroscopy with haptic feedback: A feasibility study",
+      "authorsDisplay": "V Poliakov, K Niu, BP De Vree, D Tsetserukou, E Vander Poorten",
+      "venueDisplay": "International Conference on Virtual Reality and Augmented Reality, 115-127",
+      "year": 2020,
+      "citedBy": 2
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:kNdYIx-mwKoC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:kNdYIx-mwKoC",
+      "title": "VR Simulation System for In-Office Hysteroscopy: A Pilot Study",
+      "authorsDisplay": "D Tsetserukou, K Niu, E Vander Poorten",
+      "venueDisplay": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+      "year": 2020,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:5nxA0vEk-isC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:5nxA0vEk-isC",
+      "title": "A framework of real-time freehand ultrasound reconstruction based on deep learning for spine surgery",
+      "authorsDisplay": "R Li, K Niu, D Wu, E Vander Poorten",
+      "venueDisplay": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+      "year": 2020,
+      "citedBy": 7
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:YFjsv_pBGBYC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YFjsv_pBGBYC",
+      "title": "A Framework of Real-time Freehand Ultrasound Reconstruction based on Deep Learning for Spine Surgery",
+      "authorsDisplay": "L Ruixuan, K Niu, D Wu, E Vander Poorten",
+      "venueDisplay": "Conference on New Technologies for Computer and Robot Assisted Surgery",
+      "year": 2020,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:0EnyYjriUFMC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:0EnyYjriUFMC",
+      "title": "Feasibility of using a Long Short-Term Memory Network for Robotic Catheter Control",
+      "authorsDisplay": "D Wu, M Ourak, MA Ahmad, N Kenan, G Borghesan, J Dankelman, ...",
+      "venueDisplay": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+      "year": 2020,
+      "citedBy": 4
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:UebtZRa9Y70C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UebtZRa9Y70C",
+      "title": "Statistical shape modelling of the human nasal cavity and maxillary sinus for minimally invasive surgery",
+      "authorsDisplay": "K Niu, J Legrand, L Van Gerven, E Vander Poorten",
+      "venueDisplay": "the 10th Conference on New Technologies for Computer/Robot Assisted Surgery�…",
+      "year": 2020,
+      "citedBy": 2
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:WF5omc3nYNoC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:WF5omc3nYNoC",
+      "title": "Evaluating the potential benefit of autostereoscopy in laparoscopic sacrocolpopexy through VR simulation",
+      "authorsDisplay": "J De Smet, V Poliakov, K Niu, F Chesterman, J Fornier, MA Ahmad, ...",
+      "venueDisplay": "2019 19th International Conference on Advanced Robotics (ICAR), 566-571",
+      "year": 2019,
+      "citedBy": 4
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:W7OEmFMy1HYC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:W7OEmFMy1HYC",
+      "title": "A novel ultrasound-based lower extremity motion tracking system",
+      "authorsDisplay": "K Niu, V Sluiter, J Homminga, A Sprengers, N Verdonschot",
+      "venueDisplay": "Intelligent Orthopaedics: Artificial Intelligence and Smart Image-guided�…",
+      "year": 2018,
+      "citedBy": 16
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:YsMSGLbcyi4C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YsMSGLbcyi4C",
+      "title": "Towards functional pre-planning in orthopaedic surgery",
+      "authorsDisplay": "N Verdonschot, A Sprengers, V Mazzoli, M Marra, K Gijsbertse, H Chen, ...",
+      "venueDisplay": "Virtual Physiological Human Conference 2018",
+      "year": 2018,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:Tyk-4Ss8FVUC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Tyk-4Ss8FVUC",
+      "title": "Measuring relative positions and orientations of the tibia with respect to the femur using one-channel 3D-tracked A-mode ultrasound tracking system: A cadaveric study",
+      "authorsDisplay": "K Niu, J Homminga, V Sluiter, A Sprengers, N Verdonschot",
+      "venueDisplay": "Medical engineering & physics 57 (1), 61-68",
+      "year": 2018,
+      "citedBy": 11
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:Y0pCki6q_DkC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Y0pCki6q_DkC",
+      "title": "Feasibility of a-mode ultrasound based intraoperative registration in computer-aided orthopedic surgery: a simulation and experimental study",
+      "authorsDisplay": "K Niu, J Homminga, VI Sluiter, A Sprengers, N Verdonschot",
+      "venueDisplay": "Plos One",
+      "year": 2018,
+      "citedBy": 27
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:UeHWp8X0CEIC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UeHWp8X0CEIC",
+      "title": "In situ comparison of A-mode ultrasound tracking system and skin-mounted markers for measuring kinematics of the lower extremity",
+      "authorsDisplay": "K Niu, T Anijs, V Sluiter, J Homminga, A Sprengers, MA Marra, ...",
+      "venueDisplay": "Journal of biomechanics 72, 134-143",
+      "year": 2018,
+      "citedBy": 18
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:qjMakFHDy7sC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qjMakFHDy7sC",
+      "title": "Ultrasound based skeletal motion capture: the development and validation of a non-invasive knee joint motion tracking method",
+      "authorsDisplay": "K Niu",
+      "venueDisplay": "University of Twente",
+      "year": 2018,
+      "citedBy": 1
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:d1gkVwhDpl0C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:d1gkVwhDpl0C",
+      "title": "A novel tibiafemoral kinematics measurement system based on multi-channel a-mode ultrasound system",
+      "authorsDisplay": "K Niu, V Sluiter, A Sprengers, J Homminga, N Verdonschot",
+      "venueDisplay": "17th Annual Meeting of the International Society for Computer Assisted�…",
+      "year": 2017,
+      "citedBy": 4
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:9yKSN-GCB0IC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9yKSN-GCB0IC",
+      "title": "The relation between the number of a-mode ultrasound sampled points and the registration accuracy and robustness on computer aided orthopedic surgery",
+      "authorsDisplay": "K Niu, JJ Homminga, VIJ Sluiter, AMJ Sprengers, NJJ Verdonschot",
+      "venueDisplay": "5th Dutch Bio-Medical Engineering Conference, BME 2015",
+      "year": 2015,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:LkGwnXOMwfcC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:LkGwnXOMwfcC",
+      "title": "基于空间定位的经皮肺穿刺图像引导关键技术研究与实现",
+      "authorsDisplay": "牛珂楠",
+      "venueDisplay": "东北大学",
+      "year": 2013,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:YOwf2qJgpHMC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YOwf2qJgpHMC",
+      "title": "A medical image navigating system with iPad",
+      "authorsDisplay": "K Niu, N Bao, Y Kang",
+      "venueDisplay": "2012 International Conference on Computerized Healthcare (ICCH), 5-8",
+      "year": 2012,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:ufrVoPGSRksC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ufrVoPGSRksC",
+      "title": "Address Mapping Algorithm and the Design of the LYSO Detector in PET",
+      "authorsDisplay": "K Niu",
+      "venueDisplay": "Beijing Biomedical Engineering 30 (5), 484-489",
+      "year": 2011,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:_FxGoFyzp5QC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_FxGoFyzp5QC",
+      "title": "LYSO 闪烁晶体 PET 探测器设计及位置映射算法研究",
+      "authorsDisplay": "牛珂楠， 燕辉， 项士海， 王军博， 孙航， 刘军强， 梁国栋， 吴国城， 尚艺童， ...",
+      "venueDisplay": "北京生物医学工程 30 (5), 484-489",
+      "year": 2011,
+      "citedBy": 2
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:hMod-77fHWUC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:hMod-77fHWUC",
+      "title": "A Preliminary Study of the Pulse Oximetry for Early Breast Cancer Detection",
+      "authorsDisplay": "KN B Lan, E Juffermans, I Tamadon",
+      "venueDisplay": "10th Dutch Biomedical Engineering Conference, BME 2025",
+      "year": null,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:bEWYMUwI8FkC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:bEWYMUwI8FkC",
+      "title": "Deep-Learning-Based Compliant Motion Control of a Pneumatically-Driven Robotic Catheter",
+      "authorsDisplay": "M Ourak, G Borghesan, K Niu, F Trauzettel, J Dankelman, A Menciassi, ...",
+      "venueDisplay": "",
+      "year": null,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:dhFuZR0502QC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:dhFuZR0502QC",
+      "title": "Hysteresis Modeling of Robotic Catheters based on Long Short-Term Memory Network for Improved Environment Reconstruction",
+      "authorsDisplay": "E Vander Poorten",
+      "venueDisplay": "",
+      "year": null,
+      "citedBy": 0
+    },
+    {
+      "scholarId": "mWEOPuMAAAAJ:eQOLeE2rZwMC",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:eQOLeE2rZwMC",
+      "title": "A-MODE ULTRASOUND-BASED INTRAOPERATIVE REGISTRATION ACCURACY ANALYSIS BASED ON SIMULATION ENVIRONMENT",
+      "authorsDisplay": "K Niu, J Homminga, N Verdonschot",
+      "venueDisplay": "",
+      "year": null,
+      "citedBy": 0
+    }
+  ]
+}

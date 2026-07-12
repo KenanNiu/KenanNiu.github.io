@@ -20,6 +20,7 @@ window.rviPublications = [
       "https://doi.org/10.1109/TBME.2026.3686312"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -48,6 +49,7 @@ window.rviPublications = [
       "https://doi.org/10.1109/TMRB.2025.3617959"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -73,6 +75,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:lSLTfruPkqcC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -98,6 +101,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ns9cj8rnVeAC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -126,6 +130,7 @@ window.rviPublications = [
       "https://doi.org/10.3390/machines13060498"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -154,6 +159,7 @@ window.rviPublications = [
       "https://doi.org/10.1109/TBME.2025.3575202"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -179,6 +185,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TFP_iSt0sucC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -204,6 +211,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:O3NaXMp0MMsC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -232,6 +240,7 @@ window.rviPublications = [
       "https://doi.org/10.3390/technologies13020070"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -257,6 +266,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:GnPB-g6toBAC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -285,6 +295,7 @@ window.rviPublications = [
       "https://research.utwente.nl/en/publications/automatic-robotic-ultrasound-scanning-for-muscle-segmentation-and/"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -312,6 +323,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:JV2RwH3_ST0C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -337,6 +349,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:iH-uZ7U-co4C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -362,6 +375,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:j3f4tGmQtD8C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -387,6 +401,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:k_IJM867U9cC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -412,6 +427,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4JMBOYKVnBMC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -437,6 +453,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -462,6 +479,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:RHpTSmoSYBkC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -487,6 +505,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:J_g5lzvAfSwC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -512,6 +531,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:maZDTaKrznsC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -537,6 +557,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:e5wmG9Sq2KIC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -562,6 +583,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:M3NEmzRMIkIC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -587,6 +609,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:isC4tDSrTZIC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -612,6 +635,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_Qo2XoVZTnwC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -637,6 +661,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:HDshCWvjkbEC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -662,6 +687,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qUcmZB5y_30C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -687,6 +713,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mB3voiENLucC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -712,6 +739,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:hFOr9nPyWt4C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -737,6 +765,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:35N4QoGY0k4C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -762,6 +791,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TQgYirikUcIC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -787,6 +817,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ZeXyd9-uunAC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -812,6 +843,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:IWHjjKOFINEC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -837,6 +869,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:7PzlFSSx8tAC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -862,6 +895,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:QIV2ME_5wuYC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -887,6 +921,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mVmsd5A6BfQC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -912,6 +947,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4DMP91E08xMC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -937,6 +973,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:L8Ckcad2t8MC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -962,6 +999,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qxL8FJ1GzNcC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -987,6 +1025,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9ZlFYXVOiuMC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1012,6 +1051,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Wp0gIr-vW9MC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1037,6 +1077,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4TOpqqG69KYC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1062,6 +1103,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_kc_bZDykSQC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1087,6 +1129,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:3fE2CSJIrl8C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1112,6 +1155,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:KlAtU1dfN6UC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1137,6 +1181,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:8k81kl-MbHgC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1162,6 +1207,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:MXK_kJrjxJIC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1187,6 +1233,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Zph67rFs4hoC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1212,6 +1259,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Se3iqnhoufwC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1237,6 +1285,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:kNdYIx-mwKoC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1262,6 +1311,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:5nxA0vEk-isC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1287,6 +1337,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YFjsv_pBGBYC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1312,6 +1363,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:0EnyYjriUFMC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1337,6 +1389,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UebtZRa9Y70C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1362,6 +1415,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:WF5omc3nYNoC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1387,6 +1441,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:W7OEmFMy1HYC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1412,6 +1467,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YsMSGLbcyi4C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1437,6 +1493,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Tyk-4Ss8FVUC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1462,6 +1519,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Y0pCki6q_DkC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1487,6 +1545,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UeHWp8X0CEIC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1512,6 +1571,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qjMakFHDy7sC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1537,6 +1597,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:d1gkVwhDpl0C"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1562,6 +1623,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9yKSN-GCB0IC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1587,6 +1649,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:LkGwnXOMwfcC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1612,6 +1675,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YOwf2qJgpHMC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1637,6 +1701,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ufrVoPGSRksC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1662,6 +1727,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_FxGoFyzp5QC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1689,6 +1755,7 @@ window.rviPublications = [
       "https://research.utwente.nl/en/publications/a-preliminary-study-of-the-pulse-oximetry-for-early-breast-cancer/"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1714,6 +1781,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:bEWYMUwI8FkC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1739,6 +1807,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:dhFuZR0502QC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1764,6 +1833,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:eQOLeE2rZwMC"
     ],
     "image": null,
+    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,

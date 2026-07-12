@@ -206,6 +206,8 @@ function normalizeRecord(source, curation, options = {}) {
   const image = isLocalImage(curated.image, options.root) ? cleanText(curated.image) : null;
   const imageSource = validUrl(curated.imageSource);
   const imageCredit = cleanText(curated.imageCredit) || null;
+  const fallbackName = pillars[0] || "other";
+  const fallbackImage = `assets/img/publication-fallbacks/${fallbackName}.svg`;
   const featuredVisual = Boolean(
     curated.featuredVisual
       && type === "journal"
@@ -233,6 +235,7 @@ function normalizeRecord(source, curation, options = {}) {
     metadataStatus,
     verifiedWith,
     image,
+    fallbackImage,
     imageAlt: cleanText(curated.imageAlt) || null,
     imageSource,
     imageCredit,

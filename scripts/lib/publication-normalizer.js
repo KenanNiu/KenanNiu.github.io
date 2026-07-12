@@ -1,4 +1,6 @@
 const crypto = require("node:crypto");
+const fs = require("node:fs");
+const path = require("node:path");
 
 const PUBLICATION_TYPES = new Set([
   "journal",
@@ -27,9 +29,27 @@ const REUSABLE_IMAGE_LICENSES = new Set([
   "CC BY 4.0",
   "CC BY-SA",
   "CC BY-SA 4.0",
-  "Public domain",
-  "Author-provided"
+  "Public domain"
 ]);
+
+const SCHOLAR_SNAPSHOT_FIELDS = [
+  "capturedAt",
+  "profileUrl",
+  "sort",
+  "expectedCount",
+  "scholarIdSequence",
+  "scholarIdSequenceSha256",
+  "records"
+];
+const SCHOLAR_RECORD_FIELDS = [
+  "scholarId",
+  "scholarUrl",
+  "title",
+  "authorsDisplay",
+  "venueDisplay",
+  "year",
+  "citedBy"
+];
 
 function cleanText(value) {
   return typeof value === "string" ? value.replace(/\s+/g, " ").trim() : "";
@@ -89,6 +109,12 @@ function hashScholarIdSequence(ids) {
   return crypto.createHash("sha256").update(ids.join("\n"), "utf8").digest("hex");
 }
 
+function hasExactFields(value, expectedFields) {
+  const actualFields = Object.keys(value).sort();
+  return actualFields.length === expectedFields.length
+    && actualFields.every((field, index) => field === [...expectedFields].sort()[index]);
+}
+
 function validateScholarUrl(value, scholarId) {
   const url = validUrl(value);
   if (!url) return false;
@@ -108,6 +134,7 @@ function validateScholarSnapshot(snapshot) {
   if (!snapshot || typeof snapshot !== "object" || Array.isArray(snapshot)) {
     throw new Error("Scholar snapshot must be an object.");
   }
+  if (!hasExactFields(snapshot, SCHOLAR_SNAPSHOT_FIELDS)) throw new Error("Scholar snapshot fields are invalid.");
   if (containsReplacementCharacter(snapshot)) throw new Error("Scholar snapshot contains U+FFFD corruption.");
   if (snapshot.capturedAt !== "2026-07-11") throw new Error("Scholar snapshot capturedAt is invalid.");
   if (snapshot.profileUrl !== SCHOLAR_PROFILE_URL) throw new Error("Scholar snapshot profileUrl is invalid.");
@@ -126,10 +153,7 @@ function validateScholarSnapshot(snapshot) {
 
   snapshot.records.forEach((record, index) => {
     if (!record || typeof record !== "object" || Array.isArray(record)) throw new Error(`Scholar snapshot record ${index + 1} shape is invalid.`);
-    const required = ["scholarId", "scholarUrl", "title", "authorsDisplay", "venueDisplay", "year", "citedBy"];
-    if (required.some((field) => !Object.prototype.hasOwnProperty.call(record, field))) {
-      throw new Error(`Scholar snapshot record ${index + 1} is missing a required field.`);
-    }
+    if (!hasExactFields(record, SCHOLAR_RECORD_FIELDS)) throw new Error(`Scholar snapshot record ${index + 1} fields are invalid.`);
     if (typeof record.scholarId !== "string" || !/^[^:]+:[A-Za-z0-9_-]+$/.test(record.scholarId)) {
       throw new Error(`Scholar snapshot record ${index + 1} Scholar ID is invalid.`);
     }
@@ -145,8 +169,19 @@ function validateScholarSnapshot(snapshot) {
   return snapshot;
 }
 
-function isLocalImage(value) {
-  return typeof value === "string" && /^(?:\/?assets\/img\/)/.test(value);
+function isLocalImage(value, root = process.cwd()) {
+  const relativePath = cleanText(value);
+  if (!relativePath || path.isAbsolute(relativePath) || relativePath.includes("..")) return false;
+  if (!relativePath.startsWith("assets/img/publications/")) return false;
+
+  const imageRoot = path.resolve(root, "assets/img/publications");
+  const imagePath = path.resolve(root, relativePath);
+  if (!imagePath.startsWith(`${imageRoot}${path.sep}`)) return false;
+  try {
+    return fs.statSync(imagePath).isFile();
+  } catch {
+    return false;
+  }
 }
 
 function curatedRecord(curation, scholarId) {
@@ -155,7 +190,7 @@ function curatedRecord(curation, scholarId) {
     : {};
 }
 
-function normalizeRecord(source, curation) {
+function normalizeRecord(source, curation, options = {}) {
   const curated = curatedRecord(curation, source.scholarId);
   const scholarUrl = expandScholarUrl(source.scholarUrl, source.scholarId);
   const type = PUBLICATION_TYPES.has(curated.type) ? curated.type : "other";
@@ -168,7 +203,7 @@ function normalizeRecord(source, curation) {
     : [scholarUrl];
   const metadataStatus = curated.metadataStatus === "verified" && verifiedWith.length ? "verified" : "review";
   const imageLicense = cleanText(curated.imageLicense) || "unverified";
-  const image = isLocalImage(curated.image) ? cleanText(curated.image) : null;
+  const image = isLocalImage(curated.image, options.root) ? cleanText(curated.image) : null;
   const imageSource = validUrl(curated.imageSource);
   const imageCredit = cleanText(curated.imageCredit) || null;
   const featuredVisual = Boolean(

@@ -71,7 +71,9 @@ test("snapshot validation rejects malformed records and source URLs", () => {
     (snapshot) => { snapshot.records[0].scholarUrl = snapshot.records[0].scholarUrl.replace(/citation_for_view=[^&]+/, "citation_for_view=wrong"); },
     (snapshot) => { snapshot.profileUrl = "https://example.com/profile"; },
     (snapshot) => { snapshot.sort = "citedby"; },
-    (snapshot) => { snapshot.records[0].venueDisplay = "bad\uFFFDtext"; }
+    (snapshot) => { snapshot.records[0].venueDisplay = "bad\uFFFDtext"; },
+    (snapshot) => { snapshot.unexpected = "raw-page-state"; },
+    (snapshot) => { snapshot.records[0].unexpected = "raw-row-state"; }
   ];
   cases.forEach((mutate) => {
     const snapshot = structuredClone(readSnapshot());
@@ -105,12 +107,16 @@ test("verified metadata requires a valid verification URL", () => {
 test("featured visuals require a reusable local image, source URL, and credit", () => {
   const { normalizeRecord } = require("../scripts/lib/publication-normalizer");
   const source = { scholarId: "x", title: "Paper", authorsDisplay: "K Niu", venueDisplay: "Venue", year: 2025 };
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "publication-image-root-"));
+  const imageDirectory = path.join(root, "assets/img/publications");
+  fs.mkdirSync(imageDirectory, { recursive: true });
+  fs.writeFileSync(path.join(imageDirectory, "paper.png"), "fixture");
   const eligible = normalizeRecord(source, {
     x: {
       type: "journal", image: "assets/img/publications/paper.png", imageLicense: "CC BY 4.0",
       imageSource: "https://doi.org/10.1234/example", imageCredit: "Figure 1", featuredVisual: true
     }
-  });
+  }, { root });
   assert.equal(eligible.featuredVisual, true);
 
   const missingCredit = normalizeRecord(source, {
@@ -118,7 +124,7 @@ test("featured visuals require a reusable local image, source URL, and credit", 
       type: "journal", image: "assets/img/publications/paper.png", imageLicense: "CC BY 4.0",
       imageSource: "https://doi.org/10.1234/example", featuredVisual: true
     }
-  });
+  }, { root });
   assert.equal(missingCredit.featuredVisual, false);
 
   const unlicensed = normalizeRecord(source, {
@@ -126,8 +132,32 @@ test("featured visuals require a reusable local image, source URL, and credit", 
       type: "journal", image: "assets/img/publications/paper.png", imageLicense: "all rights reserved",
       imageSource: "https://doi.org/10.1234/example", imageCredit: "Figure 1", featuredVisual: true
     }
-  });
+  }, { root });
   assert.equal(unlicensed.featuredVisual, false);
+
+  const authorProvided = normalizeRecord(source, {
+    x: {
+      type: "journal", image: "assets/img/publications/paper.png", imageLicense: "Author-provided",
+      imageSource: "https://doi.org/10.1234/example", imageCredit: "Author image", featuredVisual: true
+    }
+  }, { root });
+  assert.equal(authorProvided.featuredVisual, false);
+
+  const traversal = normalizeRecord(source, {
+    x: {
+      type: "journal", image: "assets/img/publications/../secret.png", imageLicense: "CC BY 4.0",
+      imageSource: "https://doi.org/10.1234/example", imageCredit: "Figure 1", featuredVisual: true
+    }
+  }, { root });
+  assert.equal(traversal.featuredVisual, false);
+
+  const missingFile = normalizeRecord(source, {
+    x: {
+      type: "journal", image: "assets/img/publications/missing.png", imageLicense: "CC BY 4.0",
+      imageSource: "https://doi.org/10.1234/example", imageCredit: "Figure 1", featuredVisual: true
+    }
+  }, { root });
+  assert.equal(missingFile.featuredVisual, false);
 });
 
 test("curation retains existing confirmed public metadata", () => {
@@ -150,13 +180,16 @@ test("generator writes the normalized 70-record Scholar order", () => {
   const generatorPath = "scripts/generate-publications.js";
   assert.ok(fs.existsSync(generatorPath), "publication generator script must exist");
 
-  const generate = spawnSync(process.execPath, [generatorPath], { encoding: "utf8" });
+  const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "publication-generation-"));
+  const outputPath = path.join(tempDir, "publications-data.js");
+  const generate = spawnSync(process.execPath, [generatorPath, "--output", outputPath], { encoding: "utf8" });
   assert.equal(generate.status, 0, generate.stderr);
   const check = spawnSync(process.execPath, [generatorPath, "--check"], { encoding: "utf8" });
   assert.equal(check.status, 0, check.stderr);
+  assert.equal(fs.readFileSync(outputPath, "utf8"), fs.readFileSync("assets/data/publications-data.js", "utf8"));
 
   const context = { window: {} };
-  require("node:vm").runInNewContext(fs.readFileSync("assets/data/publications-data.js", "utf8"), context);
+  require("node:vm").runInNewContext(fs.readFileSync(outputPath, "utf8"), context);
   assert.equal(context.window.rviPublications.length, 70);
   assert.deepEqual(
     Array.from(context.window.rviPublications, (record) => record.scholarId),

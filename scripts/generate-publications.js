@@ -40,7 +40,7 @@ function buildOutput() {
   if (containsReplacementCharacter(curation)) throw new Error("Publication curation contains U+FFFD corruption.");
 
   ensureUnique(snapshot.records, "scholarId");
-  const records = snapshot.records.map((record) => normalizeRecord(record, curation));
+  const records = snapshot.records.map((record) => normalizeRecord(record, curation, { root }));
   ensureUnique(records, "id");
   ensureUnique(records, "scholarId");
   return serializePublications(records);

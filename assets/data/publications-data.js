@@ -78,13 +78,13 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "sex-based-differences-in-musculoskeletal-pain-among-surgeons-an-international-survey-1g87xlh",
     "scholarId": "mWEOPuMAAAAJ:ns9cj8rnVeAC",
     "title": "Sex-based differences in musculoskeletal pain among surgeons: an international survey",
-    "authors": "M Vannucci, MR Rodr�guez-Luna, B Lan, K Niu, A Lapergola, E Reitano, ...",
+    "authors": "M Vannucci, MR Rodríguez-Luna, B Lan, K Niu, A Lapergola, E Reitano, ...",
     "venue": "Surgical endoscopy 39 (7), 4217-4224",
     "year": 2025,
     "type": "other",
@@ -103,7 +103,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "fluoroscopy-2025",
@@ -184,7 +184,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "deciphering-muscular-dynamics-a-dual-attention-framework-for-predicting-muscle-contraction-from-activation-patterns-1ajx42l",
@@ -209,7 +209,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "robotic-ultrasound-2025",
@@ -262,7 +262,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "robotic-scanning-2025",
@@ -317,7 +317,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "advanced-robotic-ultrasound-imaging-for-spine-surgery-1ex4iyc",
@@ -342,7 +342,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "predicting-muscle-thickness-deformation-from-muscle-activation-patterns-a-dual-attention-framework-c24ri2",
@@ -367,14 +367,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "controlling-an-mr-safe-robot-arm-with-six-pneumatic-stepper-motors-using-eight-tubes-189z7pu",
     "scholarId": "mWEOPuMAAAAJ:k_IJM867U9cC",
     "title": "Controlling an MR safe robot arm with six pneumatic stepper motors using eight tubes",
     "authors": "V Groenhuis, M Bac, S Stramigioli, K Niu",
-    "venue": "ICRA@ 40 special conference 2024: 40th Anniversary of the IEEE International�…",
+    "venue": "ICRA@ 40 special conference 2024: 40th Anniversary of the IEEE International…",
     "year": 2024,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:k_IJM867U9cC",
@@ -392,7 +392,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "sirc-unet-improving-bone-tracking-precision-of-a-mode-ultrasound-by-decoding-hierarchical-resolution-features-1ggd3hl",
@@ -417,14 +417,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "augmented-reality-based-digital-twin-to-control-an-mr-safe-robot-for-breast-biopsy-a-benchmark-study-1n6pk2w",
     "scholarId": "mWEOPuMAAAAJ:r0BpntZqJG4C",
     "title": "Augmented-reality based digital twin to control an MR safe robot for breast biopsy: A benchmark study",
     "authors": "L Marx, V Groenhuis, S Stramigioli, K Niu",
-    "venue": "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and�…",
+    "venue": "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and…",
     "year": 2024,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C",
@@ -442,14 +442,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "anatomical-region-recognition-and-real-time-bone-tracking-methods-by-dynamically-decoding-a-mode-ultrasound-signals-1y6snr0",
     "scholarId": "mWEOPuMAAAAJ:RHpTSmoSYBkC",
     "title": "Anatomical region recognition and real-time bone tracking methods by dynamically decoding a-mode ultrasound signals",
     "authors": "B Lan, S Stramigioli, K Niu",
-    "venue": "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and�…",
+    "venue": "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and…",
     "year": 2024,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:RHpTSmoSYBkC",
@@ -467,7 +467,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "bilateral-control-scheme-for-surgical-robotic-system-collaboration-1hijb6s",
@@ -492,7 +492,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-pathologically-validated-deep-learning-model-for-laryngeal-and-hypopharyngeal-tumour-segmentation-on-mri-pj130x",
@@ -517,7 +517,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "deep-learning-based-acoustic-measurement-approach-for-robotic-applications-on-orthopedics-h0f21k",
@@ -542,7 +542,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "pathologically-validated-deep-learning-model-for-laryngeal-and-hypopharyngeal-gtv-delineation-on-mri-u4f41y",
@@ -567,7 +567,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "2411-pathologically-validated-deep-learning-model-for-laryngeal-and-hypopharyngeal-gtv-delineation-on-mri-1w91pcl",
@@ -592,7 +592,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-method-to-track-3d-knee-kinematics-by-multi-channel-3d-tracked-a-mode-ultrasound-sbaiip",
@@ -617,7 +617,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "state-of-the-art-of-non-radiative-non-visual-spine-sensing-with-a-focus-on-sensing-forces-vibrations-and-bioelectrical-properties-a-systematic-review-15zac6p",
@@ -642,14 +642,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "robot-assisted-ultrasound-reconstruction-for-spine-surgery-from-bench-top-to-pre-clinical-study-4nlrsy",
     "scholarId": "mWEOPuMAAAAJ:qUcmZB5y_30C",
     "title": "Robot-assisted ultrasound reconstruction for spine surgery: from bench-top to pre-clinical study",
     "authors": "R Li, A Davoodi, Y Cai, K Niu, G Borghesan, N Cavalcanti, A Massalimova, ...",
-    "venue": "International journal of computer assisted radiology and surgery 18 (9�…",
+    "venue": "International journal of computer assisted radiology and surgery 18 (9…",
     "year": 2023,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qUcmZB5y_30C",
@@ -667,7 +667,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "physiological-motion-compensation-for-neuroscience-research-based-on-electrical-bio-impedance-sensing-2ztqtl",
@@ -692,7 +692,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "development-of-robot-assisted-ultrasound-system-for-fetoscopic-tracking-in-twin-to-twin-transfusion-syndrome-surgery-a4end0",
@@ -717,7 +717,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "robot-assisted-ultrasound-reconstruction-for-spine-surgery-from-bench-top-to-pre-clinical-study-1o7wg7b",
@@ -742,14 +742,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-comparative-study-for-control-of-semi-automatic-robotic-assisted-ultrasound-system-in-spine-surgery-1lgab7t",
     "scholarId": "mWEOPuMAAAAJ:TQgYirikUcIC",
     "title": "A Comparative Study for Control of Semi-Automatic Robotic-assisted Ultrasound System in Spine Surgery",
     "authors": "A Davoodi, R Li, Y Cai, K Niu, G Borghesan, E Vander Poorten",
-    "venue": "the Proceedings of 2023 International Conference on Advanced Robotics (ICAR�…",
+    "venue": "the Proceedings of 2023 International Conference on Advanced Robotics (ICAR…",
     "year": 2023,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TQgYirikUcIC",
@@ -767,14 +767,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "rl-based-guidance-in-outpatient-hysteroscopy-training-a-feasibility-study-13w0wjl",
     "scholarId": "mWEOPuMAAAAJ:ZeXyd9-uunAC",
     "title": "RL-Based Guidance in Outpatient Hysteroscopy Training: A Feasibility Study",
     "authors": "V Poliakov, K Niu, E Vander Poorten, D Tsetserukou",
-    "venue": "2022 IEEE International Conference on Robotics and Biomimetics (ROBIO), 2171�…",
+    "venue": "2022 IEEE International Conference on Robotics and Biomimetics (ROBIO), 2171…",
     "year": 2022,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ZeXyd9-uunAC",
@@ -792,14 +792,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "feasibility-of-using-an-extended-kalman-filter-for-motion-estimation-based-on-electrical-bioimpedance-sensing-xpla0y",
     "scholarId": "mWEOPuMAAAAJ:IWHjjKOFINEC",
     "title": "Feasibility of using an Extended Kalman Filter for Motion Estimation based on Electrical Bioimpedance Sensing",
     "authors": "Y Zhang, K Van Assche, M Ourak, E Verschooten, G Borghesan, N Kenan, ...",
-    "venue": "IROS 2022 workshop: A Panacea or an Alchemy?——Benefits and Risks of Robot�…",
+    "venue": "IROS 2022 workshop: A Panacea or an Alchemy?——Benefits and Risks of Robot…",
     "year": 2022,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:IWHjjKOFINEC",
@@ -817,13 +817,13 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "an-augmented-reality-based-interaction-scheme-for-robotic-pedicle-screw-placement-jjmx9s",
     "scholarId": "mWEOPuMAAAAJ:7PzlFSSx8tAC",
     "title": "An augmented reality-based interaction scheme for robotic pedicle screw placement",
-    "authors": "V V�r�s, R Li, A Davoodi, G Wybaillie, E Vander Poorten, K Niu",
+    "authors": "V Vörös, R Li, A Davoodi, G Wybaillie, E Vander Poorten, K Niu",
     "venue": "Journal of imaging 8 (10), 273",
     "year": 2022,
     "type": "other",
@@ -842,7 +842,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "an-in-office-hysteroscopy-vr-haptic-simulation-platform-for-training-in-spatial-navigation-and-passage-of-the-cervical-canal-bwgwhp",
@@ -867,7 +867,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "deep-learning-based-compliant-motion-control-of-a-pneumatically-driven-robotic-catheter-19nwwne",
@@ -892,14 +892,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "3d-reconstruction-of-local-anatomy-based-on-2d-ultrasound-for-fetal-laser-surgery-1ks7pj7",
     "scholarId": "mWEOPuMAAAAJ:4DMP91E08xMC",
     "title": "3d reconstruction of local anatomy based on 2d ultrasound for fetal laser surgery",
     "authors": "Y Cai, MA Ahmad, M Ourak, R Li, K Niu, T Vercauteren, S Ourselin, ...",
-    "venue": "11th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+    "venue": "11th Conference on New Technologies for Computer and Robot Assisted Surgery…",
     "year": 2022,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4DMP91E08xMC",
@@ -917,14 +917,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "automatic-robotic-scanning-for-real-time-3d-ultrasound-reconstruction-in-spine-surgery-1xtbqb5",
     "scholarId": "mWEOPuMAAAAJ:L8Ckcad2t8MC",
     "title": "Automatic robotic scanning for real-time 3d ultrasound reconstruction in spine surgery",
     "authors": "R Li, A Davoodi, Y Cai, E Vander Poorten",
-    "venue": "11th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+    "venue": "11th Conference on New Technologies for Computer and Robot Assisted Surgery…",
     "year": 2022,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:L8Ckcad2t8MC",
@@ -942,14 +942,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "controlling-of-a-micropositioning-piezoelectric-actuator-using-an-lstm-network-for-robotic-eye-surgery-1eygt0a",
     "scholarId": "mWEOPuMAAAAJ:qxL8FJ1GzNcC",
     "title": "Controlling of a micropositioning piezoelectric actuator using an LSTM network for robotic eye surgery",
     "authors": "Y Zhang, M Ourak, E Verschooten, K Niu, D Wu, G Borghesan, P Joris, ...",
-    "venue": "Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+    "venue": "Conference on New Technologies for Computer and Robot Assisted Surgery…",
     "year": 2022,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qxL8FJ1GzNcC",
@@ -967,7 +967,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "quantitative-assessment-of-calibration-motion-profiles-in-robotic-assisted-ultrasound-system-1p4kzxk",
@@ -992,7 +992,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "deep-learning-based-position-control-of-a-robotic-catheter-under-environmental-contact-801za3",
@@ -1017,7 +1017,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "comparative-quantitative-analysis-of-robotic-ultrasound-image-calibration-methods-nxy35l",
@@ -1042,7 +1042,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-framework-for-fast-automatic-robot-ultrasound-calibration-u501xk",
@@ -1067,7 +1067,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-method-based-on-3d-shape-analysis-towards-the-design-of-flexible-instruments-for-endoscopic-maxillary-sinus-surgery-1bluz2b",
@@ -1092,7 +1092,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "hysteresis-modeling-of-robotic-catheters-based-on-long-short-term-memory-network-for-improved-environment-reconstruction-9eod9b",
@@ -1117,7 +1117,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-uniaxial-force-and-stiffness-model-of-the-vagina-during-laparoscopic-sacrocolpopexy-etat2e",
@@ -1142,14 +1142,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "towards-modeling-of-hysteresis-in-robotic-catheters-based-on-lstm-1w9gqyx",
     "scholarId": "mWEOPuMAAAAJ:MXK_kJrjxJIC",
     "title": "Towards modeling of hysteresis in robotic catheters based on LSTM",
     "authors": "D Wu, M Ourak, K Niu, Y Zhang, MA Ahmad, J Dankelman, ...",
-    "venue": "32nd Conference of the International Society for Medical Innovation and�…",
+    "venue": "32nd Conference of the International Society for Medical Innovation and…",
     "year": 2020,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:MXK_kJrjxJIC",
@@ -1167,7 +1167,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "characterizing-vaginal-vault-interaction-during-laparoscopic-sacrocolpopexy-1iwnwwp",
@@ -1192,7 +1192,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-virtual-reality-surgical-training-system-for-office-hysteroscopy-with-haptic-feedback-a-feasibility-study-1e7gety",
@@ -1217,14 +1217,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "vr-simulation-system-for-in-office-hysteroscopy-a-pilot-study-1ex34lo",
     "scholarId": "mWEOPuMAAAAJ:kNdYIx-mwKoC",
     "title": "VR Simulation System for In-Office Hysteroscopy: A Pilot Study",
     "authors": "D Tsetserukou, K Niu, E Vander Poorten",
-    "venue": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+    "venue": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery…",
     "year": 2020,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:kNdYIx-mwKoC",
@@ -1242,14 +1242,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-framework-of-real-time-freehand-ultrasound-reconstruction-based-on-deep-learning-for-spine-surgery-10bupnj",
     "scholarId": "mWEOPuMAAAAJ:5nxA0vEk-isC",
     "title": "A framework of real-time freehand ultrasound reconstruction based on deep learning for spine surgery",
     "authors": "R Li, K Niu, D Wu, E Vander Poorten",
-    "venue": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+    "venue": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery…",
     "year": 2020,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:5nxA0vEk-isC",
@@ -1267,7 +1267,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-framework-of-real-time-freehand-ultrasound-reconstruction-based-on-deep-learning-for-spine-surgery-iyofwh",
@@ -1292,14 +1292,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "feasibility-of-using-a-long-short-term-memory-network-for-robotic-catheter-control-jag55i",
     "scholarId": "mWEOPuMAAAAJ:0EnyYjriUFMC",
     "title": "Feasibility of using a Long Short-Term Memory Network for Robotic Catheter Control",
     "authors": "D Wu, M Ourak, MA Ahmad, N Kenan, G Borghesan, J Dankelman, ...",
-    "venue": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery�…",
+    "venue": "10 th Conference on New Technologies for Computer and Robot Assisted Surgery…",
     "year": 2020,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:0EnyYjriUFMC",
@@ -1317,14 +1317,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "statistical-shape-modelling-of-the-human-nasal-cavity-and-maxillary-sinus-for-minimally-invasive-surgery-gk27fq",
     "scholarId": "mWEOPuMAAAAJ:UebtZRa9Y70C",
     "title": "Statistical shape modelling of the human nasal cavity and maxillary sinus for minimally invasive surgery",
     "authors": "K Niu, J Legrand, L Van Gerven, E Vander Poorten",
-    "venue": "the 10th Conference on New Technologies for Computer/Robot Assisted Surgery�…",
+    "venue": "the 10th Conference on New Technologies for Computer/Robot Assisted Surgery…",
     "year": 2020,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UebtZRa9Y70C",
@@ -1342,7 +1342,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "evaluating-the-potential-benefit-of-autostereoscopy-in-laparoscopic-sacrocolpopexy-through-vr-simulation-11a070c",
@@ -1367,14 +1367,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-novel-ultrasound-based-lower-extremity-motion-tracking-system-xiiakz",
     "scholarId": "mWEOPuMAAAAJ:W7OEmFMy1HYC",
     "title": "A novel ultrasound-based lower extremity motion tracking system",
     "authors": "K Niu, V Sluiter, J Homminga, A Sprengers, N Verdonschot",
-    "venue": "Intelligent Orthopaedics: Artificial Intelligence and Smart Image-guided�…",
+    "venue": "Intelligent Orthopaedics: Artificial Intelligence and Smart Image-guided…",
     "year": 2018,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:W7OEmFMy1HYC",
@@ -1392,7 +1392,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "towards-functional-pre-planning-in-orthopaedic-surgery-czzdje",
@@ -1417,7 +1417,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "measuring-relative-positions-and-orientations-of-the-tibia-with-respect-to-the-femur-using-one-channel-3d-tracked-a-mode-ultrasound-tracking-system-a-cadaveric-study-12o3krg",
@@ -1442,7 +1442,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "feasibility-of-a-mode-ultrasound-based-intraoperative-registration-in-computer-aided-orthopedic-surgery-a-simulation-and-experimental-study-khxqxh",
@@ -1467,7 +1467,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "in-situ-comparison-of-a-mode-ultrasound-tracking-system-and-skin-mounted-markers-for-measuring-kinematics-of-the-lower-extremity-1j6p4ka",
@@ -1492,7 +1492,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "ultrasound-based-skeletal-motion-capture-the-development-and-validation-of-a-non-invasive-knee-joint-motion-tracking-method-ylch5j",
@@ -1517,14 +1517,14 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-novel-tibiafemoral-kinematics-measurement-system-based-on-multi-channel-a-mode-ultrasound-system-xamwbu",
     "scholarId": "mWEOPuMAAAAJ:d1gkVwhDpl0C",
     "title": "A novel tibiafemoral kinematics measurement system based on multi-channel a-mode ultrasound system",
     "authors": "K Niu, V Sluiter, A Sprengers, J Homminga, N Verdonschot",
-    "venue": "17th Annual Meeting of the International Society for Computer Assisted�…",
+    "venue": "17th Annual Meeting of the International Society for Computer Assisted…",
     "year": 2017,
     "type": "other",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:d1gkVwhDpl0C",
@@ -1542,7 +1542,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "the-relation-between-the-number-of-a-mode-ultrasound-sampled-points-and-the-registration-accuracy-and-robustness-on-computer-aided-orthopedic-surgery-q4pllo",
@@ -1567,7 +1567,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "基于空间定位的经皮肺穿刺图像引导关键技术研究与实现-91mvf3",
@@ -1592,7 +1592,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-medical-image-navigating-system-with-ipad-9lr0h6",
@@ -1617,7 +1617,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "address-mapping-algorithm-and-the-design-of-the-lyso-detector-in-pet-8v5ml6",
@@ -1642,7 +1642,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "lyso-闪烁晶体-pet-探测器设计及位置映射算法研究-18i8jno",
@@ -1667,7 +1667,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "pulse-oximetry-2025",
@@ -1719,7 +1719,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "hysteresis-modeling-of-robotic-catheters-based-on-long-short-term-memory-network-for-improved-environment-reconstruction-zm7lcp",
@@ -1744,7 +1744,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   },
   {
     "id": "a-mode-ultrasound-based-intraoperative-registration-accuracy-analysis-based-on-simulation-environment-g1844p",
@@ -1769,6 +1769,6 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "published"
+    "evidence": "review"
   }
 ];

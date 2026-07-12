@@ -31,7 +31,7 @@ test("all publications have evidence labels and valid pillar tags", () => {
 
   assert.ok(publications.length >= 8);
   publications.forEach((publication) => {
-    assert.ok(["published", "frontier"].includes(publication.evidence));
+    assert.ok(["published", "frontier", "review"].includes(publication.evidence));
     assert.ok(publication.pillars.every((pillar) => allowed.has(pillar)));
     assert.match(publication.url, /^https:\/\//);
   });

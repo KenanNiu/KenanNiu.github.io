@@ -2,7 +2,12 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const { normalizeRecord, serializePublications } = require("./lib/publication-normalizer");
+const {
+  containsReplacementCharacter,
+  normalizeRecord,
+  serializePublications,
+  validateScholarSnapshot
+} = require("./lib/publication-normalizer");
 
 const root = path.resolve(__dirname, "..");
 const snapshotPath = path.join(root, "maintenance/publications/scholar-2026-07-11.json");
@@ -20,13 +25,19 @@ function ensureUnique(records, field) {
   }
 }
 
+function getOutputPath() {
+  const index = process.argv.indexOf("--output");
+  if (index === -1) return outputPath;
+  const value = process.argv[index + 1];
+  if (!value || value.startsWith("--")) throw new Error("--output requires a file path.");
+  return path.resolve(process.cwd(), value);
+}
+
 function buildOutput() {
   const snapshot = readJson(snapshotPath);
   const curation = readJson(curationPath);
-
-  if (!Number.isInteger(snapshot.expectedCount) || snapshot.records.length !== snapshot.expectedCount) {
-    throw new Error("Scholar snapshot count does not match expectedCount.");
-  }
+  validateScholarSnapshot(snapshot);
+  if (containsReplacementCharacter(curation)) throw new Error("Publication curation contains U+FFFD corruption.");
 
   ensureUnique(snapshot.records, "scholarId");
   const records = snapshot.records.map((record) => normalizeRecord(record, curation));
@@ -38,7 +49,8 @@ function buildOutput() {
 function main() {
   const output = buildOutput();
   const checkOnly = process.argv.includes("--check");
-  const current = fs.existsSync(outputPath) ? fs.readFileSync(outputPath, "utf8") : "";
+  const targetPath = getOutputPath();
+  const current = fs.existsSync(targetPath) ? fs.readFileSync(targetPath, "utf8") : "";
 
   if (checkOnly) {
     if (current !== output) {
@@ -48,7 +60,10 @@ function main() {
     return;
   }
 
-  fs.writeFileSync(outputPath, output);
+  fs.mkdirSync(path.dirname(targetPath), { recursive: true });
+  fs.writeFileSync(targetPath, output);
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { buildOutput, getOutputPath };

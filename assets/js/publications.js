@@ -19,10 +19,15 @@
     if (!visible.length) { list.innerHTML = `<p class="empty-state">No selected publications match these filters.</p>`; return; }
     visible.forEach(function (publication) {
       const article = document.createElement("article");
-      article.className = "publication-item";
+      const isVisual = publication.type === "journal" && publication.year >= 2022;
+      article.className = `publication-item ${isVisual ? "visual" : "compact"}`;
       const tags = publication.pillars.map(function (pillar) { return `<span>${pillar.replaceAll("-", " ")}</span>`; }).join("");
       const status = publication.metadataStatus === "verified" ? "Verified metadata" : "Metadata review";
-      article.innerHTML = `<div class="publication-year">${publication.year || "—"}</div><div><div class="tag-row">${tags}</div><p class="publication-type">${publication.type}</p><h2><a href="${publication.url}" target="_blank" rel="noopener noreferrer">${publication.title}</a></h2><p>${publication.authors}</p><p>${publication.venue || "Venue under review"}</p>${publication.summary ? `<p class="publication-summary">${publication.summary}</p>` : ""}<span class="status">${status}</span></div>`;
+      const image = publication.image || publication.fallbackImage;
+      const visual = isVisual ? `<a class="publication-thumbnail" href="${publication.imageSource || publication.url}" target="_blank" rel="noopener noreferrer"><img src="${image}" data-fallback="${publication.fallbackImage}" alt="${publication.imageAlt || `Visual for ${publication.title}`}"></a>` : "";
+      article.innerHTML = `${visual}<div class="publication-year">${publication.year || "—"}</div><div><div class="tag-row">${tags}</div><p class="publication-type">${publication.type}</p><h2><a href="${publication.url}" target="_blank" rel="noopener noreferrer">${publication.title}</a></h2><p>${publication.authors}</p><p>${publication.venue || "Venue under review"}</p>${publication.summary ? `<p class="publication-summary">${publication.summary}</p>` : ""}<span class="status">${status}</span></div>`;
+      const thumbnail = article.querySelector(".publication-thumbnail img");
+      if (thumbnail) thumbnail.addEventListener("error", function () { if (this.src.endsWith(this.dataset.fallback)) return; this.src = this.dataset.fallback; article.classList.add("uses-fallback"); });
       list.appendChild(article);
     });
   }

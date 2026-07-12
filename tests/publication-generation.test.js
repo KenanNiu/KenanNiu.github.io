@@ -207,3 +207,32 @@ test("generator check rejects an edited temporary output without normalizing it"
   assert.notEqual(check.status, 0);
   assert.equal(fs.readFileSync(outputPath, "utf8"), "window.rviPublications = [];\n");
 });
+
+test("source matching prioritizes DOI, then Pure ID, then normalized title", () => {
+  const { matchCandidate } = require("../scripts/lib/publication-sources");
+  const existing = [
+    { scholarId: "doi", doi: "10.1/X", pureId: "pure-a", title: "Old title" },
+    { scholarId: "pure", pureId: "pure-b", title: "Another title" },
+    { scholarId: "title", title: "A Study: With Punctuation" }
+  ];
+
+  assert.equal(matchCandidate(existing, { doi: "https://doi.org/10.1/x", pureId: "pure-b", title: "New title" }).scholarId, "doi");
+  assert.equal(matchCandidate(existing, { pureId: "pure-b", title: "Wrong title" }).scholarId, "pure");
+  assert.equal(matchCandidate(existing, { title: "A study with punctuation" }).scholarId, "title");
+});
+
+test("source omissions never delete committed records", () => {
+  const { mergeCandidates } = require("../scripts/lib/publication-sources");
+  const existing = [{ scholarId: "a", title: "Existing" }];
+  const result = mergeCandidates(existing, []);
+  assert.deepEqual(result.records, existing);
+  assert.deepEqual(result.report.missingFromSources, ["a"]);
+});
+
+test("offline source update preserves all 70 baseline records", () => {
+  const update = spawnSync(process.execPath, ["scripts/update-publications.js", "--offline", "--check"], { encoding: "utf8" });
+  assert.equal(update.status, 0, update.stderr);
+  const report = JSON.parse(update.stdout);
+  assert.equal(report.recordCount, 70);
+  assert.equal(report.sourceFailures.length, 0);
+});

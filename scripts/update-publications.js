@@ -2,7 +2,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const { mergeCandidates, parseOrcidWorks } = require("./lib/publication-sources");
+const { mergeCandidates, parseCrossrefWorks, parseOrcidWorks } = require("./lib/publication-sources");
 const { normalizeRecord, validateScholarSnapshot } = require("./lib/publication-normalizer");
 
 const root = path.resolve(__dirname, "..");
@@ -16,9 +16,10 @@ function runOffline() {
   const snapshot = readJson(path.join(publicationRoot, "scholar-2026-07-11.json"));
   const curation = readJson(path.join(publicationRoot, "curation.json"));
   const orcid = readJson(path.join(publicationRoot, "source-cache/orcid-works.json"));
+  const crossref = readJson(path.join(publicationRoot, "source-cache/crossref.json"));
   validateScholarSnapshot(snapshot);
   const existing = snapshot.records.map((record) => normalizeRecord(record, curation, { root }));
-  return mergeCandidates(existing, parseOrcidWorks(orcid));
+  return mergeCandidates(existing, [...parseOrcidWorks(orcid), ...parseCrossrefWorks(crossref)]);
 }
 
 function main() {

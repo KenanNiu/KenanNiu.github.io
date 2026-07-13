@@ -48,6 +48,19 @@ function parseOrcidWorks(payload) {
   }).filter((candidate) => candidate.title);
 }
 
+function parseCrossrefWorks(payload) {
+  const items = payload?.message?.items || payload?.message || [];
+  return (Array.isArray(items) ? items : []).map((item) => ({
+    source: "crossref",
+    title: Array.isArray(item.title) ? item.title[0] : item.title || "",
+    doi: normalizeDoi(item.DOI),
+    pureId: null,
+    type: item.type || null,
+    year: item.published?.["date-parts"]?.[0]?.[0] || null,
+    url: item.URL || null
+  })).filter((candidate) => candidate.title);
+}
+
 function mergeCandidates(existing, candidates) {
   const records = existing.map((record) => ({ ...record }));
   const report = {
@@ -76,4 +89,4 @@ function mergeCandidates(existing, candidates) {
   return { records, report };
 }
 
-module.exports = { matchCandidate, mergeCandidates, normalizeDoi, parseOrcidWorks };
+module.exports = { matchCandidate, mergeCandidates, normalizeDoi, parseCrossrefWorks, parseOrcidWorks };

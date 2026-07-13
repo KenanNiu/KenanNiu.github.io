@@ -60,3 +60,13 @@ test("homepage remains compatible with the academic static-site checker", () => 
   assert.match(html, /assets\/js\/main\.js/);
   assert.match(data, /window\.siteData/);
 });
+
+test("publication archive has visual and compact layouts with image fallback", () => {
+  const renderer = fs.readFileSync("assets/js/publications.js", "utf8");
+  const css = fs.readFileSync("assets/css/styles.css", "utf8");
+  assert.match(renderer, /publication-item \$\{isVisual \? "visual" : "compact"\}/);
+  assert.match(renderer, /publication-thumbnail/);
+  assert.match(renderer, /data-fallback/);
+  assert.match(renderer, /uses-fallback/);
+  assert.match(css, /aspect-ratio:\s*3\s*\/\s*2/);
+});

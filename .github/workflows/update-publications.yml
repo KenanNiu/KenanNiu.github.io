@@ -1,0 +1,61 @@
+name: Update publications
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: publication-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh public source caches
+        run: |
+          curl --fail --silent --show-error --retry 3 -H 'Accept: application/json' 'https://pub.orcid.org/v3.0/0000-0002-5498-4311/works' -o maintenance/publications/source-cache/orcid-works.json
+          curl --fail --silent --show-error --retry 3 'https://api.crossref.org/works?filter=orcid:0000-0002-5498-4311&rows=100' -o maintenance/publications/source-cache/crossref.json
+      - name: Build review report
+        run: |
+          node scripts/update-publications.js --offline --check > /tmp/publication-report.json
+          node scripts/write-publication-report.js /tmp/publication-report.json /tmp/publication-report.md
+      - name: Validate website
+        run: |
+          node scripts/generate-publications.js --check
+          node --test tests/*.test.js
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet; then echo 'changed=false' >> "$GITHUB_OUTPUT"; else echo 'changed=true' >> "$GITHUB_OUTPUT"; fi
+      - name: Create update pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="automated/publication-update-$(date -u +%F)"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git checkout -b "$branch"
+          git add maintenance/publications/source-cache
+          git commit -m 'chore: refresh publication source metadata'
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" --title "Publication update $(date -u +%F)" --body-file /tmp/publication-report.md
+      - name: Upload review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publication-update-report
+          path: /tmp/publication-report.*
+          if-no-files-found: ignore

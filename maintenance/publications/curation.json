@@ -1,0 +1,93 @@
+{
+  "mWEOPuMAAAAJ:70eg2SAEIzsC": {
+    "id": "semg-motion-2026",
+    "authors": "B. Lan, D. Sun, I. Tamadon, and K. Niu",
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2026.3686312",
+    "doi": "10.1109/TBME.2026.3686312",
+    "type": "journal",
+    "pillars": ["learning-reasoning", "motion-intelligence"],
+    "summary": "Derives motion-relevant features from surface EMG to infer continuous three-dimensional forearm trajectories.",
+    "metadataStatus": "verified",
+    "verifiedWith": ["https://doi.org/10.1109/TBME.2026.3686312"]
+  },
+  "mWEOPuMAAAAJ:RGFaLdJalmkC": {
+    "id": "gaze-emg-2025",
+    "authors": "B. Lan, S. Stramigioli, and K. Niu",
+    "venue": "IEEE Transactions on Biomedical Engineering, 72(12), 3674-3681",
+    "url": "https://doi.org/10.1109/TBME.2025.3575202",
+    "doi": "10.1109/TBME.2025.3575202",
+    "type": "journal",
+    "pillars": ["learning-reasoning", "motion-intelligence"],
+    "summary": "Fuses gaze attention and muscle activity hierarchically to estimate forearm movement from complementary human signals.",
+    "metadataStatus": "verified",
+    "verifiedWith": ["https://doi.org/10.1109/TBME.2025.3575202"]
+  },
+  "mWEOPuMAAAAJ:vV6vV6tmYwMC": {
+    "id": "hcce-cunet-2025",
+    "authors": "D. Sun, S. Stramigioli, and K. Niu",
+    "venue": "IEEE Transactions on Medical Robotics and Bionics, 7(4), 1728-1738",
+    "url": "https://doi.org/10.1109/TMRB.2025.3617959",
+    "doi": "10.1109/TMRB.2025.3617959",
+    "type": "journal",
+    "pillars": ["vision-imaging", "spatial-intelligence"],
+    "summary": "Segments multiple musculoskeletal structures in ultrasound to support automated robotic scanning and reconstruction.",
+    "metadataStatus": "verified",
+    "verifiedWith": ["https://doi.org/10.1109/TMRB.2025.3617959"]
+  },
+  "mWEOPuMAAAAJ:blknAaTinKkC": {
+    "id": "robotic-ultrasound-2025",
+    "authors": "D. Sun, A. Cappellari, B. Lan, M. Abayazid, S. Stramigioli, and K. Niu",
+    "venue": "Technologies, 13(2), 70",
+    "url": "https://doi.org/10.3390/technologies13020070",
+    "doi": "10.3390/technologies13020070",
+    "type": "journal",
+    "pillars": ["vision-imaging", "spatial-intelligence"],
+    "summary": "Integrates robotic scanning, contact control, segmentation and reconstruction into an automatic 3D musculoskeletal imaging workflow.",
+    "metadataStatus": "verified",
+    "verifiedWith": ["https://doi.org/10.3390/technologies13020070"]
+  },
+  "mWEOPuMAAAAJ:RYcK_YlVTxYC": {
+    "id": "fluoroscopy-2025",
+    "authors": "G. Y. Ward, D. Sun, and K. Niu",
+    "venue": "Machines, 13(6), 498",
+    "url": "https://doi.org/10.3390/machines13060498",
+    "doi": "10.3390/machines13060498",
+    "type": "journal",
+    "pillars": ["vision-imaging", "spatial-intelligence"],
+    "summary": "Studies bilateral control for autonomous fluoroscopic viewpoint management during simulated catheter insertion.",
+    "metadataStatus": "verified",
+    "verifiedWith": ["https://doi.org/10.3390/machines13060498"]
+  },
+  "mWEOPuMAAAAJ:JV2RwH3_ST0C": {
+    "id": "muscle-deformation-2025",
+    "authors": "B. Lan, D. Sun, and K. Niu",
+    "venue": "J: Multidisciplinary Scientific Journal",
+    "type": "journal",
+    "pillars": ["motion-intelligence"],
+    "summary": "Examines the relationship between muscle activation and deformation during dynamic arm movement.",
+    "metadataStatus": "review"
+  },
+  "mWEOPuMAAAAJ:BqipwSGYUEgC": {
+    "id": "robotic-scanning-2025",
+    "authors": "D. Sun, A. Cappellari, B. Lan, and K. Niu",
+    "venue": "10th Dutch Biomedical Engineering Conference",
+    "url": "https://research.utwente.nl/en/publications/automatic-robotic-ultrasound-scanning-for-muscle-segmentation-and/",
+    "type": "conference",
+    "pillars": ["vision-imaging", "spatial-intelligence"],
+    "summary": "Demonstrates an integrated robotic ultrasound workflow for muscle scanning, segmentation and reconstruction.",
+    "metadataStatus": "verified",
+    "verifiedWith": ["https://research.utwente.nl/en/publications/automatic-robotic-ultrasound-scanning-for-muscle-segmentation-and/"]
+  },
+  "mWEOPuMAAAAJ:hMod-77fHWUC": {
+    "id": "pulse-oximetry-2025",
+    "authors": "B. Lan, E. Juffermans, I. Tamadon, and K. Niu",
+    "venue": "10th Dutch Biomedical Engineering Conference",
+    "url": "https://research.utwente.nl/en/publications/a-preliminary-study-of-the-pulse-oximetry-for-early-breast-cancer/",
+    "type": "conference",
+    "pillars": ["vision-imaging"],
+    "summary": "Explores optical physiological sensing as an early-stage signal source for breast-cancer detection research.",
+    "metadataStatus": "verified",
+    "verifiedWith": ["https://research.utwente.nl/en/publications/a-preliminary-study-of-the-pulse-oximetry-for-early-breast-cancer/"]
+  }
+}

@@ -22,6 +22,7 @@ test("defines four distinct research pillars", () => {
 
 test("all publications have evidence labels and valid pillar tags", () => {
   const publications = load("assets/data/publications-data.js").rviPublications;
+  const types = new Set(["journal", "conference", "abstract", "preprint", "chapter", "thesis", "poster", "other"]);
   const allowed = new Set([
     "vision-imaging",
     "learning-reasoning",
@@ -29,11 +30,15 @@ test("all publications have evidence labels and valid pillar tags", () => {
     "motion-intelligence"
   ]);
 
-  assert.ok(publications.length >= 8);
+  assert.equal(publications.length, 70);
+  assert.equal(new Set(publications.map((publication) => publication.id)).size, 70);
+  assert.equal(new Set(publications.map((publication) => publication.scholarId)).size, 70);
   publications.forEach((publication) => {
-    assert.ok(["published", "frontier"].includes(publication.evidence));
+    assert.ok(["published", "frontier", "review"].includes(publication.evidence));
+    assert.ok(types.has(publication.type));
     assert.ok(publication.pillars.every((pillar) => allowed.has(pillar)));
     assert.match(publication.url, /^https:\/\//);
+    assert.match(publication.scholarUrl, /^https:\/\/scholar\.google\.com\/citations\?/);
   });
 });
 

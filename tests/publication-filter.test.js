@@ -19,6 +19,20 @@ test("filters by year and pillar without mutating publications", () => {
 test("all values disable their respective filters", () => {
   const context = { window: {} };
   vm.runInNewContext(fs.readFileSync("assets/js/publication-filter.js", "utf8"), context);
-  const items = [{ year: 2026, pillars: ["motion-intelligence"] }];
-  assert.equal(context.window.RVIPublications.filter(items, { year: "all", pillar: "all" }).length, 1);
+  const items = [{ year: 2026, type: "journal", pillars: ["motion-intelligence"] }];
+  assert.equal(context.window.RVIPublications.filter(items, { year: "all", type: "all", pillar: "all" }).length, 1);
+});
+
+test("filters by year, type, and pillar together", () => {
+  const context = { window: {} };
+  vm.runInNewContext(fs.readFileSync("assets/js/publication-filter.js", "utf8"), context);
+  const items = [
+    { scholarId: "journal-motion", year: 2025, type: "journal", pillars: ["motion-intelligence"] },
+    { scholarId: "conference-motion", year: 2025, type: "conference", pillars: ["motion-intelligence"] },
+    { scholarId: "journal-vision", year: 2025, type: "journal", pillars: ["vision-imaging"] }
+  ];
+  const result = context.window.RVIPublications.filter(items, {
+    year: "2025", type: "journal", pillar: "motion-intelligence"
+  });
+  assert.deepEqual(Array.from(result, (item) => item.scholarId), ["journal-motion"]);
 });

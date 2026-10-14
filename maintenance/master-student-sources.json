@@ -2,7 +2,9 @@
   "checkedAt": "2026-10-14",
   "source": "https://www.ram.eemcs.utwente.nl/index.php/about-us/students",
   "membership": "Kenan Niu identified the currently open Chrome student-profile tabs as his master's students. Names verified from page headings. Entries deduplicated by RAM profile slug and normalized name.",
-  "privacy": "Only names and public RAM profile links are included. No student photos, emails or project details extracted. All students use the same generic avatar.",
+  "privacy": "Names, public RAM profiles and public assignment titles/links only. No student photos or emails. All students use the same generic avatar.",
+  "projects": "Project titles and assignment URLs are stored in assets/data/people-data.js. Selected the MSc assignment on each profile, excluding earlier BSc and Academic Skills work. Flim de Jong has a Capita Selecta project, retained as such. RAM pages do not consistently state project status; no completion or outcome claims are made.",
+  "classification": "Research labels are editorial mappings to the four existing RVI directions, not RAM classifications. Each project records mappingBasis grounded in its title and public assignment description. Checked 2026-10-14.",
   "students": [
     {
       "id": "dejan-honderd",

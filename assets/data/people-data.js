@@ -129,6 +129,13 @@ window.rviPeople = [
   {
     "id": "dejan-honderd",
     "name": "Dejan Honderd",
+    "project": {
+      "title": "PocketReplica: One-Loop AR Object Capture for On-Device 3D Reconstruction",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/pocketreplica-one-loop-ar-object-capture-device-3d-reconstruction",
+      "pillars": ["spatial-intelligence", "vision-imaging"],
+      "mappingBasis": "AR object capture and visual 3D reconstruction."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -145,6 +152,13 @@ window.rviPeople = [
   {
     "id": "dimitar-dimitrov",
     "name": "Dimitar Dimitrov",
+    "project": {
+      "title": "Learning to Sculpt: Vision-Guided Robotic Manipulation of Clay via Vision-Language-Action Models",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/learning-sculpt-vision-guided-robotic-manipulation-clay-vision-language",
+      "pillars": ["learning-reasoning", "vision-imaging"],
+      "mappingBasis": "Vision-language-action models and vision-guided robotic manipulation."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -161,6 +175,13 @@ window.rviPeople = [
   {
     "id": "flim-de-jong",
     "name": "Flim de Jong",
+    "project": {
+      "title": "Latent-Space Planning with V-JEPA-2-AC for Physical Robot Manipulation",
+      "type": "Capita Selecta",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/latent-space-planning-v-jepa-2-ac-physical-robot-manipulation",
+      "pillars": ["learning-reasoning"],
+      "mappingBasis": "Learned predictive representations and latent-space planning for robot manipulation."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -177,6 +198,13 @@ window.rviPeople = [
   {
     "id": "guus-branderhorst",
     "name": "Guus Branderhorst",
+    "project": {
+      "title": "ARUS - Automatic Robotic Ultrasound Segmentation for Limbs",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/arus-automatic-robotic-ultrasound-segmentation-limbs",
+      "pillars": ["vision-imaging", "motion-intelligence"],
+      "mappingBasis": "Robotic ultrasound imaging, anatomical segmentation and dynamic bone tracking described in the assignment objectives."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -193,6 +221,13 @@ window.rviPeople = [
   {
     "id": "isabel-toebes",
     "name": "Isabel Toebes",
+    "project": {
+      "title": "Hand Gesture and Finger Posture Classification Using Forearm sEMG Signals",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/hand-gesture-and-finger-posture-classification-using-forearm-semg-signals",
+      "pillars": ["motion-intelligence", "learning-reasoning"],
+      "mappingBasis": "Inferring hand gestures and finger posture from neuromuscular signals using classification models."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -209,6 +244,13 @@ window.rviPeople = [
   {
     "id": "job-meulenbeld",
     "name": "Job Meulenbeld",
+    "project": {
+      "title": "EEG Signal Processing and Human Motion Prediction",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/eeg-signal-processing-and-human-motion-prediction",
+      "pillars": ["motion-intelligence", "learning-reasoning"],
+      "mappingBasis": "Predicting human movement from EEG signals with learned models."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -225,6 +267,13 @@ window.rviPeople = [
   {
     "id": "marco-de-weerd",
     "name": "Marco de Weerd",
+    "project": {
+      "title": "Mechatronic Actuation and Feedback Control for Active A-Mode Ultrasound Bone Tracking",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/mechatronic-actuation-and-feedback-control-active-mode-ultrasound-bone",
+      "pillars": ["motion-intelligence", "vision-imaging"],
+      "mappingBasis": "Active ultrasound sensing and feedback-controlled bone tracking."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -241,6 +290,13 @@ window.rviPeople = [
   {
     "id": "oscar-peters",
     "name": "Oscar Peters",
+    "project": {
+      "title": "Reinforcement Learning for Adaptive Robotic Ultrasound Scanning of the Human Arm",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/reinforcement-learning-adaptive-robotic-ultrasound-scanning-human-arm",
+      "pillars": ["learning-reasoning", "vision-imaging"],
+      "mappingBasis": "Reinforcement learning for adaptive robotic ultrasound acquisition."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -257,6 +313,13 @@ window.rviPeople = [
   {
     "id": "sam-wille",
     "name": "Sam Wille",
+    "project": {
+      "title": "Continuous Finger Joint Angle Prediction from Forearm sEMG for Dexterous Robotic Hand Control",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/continuous-finger-joint-angle-prediction-forearm-semg-dexterous-robotic-hand",
+      "pillars": ["motion-intelligence", "learning-reasoning"],
+      "mappingBasis": "Continuous joint-angle prediction from sEMG and learned control mappings for a robotic hand."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -273,6 +336,13 @@ window.rviPeople = [
   {
     "id": "wouter-de-gries",
     "name": "Wouter de Gries",
+    "project": {
+      "title": "Vision- and Gaze-Guided Human-in-the-Loop Robotic Ultrasound Scanning with Force-Aware Trajectory Planning and AR Visualization",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/vision-and-gaze-guided-human-loop-robotic-ultrasound-scanning-force-aware",
+      "pillars": ["vision-imaging", "spatial-intelligence"],
+      "mappingBasis": "Vision-guided ultrasound scanning, spatial trajectory planning and AR visualization."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",
@@ -289,6 +359,13 @@ window.rviPeople = [
   {
     "id": "yuqing-liu",
     "name": "Yuqing Liu",
+    "project": {
+      "title": "Real-time sEMG-driven control of a collaborative robot arm for human-robot interaction",
+      "type": "MSc assignment",
+      "url": "https://www.ram.eemcs.utwente.nl/education/assignments/real-time-semg-driven-control-collaborative-robot-arm-human-robot-interaction",
+      "pillars": ["motion-intelligence", "learning-reasoning"],
+      "mappingBasis": "Neuromuscular signals mapped to collaborative robot motion using learned models."
+    },
     "role": "Master's Student",
     "group": "master",
     "status": "confirmed",

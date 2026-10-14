@@ -20,16 +20,37 @@
     const toggle = document.querySelector(".nav-toggle");
     const nav = document.querySelector("[data-site-nav]");
     if (!toggle || !nav) return;
+    const header = toggle.closest(".site-header");
+    const mobile = window.matchMedia("(max-width: 1040px)");
+    function setOpen(open) {
+      toggle.setAttribute("aria-expanded", String(open));
+      nav.classList.toggle("is-open", open);
+    }
+    if (header) header.classList.add("nav-ready");
+    setOpen(false);
     toggle.addEventListener("click", function () {
       const willOpen = toggle.getAttribute("aria-expanded") !== "true";
-      toggle.setAttribute("aria-expanded", String(willOpen));
-      nav.classList.toggle("is-open", willOpen);
+      setOpen(willOpen);
     });
     nav.addEventListener("click", function (event) {
-      if (event.target.matches("a")) {
-        toggle.setAttribute("aria-expanded", "false");
-        nav.classList.remove("is-open");
+      if (event.target.closest("a")) setOpen(false);
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+        setOpen(false);
+        toggle.focus();
       }
+    });
+    document.addEventListener("click", function (event) {
+      if (!nav.contains(event.target) && !toggle.contains(event.target)) setOpen(false);
+    });
+    document.addEventListener("focusin", function (event) {
+      if (!nav.contains(event.target) && !toggle.contains(event.target)) setOpen(false);
+    });
+    mobile.addEventListener("change", function () {
+      const focusWasInNav = nav.contains(document.activeElement);
+      setOpen(false);
+      if (mobile.matches && focusWasInNav) toggle.focus();
     });
   }
 

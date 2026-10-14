@@ -1,8 +1,12 @@
 (function () {
   const media = document.getElementById("hero-slideshow");
-  if (media) {
-    media.className = "home-research-diagram";
-    media.innerHTML = '<figure><a href="simple/images/research-directions.png"><img src="simple/images/research-directions.png" width="1280" height="856" alt="Four connected research directions: image-guided navigation, robotic vision and imaging, motion tracking, and AR/VR/MR."></a><figcaption>Four connected research directions</figcaption></figure>';
+  const heroProject = (window.rviProjects || []).find(function (project) { return project.homeHero; });
+  if (media && heroProject && window.rviCreateResearchFeature) {
+    media.textContent = "";
+    media.appendChild(window.rviCreateResearchFeature(heroProject, true).querySelector("figure"));
+    const image = media.querySelector("img");
+    image.loading = "eager";
+    image.fetchPriority = "high";
   }
   const pillars = document.getElementById("home-pillars");
   if (pillars && window.rviResearch) {
@@ -15,13 +19,10 @@
     });
   }
   const evidence = document.getElementById("home-evidence");
-  if (evidence && window.rviPublications) {
+  if (evidence && window.rviProjects && window.rviCreateResearchFeature) {
     evidence.textContent = "";
-    window.rviPublications.filter(function (publication) { return publication.summary; }).slice(0, 3).forEach(function (publication) {
-      const article = document.createElement("article");
-      article.className = "evidence-card";
-      article.innerHTML = `<span>${publication.venue}</span><h3>${publication.title}</h3><p>${publication.summary}</p><a href="${publication.url}" target="_blank" rel="noopener noreferrer">View publication</a>`;
-      evidence.appendChild(article);
+    window.rviProjects.filter(function (project) { return project.home; }).slice(0, 3).forEach(function (project) {
+      evidence.appendChild(window.rviCreateResearchFeature(project, true));
     });
   }
 })();

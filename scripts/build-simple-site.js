@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const root = path.resolve(__dirname, '..');
+const context = { window: {} };
+vm.runInNewContext(fs.readFileSync(path.join(root, 'assets/data/publications-data.js'), 'utf8'), context);
+const publications = context.window.rviPublications;
+const escape = value => String(value || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const groups = new Map();
+for (const paper of publications) {
+  const year = paper.year || 'Undated';
+  if (!groups.has(year)) groups.set(year, []);
+  groups.get(year).push(paper);
+}
+const bibliography = [...groups].sort((a,b) => (Number(b[0]) || 0) - (Number(a[0]) || 0)).map(([year,papers]) => `<section class="year-group"><h3>${escape(year)}</h3><ol>${papers.map(p => `<li><a href="${escape(p.url)}">${escape(p.title)}</a><p>${escape(p.authors)}</p><p class="venue">${escape(p.venue)}${p.venue ? ' · ' : ''}${escape(p.year)}</p><a class="source" href="${escape(p.scholarUrl)}">Scholar record</a></li>`).join('')}</ol></section>`).join('');
+const highlights = ['semg-motion-2026','gaze-emg-2025','robotic-ultrasound-2025','hcce-cunet-2025','fluoroscopy-2025'].map(id => publications.find(p => p.id === id)).filter(Boolean).map(p => `<li><a href="${escape(p.url)}">${escape(p.title)}</a><p>${escape(p.summary)}</p></li>`).join('');
+const html = `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Kenan Niu and RVI Group: research in robotic learning, AI reasoning, vision, spatial intelligence and motion. Complete publication archive."><title>Kenan Niu | RVI Group Research & Publications</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="identity" href="#main">Kenan Niu <span>RVI Group · University of Twente</span></a><nav aria-label="Main navigation"><a href="#research">Research</a><a href="#results">Selected work</a><a href="#publications">Publications</a><a href="#contact">Contact</a><a href="../">Full website</a></nav></header>
+<main id="main"><section class="intro"><p class="eyebrow">Robotic Vision and Intelligence Group</p><h1>Kenan Niu</h1><p class="affiliation">University of Twente · Robotics and Mechatronics</p><p>We investigate how robots perceive, learn, predict and reason through interaction with the physical world. Our research connects robotic imaging, multimodal learning, spatial understanding and human motion.</p><div class="profiles"><a href="https://people.utwente.nl/k.niu">University profile</a><a href="https://scholar.google.com/citations?user=mWEOPuMAAAAJ&amp;hl=en">Google Scholar</a><a href="https://orcid.org/0000-0002-5498-4311">ORCID</a><a href="https://www.linkedin.com/in/kenanniu/">LinkedIn</a></div></section>
+<section id="research"><h2>Research</h2><div class="directions"><article><h3>Robotic Learning & AI Reasoning</h3><p>Multimodal learning from gaze, muscle activity and motion, with a research agenda in predictive models and grounded reasoning.</p></article><article><h3>Robotic Vision & Imaging</h3><p>Robotic ultrasound, computer vision, anatomical segmentation and image-guided interventions.</p></article><article><h3>3D Spatial Intelligence</h3><p>3D reconstruction, spatial sensing, navigation and AR/VR interfaces for robotic and medical systems.</p></article><article><h3>Motion Intelligence</h3><p>Human movement estimation and biomechanical understanding using ultrasound, sEMG, gaze and kinematic signals.</p></article></div></section>
+<section id="results"><h2>Selected research outcomes</h2><ul class="highlights">${highlights}</ul><figure class="research-image"><img src="images/research.jpg" alt="Selected RVI research system" onerror="this.hidden=true"><figcaption>RVI research systems</figcaption></figure></section>
+<section id="publications"><div class="section-heading"><h2>Publications</h2><p>${publications.length} records · Google Scholar archive captured July 2026</p></div><p class="archive-note">Listed from the reviewed Scholar archive. Recent additions are available on <a href="https://scholar.google.com/citations?user=mWEOPuMAAAAJ&amp;hl=en&amp;sortby=pubdate">Google Scholar</a>.</p>${bibliography}</section>
+<section id="contact"><h2>Contact & supervision</h2><p>Research collaborations and BSc, MSc and doctoral projects in robotic intelligence, imaging and motion.</p><a href="mailto:k.niu@utwente.nl">k.niu@utwente.nl</a> · <a href="../education.html">Education & student projects</a></section></main><footer>Kenan Niu · RVI Group · University of Twente <a href="../">Full website</a></footer></body></html>\n`;
+const target = path.join(root, 'simple/index.html');
+const output = html.replace('src="images/research.jpg"', `src="images/${fs.existsSync(path.join(root, 'simple/images/research.jpg')) ? 'research.jpg' : 'research-placeholder.svg'}"`).replace(' onerror="this.hidden=true"', '');
+if (process.argv.includes('--check')) {
+  if (!fs.existsSync(target) || fs.readFileSync(target,'utf8') !== output) { console.error('Simple site needs regeneration.'); process.exitCode = 1; }
+} else { fs.mkdirSync(path.dirname(target), {recursive:true}); fs.writeFileSync(target,output); }

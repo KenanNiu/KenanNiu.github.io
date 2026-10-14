@@ -125,6 +125,182 @@ window.rviPeople = [
         "url": "https://www.ram.eemcs.utwente.nl/about-us/staff/luuk-lenders"
       }
     ]
+  },
+  {
+    "id": "dejan-honderd",
+    "name": "Dejan Honderd",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/dejan-honderd"
+      }
+    ]
+  },
+  {
+    "id": "dimitar-dimitrov",
+    "name": "Dimitar Dimitrov",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/dimitar-dimitrov"
+      }
+    ]
+  },
+  {
+    "id": "flim-de-jong",
+    "name": "Flim de Jong",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/flim-de-jong"
+      }
+    ]
+  },
+  {
+    "id": "guus-branderhorst",
+    "name": "Guus Branderhorst",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/guus-branderhorst"
+      }
+    ]
+  },
+  {
+    "id": "isabel-toebes",
+    "name": "Isabel Toebes",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/isabel-toebes"
+      }
+    ]
+  },
+  {
+    "id": "job-meulenbeld",
+    "name": "Job Meulenbeld",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/job-meulenbeld"
+      }
+    ]
+  },
+  {
+    "id": "marco-de-weerd",
+    "name": "Marco de Weerd",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/marco-de-weerd"
+      }
+    ]
+  },
+  {
+    "id": "oscar-peters",
+    "name": "Oscar Peters",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/oscar-peters"
+      }
+    ]
+  },
+  {
+    "id": "sam-wille",
+    "name": "Sam Wille",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/sam-wille"
+      }
+    ]
+  },
+  {
+    "id": "wouter-de-gries",
+    "name": "Wouter de Gries",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/wouter-de-gries"
+      }
+    ]
+  },
+  {
+    "id": "yuqing-liu",
+    "name": "Yuqing Liu",
+    "role": "Master's Student",
+    "group": "master",
+    "status": "confirmed",
+    "image": "assets/img/people/student-avatar.svg",
+    "imageKind": "placeholder",
+    "imageAlt": "Generic student avatar; no personal photograph",
+    "links": [
+      {
+        "label": "RAM profile",
+        "url": "https://www.ram.eemcs.utwente.nl/about-us/students/yuqing-liu"
+      }
+    ]
   }
 ];
 window.rviPeopleGroups = [
@@ -139,6 +315,10 @@ window.rviPeopleGroups = [
   {
     "id": "phd",
     "title": "PhD Researchers"
+  },
+  {
+    "id": "master",
+    "title": "Master's Students"
   },
   {
     "id": "alumni",

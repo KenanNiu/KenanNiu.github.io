@@ -1,3 +1,3 @@
 # Optional research image
 
-Place one approved image here as `research.jpg`, then run `node scripts/build-simple-site.js`. No layout changes are needed. Without the image, a single restrained research-image placeholder appears. Prefer an overview of your actual robotic imaging or motion research. Do not upload private student or patient material.
+The website uses `research-directions.png`, the supplied diagram of four connected research directions. Replace it with an updated diagram using the same filename. The diagram is displayed without cropping and links to its full-size image. Do not upload private student or patient material.

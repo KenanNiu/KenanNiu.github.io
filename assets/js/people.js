@@ -45,6 +45,7 @@
           if (!pillar) return;
           const item = create("li");
           const link = create("a", "", pillar.title);
+          link.dataset.research = pillar.id;
           link.href = "research.html#" + pillar.id;
           item.appendChild(link);
           tags.appendChild(item);

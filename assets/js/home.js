@@ -14,6 +14,7 @@
     window.rviResearch.forEach(function (pillar) {
       const article = document.createElement("article");
       article.className = `pillar-card accent-${pillar.accent}`;
+      article.dataset.research = pillar.id;
       article.innerHTML = `<span>${pillar.number}</span><h3>${pillar.title}</h3><p>${pillar.summary}</p><a href="research.html#${pillar.id}">Research details</a>`;
       pillars.appendChild(article);
     });

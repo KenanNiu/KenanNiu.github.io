@@ -1,0 +1,131 @@
+/* Research colours are keyed by stable IDs; sky blue remains a brand colour. */
+[data-research="vision-imaging"] {
+  --research-fill: #F8E5DF;
+  --research-border: #C57D69;
+  --research-ink: #793C30;
+}
+
+[data-research="learning-reasoning"] {
+  --research-fill: #F0EDFA;
+  --research-border: #9B86BC;
+  --research-ink: #514070;
+}
+
+[data-research="spatial-intelligence"] {
+  --research-fill: #E7F5F0;
+  --research-border: #6BA58E;
+  --research-ink: #245D4C;
+}
+
+[data-research="motion-intelligence"] {
+  --research-fill: #FAF1D8;
+  --research-border: #BD9B51;
+  --research-ink: #6C511C;
+}
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .4rem .6rem;
+  margin: .5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.research-tags > li {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+:root .research-tag[data-research],
+:root a.research-tag[data-research],
+:root .research-tag a[data-research],
+:root .research-tags a[data-research],
+:root .student-research-tags a[data-research] {
+  display: inline-block;
+  max-width: 100%;
+  padding: .25rem .5rem;
+  border: 1px solid var(--research-border);
+  border-left-width: 3px;
+  border-radius: 2px;
+  background: var(--research-fill);
+  color: var(--research-ink);
+  font-size: .78rem;
+  font-weight: 600;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+  text-underline-offset: .18em;
+}
+
+:root a.research-tag[data-research]:hover,
+:root .research-tag a[data-research]:hover,
+:root .research-tags a[data-research]:hover,
+:root .student-research-tags a[data-research]:hover {
+  border-color: var(--research-ink);
+  background: var(--research-fill);
+  color: var(--research-ink);
+  text-decoration: underline;
+}
+
+:root a.research-tag[data-research]:focus-visible,
+:root .research-tag a[data-research]:focus-visible,
+:root .research-tags a[data-research]:focus-visible,
+:root .student-research-tags a[data-research]:focus-visible {
+  outline: 2px solid var(--research-ink);
+  outline-offset: 3px;
+  text-decoration: underline;
+}
+
+:root .pillar-card[data-research] {
+  border-color: var(--research-border);
+  background: var(--research-fill);
+  color: var(--research-ink);
+}
+
+:root .pillar-card[data-research] > span,
+:root .pillar-card[data-research] h3,
+:root .pillar-card[data-research] p,
+:root .pillar-card[data-research] a,
+:root .pillar-card[data-research] .eyebrow {
+  color: var(--research-ink);
+}
+
+:root .research-pillar[data-research] {
+  border-top-color: var(--research-border);
+}
+
+:root .research-pillar[data-research] > header {
+  padding: 1rem;
+  border-left: 3px solid var(--research-border);
+  background: var(--research-fill);
+  color: var(--research-ink);
+}
+
+:root .research-pillar[data-research] > header > span,
+:root .research-pillar[data-research] > header h2,
+:root .research-pillar[data-research] > header .eyebrow {
+  color: var(--research-ink);
+}
+
+:root .directions > article[data-research] {
+  min-width: 0;
+  padding: 1rem;
+  border-left: 3px solid var(--research-border);
+  background: var(--research-fill);
+  color: var(--research-ink);
+}
+
+:root .directions > article[data-research] h3,
+:root .directions > article[data-research] p,
+:root .directions > article[data-research] a,
+:root .directions > article[data-research] .eyebrow {
+  color: var(--research-ink);
+}
+
+:root .pillar-card[data-research] a:hover,
+:root .directions > article[data-research] a:hover {
+  text-decoration: underline;
+}

@@ -60,20 +60,25 @@ test("group data contains the confirmed team and privacy-preserving master's stu
   const site = load("assets/data/site-data.js").rviSite;
   const people = load("assets/data/people-data.js").rviPeople;
   assert.equal(site.name, "RVI Group");
-  assert.equal(people.filter((person) => person.status === "confirmed").length, 18);
+  assert.equal(people.filter((person) => person.status === "confirmed" && person.group !== "alumni").length, 18);
   assert.equal(people.filter((person) => person.group === "lead").length, 1);
   assert.equal(people.filter((person) => person.group === "postdoc").length, 2);
   assert.equal(people.filter((person) => person.group === "phd").length, 4);
   assert.equal(people.filter((person) => person.group === "master").length, 11);
-  assert.equal(people.filter((person) => person.group === "alumni").length, 0);
-  assert.equal(new Set(people.map(person => person.id)).size, 18);
-  assert.equal(new Set(people.map(person => person.name.trim().toLowerCase())).size, 18);
+  assert.equal(people.filter((person) => person.group === "alumni").length, 32);
+  assert.equal(new Set(people.map(person => person.id)).size, 50);
+  assert.equal(new Set(people.map(person => person.name.trim().toLowerCase())).size, 50);
   const masterProfiles = people.filter(person => person.group === "master").map(person => {
     const profile = person.links.find(link => link.label === "RAM profile");
     return new URL(profile.url).pathname.replace(/^\/index.php/, "").replace(/\/$/, "");
   });
   assert.equal(new Set(masterProfiles).size, 11);
   people.forEach(person => {
+    if (person.group === "alumni") {
+      assert.equal(person.image, undefined);
+      assert.equal(person.email, undefined);
+      return;
+    }
     assert.ok(fs.existsSync(person.image), person.image);
     if (person.group === "master") {
       assert.equal(person.image, "assets/img/people/student-avatar.svg");
@@ -86,4 +91,15 @@ test("group data contains the confirmed team and privacy-preserving master's stu
       assert.ok(person.links.some(link => link.url.startsWith("https://www.ram.eemcs.utwente.nl/about-us/staff/")));
     }
   });
+});
+
+test("alumni preserve supervision roles and deduplicated record years without excluded members", () => {
+  const people = load("assets/data/people-data.js").rviPeople;
+  const alumni = people.filter(p => p.group === "alumni");
+  assert.deepEqual([2025,2024,2023,2022].map(year=>alumni.filter(p=>p.year===year).length),[10,17,4,1]);
+  assert.equal(alumni.filter(p=>p.supervision === "main").length,18);
+  assert.equal(alumni.filter(p=>p.supervision === "intern-exchange").length,5);
+  assert.equal(alumni.filter(p=>p.supervision === "technical").length,9);
+  assert.ok(!alumni.some(p=>["mitchel-doets","bangyu-lan","flim-de-jong","marit-brouwer"].includes(p.id)));
+  alumni.forEach(p=>{assert.equal(p.status,"confirmed");assert.ok(p.role);assert.ok(p.years.includes(p.year));});
 });

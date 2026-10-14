@@ -2,7 +2,9 @@
 
 The People page contains Group Lead, Postdoctoral Researchers, PhD Researchers, Master's Students and Alumni sections. Group membership was specified by Kenan Niu. Public staff names, research interests, professional email addresses and portraits were checked against the RAM staff directory and individual profiles on October 14, 2026. The eleven master's students were identified from the Chrome profile tabs selected by Kenan and verified from their RAM page headings.
 
-Edit `assets/data/people-data.js` to maintain members. Use `group` values `lead`, `postdoc`, `phd`, `master` or `alumni`. Alumni currently has no records and intentionally renders only its heading. Keep member roles accurate and preserve the RAM profile link and source-photo URL when updating staff portraits.
+Edit `assets/data/people-data.js` to maintain members. Use `group` values `lead`, `postdoc`, `phd`, `master` or `alumni`. Keep member roles accurate and preserve the RAM profile link and source-photo URL when updating staff portraits.
+
+Alumni are completed supervision projects approved by Kenan from his supervision register. Group by `year`, the latest completed record year, not an inferred degree-graduation date. Keep all known record years in `years`. Use `supervision` values `main`, `intern-exchange` or `technical` and explicitly label the project type and supervisory role in `role`. Each person appears once, alphabetically within descending years. Do not display statistics. No alumni photos, emails, grades, internal notes or source-sheet link are published. External/committee-only entries, ongoing/unclear records, current members and Mitchel Doets are excluded. Public project titles and links may be added only after verification. Keep the static HTML fallback and People cache version aligned when adding entries.
 
 Local portrait files are the original RAM 500px square thumbnails, with no face editing. `maintenance/people-sources.json` records their origins. Public source credit appears on the People page, and each member links directly to their RAM profile.
 

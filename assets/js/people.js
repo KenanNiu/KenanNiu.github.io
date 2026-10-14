@@ -10,12 +10,27 @@
     heading.id = group.id + "-heading";
     section.setAttribute("aria-labelledby", heading.id);
     section.appendChild(heading);
-    const grid = create("div", "people-grid");
-    window.rviPeople.filter(function (person) {
+    const members = window.rviPeople.filter(function (person) {
       return person.status === "confirmed" && person.group === group.id;
-    }).forEach(function (person) {
+    });
+    const buckets = group.id === "alumni"
+      ? [...new Set(members.map(function (person) { return person.year; }))].sort(function (a, b) { return b - a; }).map(function (year) {
+        return {year: year, members: members.filter(function (person) { return person.year === year; }).sort(function (a, b) { return a.name.localeCompare(b.name); })};
+      }) : [{members: members}];
+    if (group.id === "alumni") section.appendChild(create("p", "people-source", "Completed supervision projects, grouped by supervision record year."));
+    buckets.forEach(function (bucket) {
+    const grid = create("div", "people-grid");
+    if (bucket.year) {
+      const yearHeading = create("h3", "alumni-year", String(bucket.year));
+      yearHeading.id = "alumni-" + bucket.year;
+      section.appendChild(yearHeading);
+      grid.setAttribute("aria-labelledby", yearHeading.id);
+      grid.setAttribute("role", "group");
+    }
+    bucket.members.forEach(function (person) {
       const article = create("article", "person-card");
       article.id = person.id;
+      if (person.image) {
       const image = create("img");
       image.src = person.image;
       image.alt = person.imageAlt || "Portrait of " + person.name;
@@ -24,9 +39,10 @@
       image.loading = "lazy";
       image.decoding = "async";
       article.appendChild(image);
+      }
       const copy = create("div", "person-copy");
       const identity = create("div", "person-identity");
-      identity.appendChild(create("h3", "", person.name));
+      identity.appendChild(create(person.group === "alumni" ? "h4" : "h3", "person-name", person.name));
       if (person.group === "master") {
         (person.links || []).forEach(function (link) {
           identity.appendChild(window.RVI.externalLink(link));
@@ -63,6 +79,7 @@
       grid.appendChild(article);
     });
     section.appendChild(grid);
+    });
     container.appendChild(section);
   });
   const credit = create("p", "people-source", "Staff information and photographs: ");

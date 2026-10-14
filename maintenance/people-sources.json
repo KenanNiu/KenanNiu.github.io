@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-14",
+  "source": "https://www.ram.eemcs.utwente.nl/about-us/staff",
+  "membership": "Six members and group role assignment requested by Kenan Niu; names, roles, public research interests, professional emails and portrait URLs checked against the RAM staff listing and profiles.",
+  "portraits": [
+    {
+      "id": "kenan-niu",
+      "name": "Dr.ir. Kenan Niu",
+      "role": "Group Lead / Assistant Professor",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/staff/kenan-niu",
+      "image": "assets/img/people/kenan-niu.png",
+      "imageSource": "https://www.ram.eemcs.utwente.nl/sites/default/files/styles/square/public/2022-06/niu2.png?itok=Dm-kXEXS",
+      "transformation": "Original RAM square thumbnail, unaltered."
+    },
+    {
+      "id": "tianyuan-wang",
+      "name": "Tianyuan Wang",
+      "role": "Postdoctoral Researcher",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/staff/tianyuan-wang",
+      "image": "assets/img/people/tianyuan-wang.jpg",
+      "imageSource": "https://www.ram.eemcs.utwente.nl/sites/default/files/styles/square/public/2025-11/wangt_0.jpg?itok=BX-IyNJb",
+      "transformation": "Original RAM square thumbnail, unaltered."
+    },
+    {
+      "id": "sahar-nasirihaghighi",
+      "name": "Sahar Nasirihaghighi",
+      "role": "Postdoctoral Researcher",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/staff/sahar-nasirihaghighi",
+      "image": "assets/img/people/sahar-nasirihaghighi.jpg",
+      "imageSource": "https://www.ram.eemcs.utwente.nl/sites/default/files/styles/square/public/2026-02/nasirihaghighis3_0.jpg?itok=uJDCWDMY",
+      "transformation": "Original RAM square thumbnail, unaltered."
+    },
+    {
+      "id": "dezhi-sun",
+      "name": "Dezhi (Jacky) Sun",
+      "role": "PhD Researcher",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/staff/dezhi-jacky-sun",
+      "image": "assets/img/people/dezhi-sun.jpg",
+      "imageSource": "https://www.ram.eemcs.utwente.nl/sites/default/files/styles/square/public/2024-10/sund.jpg?itok=TFcpj1tI",
+      "transformation": "Original RAM square thumbnail, unaltered."
+    },
+    {
+      "id": "bangyu-lan",
+      "name": "Bangyu Lan",
+      "role": "PhD Researcher",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/staff/bangyu-lan",
+      "image": "assets/img/people/bangyu-lan.jpg",
+      "imageSource": "https://www.ram.eemcs.utwente.nl/sites/default/files/styles/square/public/2024-09/lanb2.jpg?itok=PLZ6ywrd",
+      "transformation": "Original RAM square thumbnail, unaltered."
+    },
+    {
+      "id": "tianlin-fu",
+      "name": "Tianlin Fu",
+      "role": "PhD Researcher",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/staff/tianlin-fu",
+      "image": "assets/img/people/tianlin-fu.jpg",
+      "imageSource": "https://www.ram.eemcs.utwente.nl/sites/default/files/styles/square/public/2026-10/fut.jpg?itok=CSpsxnB7",
+      "transformation": "Original RAM square thumbnail, unaltered."
+    },
+    {
+      "id": "luuk-lenders",
+      "name": "Luuk Lenders",
+      "role": "PhD Researcher",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/staff/luuk-lenders",
+      "image": "assets/img/people/luuk-lenders.jpg",
+      "imageSource": "https://www.ram.eemcs.utwente.nl/sites/default/files/styles/square/public/2022-08/lenderslbl.jpg?itok=0ckJ_SEv",
+      "transformation": "Original RAM square thumbnail, unaltered."
+    }
+  ]
+}

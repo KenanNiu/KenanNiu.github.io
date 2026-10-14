@@ -16,7 +16,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: auto; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.65; }
 img { display: block; max-width: 100%; }
 a { color: inherit; text-underline-offset: .18em; }
@@ -194,4 +194,53 @@ h3 { font-size: 1.1rem; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+:root { --max: 1080px; }
+.page-hero { padding: 2.5rem 0 1.5rem; }
+.page-hero h1 { font-size: 2.4rem; margin-bottom: .8rem; }
+.section, .section.surface { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.section-heading h2 { font-size: 1.9rem; }
+.manifesto { min-height: auto; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); }
+.manifesto-copy { padding: 3rem 2rem; }
+.manifesto-copy h1 { font-size: 3rem; }
+.manifesto-copy > p:not(.eyebrow) { font-size: 1rem; }
+.home-research-diagram { display: grid; align-items: center; justify-items: center; padding: 2rem 1rem; }
+.home-research-diagram figure { width: 100%; max-width: 360px; margin: 0; padding: .8rem; background: #fff; }
+.home-research-diagram img { width: 100%; height: auto; }
+.home-research-diagram figcaption { font-size: .8rem; color: var(--muted); padding-top: .7rem; }
+.research-media-overview { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1fr); gap: 2rem; align-items: start; margin-bottom: 2.5rem; }
+.focus-diagram { width: 100%; max-width: 440px; margin: 0 0 1.5rem; }
+.focus-diagram img { width: 100%; height: auto; }
+.focus-diagram figcaption, .research-gallery figcaption { font-size: .8rem; color: var(--muted); padding-top: .5rem; }
+.research-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 624px; gap: 24px; }
+.research-gallery figure { margin: 0; min-width: 0; }
+.research-gallery a { display: flex; aspect-ratio: 1; align-items: center; justify-content: center; background: #eef1ef; }
+.research-gallery img { width: 100%; height: 100%; object-fit: contain; }
+.research-pillar { padding: 1.7rem 0; }
+.research-pillar > header { margin-bottom: 1.2rem; }
+.research-pillar h2 { font-size: 1.8rem; }
+.research-evidence { margin-top: 1rem; padding-top: 1rem; }
+.full-publications .section { padding-top: 1.5rem; }
+.full-publications ol.publication-list { margin: 0; padding-left: 1.7rem; }
+.full-publications .publication-list li { padding: 0 0 1.1rem .25rem; }
+.full-publications .publication-list li::marker { color: var(--muted); font-size: .85rem; }
+.full-publications .publication-list li > a:first-child { font-weight: 650; text-decoration: none; }
+.full-publications .publication-list li > a:first-child:hover { text-decoration: underline; }
+.full-publications .publication-list p { font-size: .88rem; margin: .2rem 0; }
+.full-publications .venue { color: var(--muted); }
+.full-publications .publication-links { display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin-top: .3rem; font-size: .8rem; color: #17665d; }
+.evidence-card { min-height: 0; }
+.evidence-card > span { margin-bottom: .8rem; text-transform: none; }
+@media (max-width: 760px) {
+  .manifesto { grid-template-columns: 1fr; }
+  .manifesto-copy { padding: 2rem 1rem 1rem; }
+  .manifesto-copy h1 { font-size: 2.5rem; }
+  .home-research-diagram { padding: 1rem; }
+  .home-research-diagram figure { max-width: 300px; }
+  .research-body, .research-evidence { grid-template-columns: 1fr; gap: 1rem; }
+  .research-media-overview { grid-template-columns: 1fr; gap: 1rem; }
+  .focus-diagram { max-width: 320px; }
+  .research-gallery { grid-template-columns: 1fr; max-width: 280px; gap: 18px; }
+  .page-hero h1 { font-size: 2rem; }
 }

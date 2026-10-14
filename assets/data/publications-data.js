@@ -41,7 +41,7 @@ window.rviPublications = [
     "doi": "10.1109/TMRB.2025.3617959",
     "pillars": [
       "vision-imaging",
-      "spatial-intelligence"
+      "learning-reasoning"
     ],
     "summary": "Segments multiple musculoskeletal structures in ultrasound to support automated robotic scanning and reconstruction.",
     "metadataStatus": "verified",
@@ -68,14 +68,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:lSLTfruPkqcC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:lSLTfruPkqcC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:lSLTfruPkqcC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -94,14 +97,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ns9cj8rnVeAC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ns9cj8rnVeAC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ns9cj8rnVeAC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -178,14 +183,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TFP_iSt0sucC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TFP_iSt0sucC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TFP_iSt0sucC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -204,14 +212,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:O3NaXMp0MMsC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:O3NaXMp0MMsC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:O3NaXMp0MMsC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -232,6 +243,7 @@ window.rviPublications = [
     "doi": "10.3390/technologies13020070",
     "pillars": [
       "vision-imaging",
+      "learning-reasoning",
       "spatial-intelligence"
     ],
     "summary": "Integrates robotic scanning, contact control, segmentation and reconstruction into an automatic 3D musculoskeletal imaging workflow.",
@@ -259,14 +271,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:GnPB-g6toBAC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:GnPB-g6toBAC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:GnPB-g6toBAC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -287,6 +302,7 @@ window.rviPublications = [
     "doi": null,
     "pillars": [
       "vision-imaging",
+      "learning-reasoning",
       "spatial-intelligence"
     ],
     "summary": "Demonstrates an integrated robotic ultrasound workflow for muscle scanning, segmentation and reconstruction.",
@@ -315,6 +331,8 @@ window.rviPublications = [
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:JV2RwH3_ST0C",
     "doi": null,
     "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
       "motion-intelligence"
     ],
     "summary": "Examines the relationship between muscle activation and deformation during dynamic arm movement.",
@@ -323,7 +341,7 @@ window.rviPublications = [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:JV2RwH3_ST0C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -342,14 +360,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:iH-uZ7U-co4C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:iH-uZ7U-co4C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:iH-uZ7U-co4C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -368,14 +388,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:j3f4tGmQtD8C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:j3f4tGmQtD8C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:j3f4tGmQtD8C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -394,14 +417,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:k_IJM867U9cC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:k_IJM867U9cC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:k_IJM867U9cC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -420,14 +445,18 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4JMBOYKVnBMC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4JMBOYKVnBMC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4JMBOYKVnBMC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -446,14 +475,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/spatial-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -472,14 +503,18 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:RHpTSmoSYBkC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:RHpTSmoSYBkC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:RHpTSmoSYBkC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -498,14 +533,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:J_g5lzvAfSwC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:J_g5lzvAfSwC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:J_g5lzvAfSwC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -524,14 +561,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:maZDTaKrznsC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:maZDTaKrznsC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:maZDTaKrznsC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -550,14 +590,18 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:e5wmG9Sq2KIC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:e5wmG9Sq2KIC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:e5wmG9Sq2KIC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -576,14 +620,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:M3NEmzRMIkIC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:M3NEmzRMIkIC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:M3NEmzRMIkIC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -602,14 +649,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:isC4tDSrTZIC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:isC4tDSrTZIC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:isC4tDSrTZIC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -628,14 +678,18 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_Qo2XoVZTnwC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_Qo2XoVZTnwC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_Qo2XoVZTnwC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -654,14 +708,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:HDshCWvjkbEC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:HDshCWvjkbEC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:HDshCWvjkbEC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -680,14 +736,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qUcmZB5y_30C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qUcmZB5y_30C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qUcmZB5y_30C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -706,14 +765,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mB3voiENLucC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mB3voiENLucC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mB3voiENLucC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -732,14 +793,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:hFOr9nPyWt4C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:hFOr9nPyWt4C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:hFOr9nPyWt4C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -758,14 +822,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:35N4QoGY0k4C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:35N4QoGY0k4C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:35N4QoGY0k4C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -784,14 +851,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TQgYirikUcIC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TQgYirikUcIC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:TQgYirikUcIC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -810,14 +880,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ZeXyd9-uunAC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ZeXyd9-uunAC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ZeXyd9-uunAC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -836,14 +908,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:IWHjjKOFINEC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:IWHjjKOFINEC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:IWHjjKOFINEC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -862,14 +936,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:7PzlFSSx8tAC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:7PzlFSSx8tAC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:7PzlFSSx8tAC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/spatial-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -888,14 +964,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:QIV2ME_5wuYC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:QIV2ME_5wuYC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:QIV2ME_5wuYC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/spatial-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -914,14 +992,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mVmsd5A6BfQC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mVmsd5A6BfQC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:mVmsd5A6BfQC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -940,14 +1021,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4DMP91E08xMC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4DMP91E08xMC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4DMP91E08xMC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -966,14 +1050,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:L8Ckcad2t8MC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:L8Ckcad2t8MC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:L8Ckcad2t8MC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -992,14 +1079,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qxL8FJ1GzNcC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qxL8FJ1GzNcC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qxL8FJ1GzNcC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1018,14 +1108,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9ZlFYXVOiuMC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9ZlFYXVOiuMC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9ZlFYXVOiuMC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1044,14 +1137,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Wp0gIr-vW9MC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Wp0gIr-vW9MC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Wp0gIr-vW9MC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1070,14 +1166,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4TOpqqG69KYC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4TOpqqG69KYC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:4TOpqqG69KYC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1096,14 +1195,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_kc_bZDykSQC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_kc_bZDykSQC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_kc_bZDykSQC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1122,14 +1224,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:3fE2CSJIrl8C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:3fE2CSJIrl8C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:3fE2CSJIrl8C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/spatial-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1148,14 +1252,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:KlAtU1dfN6UC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:KlAtU1dfN6UC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:KlAtU1dfN6UC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1174,14 +1281,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:8k81kl-MbHgC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:8k81kl-MbHgC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:8k81kl-MbHgC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1200,14 +1309,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:MXK_kJrjxJIC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:MXK_kJrjxJIC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:MXK_kJrjxJIC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1226,14 +1338,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Zph67rFs4hoC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Zph67rFs4hoC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Zph67rFs4hoC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1252,14 +1366,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Se3iqnhoufwC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Se3iqnhoufwC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Se3iqnhoufwC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/spatial-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1278,14 +1394,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:kNdYIx-mwKoC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:kNdYIx-mwKoC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:kNdYIx-mwKoC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/spatial-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1304,14 +1422,18 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:5nxA0vEk-isC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:5nxA0vEk-isC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:5nxA0vEk-isC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1330,14 +1452,18 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YFjsv_pBGBYC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YFjsv_pBGBYC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YFjsv_pBGBYC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1356,14 +1482,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:0EnyYjriUFMC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:0EnyYjriUFMC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:0EnyYjriUFMC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1382,14 +1511,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UebtZRa9Y70C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UebtZRa9Y70C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UebtZRa9Y70C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/spatial-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1408,14 +1539,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:WF5omc3nYNoC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:WF5omc3nYNoC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:WF5omc3nYNoC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1434,14 +1568,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:W7OEmFMy1HYC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:W7OEmFMy1HYC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:W7OEmFMy1HYC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1460,14 +1597,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YsMSGLbcyi4C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YsMSGLbcyi4C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YsMSGLbcyi4C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/motion-intelligence.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1486,14 +1625,18 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Tyk-4Ss8FVUC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Tyk-4Ss8FVUC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Tyk-4Ss8FVUC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1512,14 +1655,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Y0pCki6q_DkC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Y0pCki6q_DkC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Y0pCki6q_DkC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1538,14 +1684,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UeHWp8X0CEIC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UeHWp8X0CEIC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UeHWp8X0CEIC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1564,14 +1713,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qjMakFHDy7sC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qjMakFHDy7sC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:qjMakFHDy7sC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1590,14 +1742,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:d1gkVwhDpl0C",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:d1gkVwhDpl0C",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:d1gkVwhDpl0C"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1616,14 +1771,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9yKSN-GCB0IC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9yKSN-GCB0IC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:9yKSN-GCB0IC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1642,14 +1800,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:LkGwnXOMwfcC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:LkGwnXOMwfcC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:LkGwnXOMwfcC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1668,14 +1829,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YOwf2qJgpHMC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YOwf2qJgpHMC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YOwf2qJgpHMC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1694,14 +1858,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ufrVoPGSRksC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ufrVoPGSRksC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:ufrVoPGSRksC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1720,14 +1886,16 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_FxGoFyzp5QC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_FxGoFyzp5QC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:_FxGoFyzp5QC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1774,14 +1942,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:bEWYMUwI8FkC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:bEWYMUwI8FkC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:bEWYMUwI8FkC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1800,14 +1971,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:dhFuZR0502QC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:dhFuZR0502QC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:dhFuZR0502QC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/learning-reasoning.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,
@@ -1826,14 +2000,17 @@ window.rviPublications = [
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:eQOLeE2rZwMC",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:eQOLeE2rZwMC",
     "doi": null,
-    "pillars": [],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": null,
     "metadataStatus": "review",
     "verifiedWith": [
       "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:eQOLeE2rZwMC"
     ],
     "image": null,
-    "fallbackImage": "assets/img/publication-fallbacks/other.svg",
+    "fallbackImage": "assets/img/publication-fallbacks/vision-imaging.svg",
     "imageAlt": null,
     "imageSource": null,
     "imageCredit": null,

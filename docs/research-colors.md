@@ -15,10 +15,13 @@ Use `data-research` with the stable direction ID, never visual order or
 project labels inherit the same fill, border and readable text tokens.
 Always retain the written direction name; colour alone is not a label.
 
-Publication and student labels reflect existing `pillars` arrays only.
-Multi-direction records retain every affiliation. Unclassified records stay
-neutral. Do not assign a primary direction or infer affiliations for unlabelled
-project systems. Source raster figures are left unchanged.
+Publication and student labels reflect their `pillars` arrays. On October 14,
+2026, Kenan requested that every publication receive its closest thematic
+direction, including uncertain fits. Record the rationale and `direct` or
+`nearest-fit` match in `maintenance/publications/curation.json`; these broad
+topic labels do not assert AI reasoning, robotic capability or validated results.
+Multi-direction records retain supported affiliations. Do not infer affiliations
+for unlabelled project systems. Source raster figures are left unchanged.
 
 Run `node scripts/build-simple-site.js` after changing publication labels or
 the static generator. Commit both generated HTML files. The Pages publication

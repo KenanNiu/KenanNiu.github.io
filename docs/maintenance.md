@@ -2,7 +2,7 @@
 
 ## Homepage Slides
 
-The live homepage now uses the supplied static research-direction diagram in `simple/images/research-directions.png`. The slideshow files and the following instructions are retained for a future return to slideshow presentation; they are not active on the current homepage.
+The Full Website homepage now uses a source-audited robotic-ultrasound setup photograph in `assets/img/orthopedics/`. The concise site retains its supplied research-direction diagram. The slideshow files and the following instructions are retained for a future return to slideshow presentation; they are not active on the current homepage.
 
 1. Put approved image files in `assets/img/hero-slides/`.
 2. Use JPG, PNG, WebP, AVIF, or SVG. Prefer a 4:3 image at 1600 x 1200 pixels or larger.
@@ -33,6 +33,8 @@ After updating publication data, run `node scripts/build-simple-site.js` to rebu
 - Add confirmed public profiles in `assets/data/people-data.js`.
 - Add systems, public demos, and project links in `assets/data/projects-data.js`.
 - Do not invent names, roles, results, metrics, or media links.
+
+The six research systems in `projects-data.js` correspond to the native images listed in `maintenance/orthopedics-assets.json`. Keep slide evidence and scientific interpretation consistent when changing summaries or captions. Retain `object-fit: contain` so scientific labels and plots are not cropped. Only confirmed people render publicly; placeholder member data is retained privately in the source dataset but not shown.
 
 ## Paper Figures
 

@@ -18,7 +18,7 @@ window.rviResearch = [
     shortTitle: "Learning & Reasoning",
     question: "What internal models let robots predict consequences and reason beyond observed patterns?",
     claim: "Useful robotic intelligence must connect learned representations to physical interaction, prediction and causal structure.",
-    summary: "Our current work combines gaze, muscle activity and motion signals to infer intent and movement. We use that evidence as a foundation for research on grounded predictive and causal reasoning.",
+    summary: "Published work combines gaze and muscle activity to estimate forearm movement, and derives motion features from sEMG. Building on this foundation, our research agenda explores grounded prediction, world models and causal reasoning.",
     accent: "teal",
     representativePublicationIds: ["gaze-emg-2025", "semg-motion-2026"],
     next: "World models and cognitive architectures that support prediction, counterfactual reasoning and task adaptation."

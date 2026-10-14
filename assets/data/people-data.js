@@ -382,6 +382,8 @@ window.rviPeople = [
 ];
 // Completed project records, not inferred degree-graduation dates.
 window.rviPeople.push(...[
+  {id: "boris-braak", name: "Boris Braak", year: 2026, years: [2026], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "kaiwen-liu", name: "Kaiwen Liu", year: 2026, years: [2026], supervision: "main", role: "MSc project · Main supervisor"},
   {id: "kris-zegwaart", name: "Kris Zegwaart", year: 2025, years: [2025], supervision: "main", role: "MSc project · Main supervisor"},
   {id: "marijn-van-hilten", name: "Marijn van Hilten", year: 2025, years: [2024, 2025], supervision: "main", role: "MSc project & internship · Main supervisor"},
   {id: "qingyi-xu", name: "Qingyi Xu", year: 2025, years: [2024, 2025], supervision: "main", role: "MSc project & internship · Main supervisor"},

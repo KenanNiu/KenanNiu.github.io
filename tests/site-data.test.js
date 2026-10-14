@@ -65,9 +65,9 @@ test("group data contains the confirmed team and privacy-preserving master's stu
   assert.equal(people.filter((person) => person.group === "postdoc").length, 2);
   assert.equal(people.filter((person) => person.group === "phd").length, 4);
   assert.equal(people.filter((person) => person.group === "master").length, 11);
-  assert.equal(people.filter((person) => person.group === "alumni").length, 32);
-  assert.equal(new Set(people.map(person => person.id)).size, 50);
-  assert.equal(new Set(people.map(person => person.name.trim().toLowerCase())).size, 50);
+  assert.equal(people.filter((person) => person.group === "alumni").length, 34);
+  assert.equal(new Set(people.map(person => person.id)).size, 52);
+  assert.equal(new Set(people.map(person => person.name.trim().toLowerCase())).size, 52);
   const masterProfiles = people.filter(person => person.group === "master").map(person => {
     const profile = person.links.find(link => link.label === "RAM profile");
     return new URL(profile.url).pathname.replace(/^\/index.php/, "").replace(/\/$/, "");
@@ -96,8 +96,8 @@ test("group data contains the confirmed team and privacy-preserving master's stu
 test("alumni preserve supervision roles and deduplicated record years without excluded members", () => {
   const people = load("assets/data/people-data.js").rviPeople;
   const alumni = people.filter(p => p.group === "alumni");
-  assert.deepEqual([2025,2024,2023,2022].map(year=>alumni.filter(p=>p.year===year).length),[10,17,4,1]);
-  assert.equal(alumni.filter(p=>p.supervision === "main").length,18);
+  assert.deepEqual([2026,2025,2024,2023,2022].map(year=>alumni.filter(p=>p.year===year).length),[2,10,17,4,1]);
+  assert.equal(alumni.filter(p=>p.supervision === "main").length,20);
   assert.equal(alumni.filter(p=>p.supervision === "intern-exchange").length,5);
   assert.equal(alumni.filter(p=>p.supervision === "technical").length,9);
   assert.ok(!alumni.some(p=>["mitchel-doets","bangyu-lan","flim-de-jong","marit-brouwer"].includes(p.id)));

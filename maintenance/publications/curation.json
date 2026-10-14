@@ -6,10 +6,28 @@
     "url": "https://doi.org/10.1109/TBME.2026.3686312",
     "doi": "10.1109/TBME.2026.3686312",
     "type": "journal",
-    "pillars": ["learning-reasoning", "motion-intelligence"],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": "Derives motion-relevant features from surface EMG to infer continuous three-dimensional forearm trajectories.",
     "metadataStatus": "verified",
-    "verifiedWith": ["https://doi.org/10.1109/TBME.2026.3686312"]
+    "verifiedWith": [
+      "https://doi.org/10.1109/TBME.2026.3686312"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "sEMG-derived prediction of human 3D forearm trajectories; prediction and human motion are explicit.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/curation.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/b11d10ea-ad52-48ac-8b65-1766511bef3c"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
   },
   "mWEOPuMAAAAJ:RGFaLdJalmkC": {
     "id": "gaze-emg-2025",
@@ -18,10 +36,28 @@
     "url": "https://doi.org/10.1109/TBME.2025.3575202",
     "doi": "10.1109/TBME.2025.3575202",
     "type": "journal",
-    "pillars": ["learning-reasoning", "motion-intelligence"],
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": "Fuses gaze attention and muscle activity hierarchically to estimate forearm movement from complementary human signals.",
     "metadataStatus": "verified",
-    "verifiedWith": ["https://doi.org/10.1109/TBME.2025.3575202"]
+    "verifiedWith": [
+      "https://doi.org/10.1109/TBME.2025.3575202"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Hierarchical transformer learns from gaze and muscle signals to estimate human forearm motion.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/curation.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/f178d4f5-f58d-4e6b-9c30-af13c47c771b"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
   },
   "mWEOPuMAAAAJ:vV6vV6tmYwMC": {
     "id": "hcce-cunet-2025",
@@ -30,10 +66,28 @@
     "url": "https://doi.org/10.1109/TMRB.2025.3617959",
     "doi": "10.1109/TMRB.2025.3617959",
     "type": "journal",
-    "pillars": ["vision-imaging", "spatial-intelligence"],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
     "summary": "Segments multiple musculoskeletal structures in ultrasound to support automated robotic scanning and reconstruction.",
     "metadataStatus": "verified",
-    "verifiedWith": ["https://doi.org/10.1109/TMRB.2025.3617959"]
+    "verifiedWith": [
+      "https://doi.org/10.1109/TMRB.2025.3617959"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Ultrasound musculoskeletal segmentation uses cascaded deep-learning U-Net. Replace old spatial tag: abstract does not establish a 3D reconstruction contribution.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/curation.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/203ee25a-c742-47ab-83b6-a20302d57f71"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
   },
   "mWEOPuMAAAAJ:blknAaTinKkC": {
     "id": "robotic-ultrasound-2025",
@@ -42,10 +96,29 @@
     "url": "https://doi.org/10.3390/technologies13020070",
     "doi": "10.3390/technologies13020070",
     "type": "journal",
-    "pillars": ["vision-imaging", "spatial-intelligence"],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
     "summary": "Integrates robotic scanning, contact control, segmentation and reconstruction into an automatic 3D musculoskeletal imaging workflow.",
     "metadataStatus": "verified",
-    "verifiedWith": ["https://doi.org/10.3390/technologies13020070"]
+    "verifiedWith": [
+      "https://doi.org/10.3390/technologies13020070"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Ultrasound/stereo imaging, deep-learning segmentation and explicit 3D musculoskeletal reconstruction are the three supported main topics.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/curation.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://doi.org/10.3390/technologies13020070"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
   },
   "mWEOPuMAAAAJ:RYcK_YlVTxYC": {
     "id": "fluoroscopy-2025",
@@ -54,19 +127,54 @@
     "url": "https://doi.org/10.3390/machines13060498",
     "doi": "10.3390/machines13060498",
     "type": "journal",
-    "pillars": ["vision-imaging", "spatial-intelligence"],
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
     "summary": "Studies bilateral control for autonomous fluoroscopic viewpoint management during simulated catheter insertion.",
     "metadataStatus": "verified",
-    "verifiedWith": ["https://doi.org/10.3390/machines13060498"]
+    "verifiedWith": [
+      "https://doi.org/10.3390/machines13060498"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Fluoroscopic image processing and geometric viewpoint/kinematic analysis are explicit. Conventional bilateral control does not imply ML.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/curation.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/41fbb22f-97c7-4e50-9ab7-2b753baa2fba"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
   },
   "mWEOPuMAAAAJ:JV2RwH3_ST0C": {
     "id": "muscle-deformation-2025",
     "authors": "B. Lan, D. Sun, and K. Niu",
     "venue": "J: Multidisciplinary Scientific Journal",
     "type": "journal",
-    "pillars": ["motion-intelligence"],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
     "summary": "Examines the relationship between muscle activation and deformation during dynamic arm movement.",
-    "metadataStatus": "review"
+    "metadataStatus": "review",
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The abstract reports A-mode ultrasound deformation measurement, deep-learning motion classification and human muscle activation/deformation analysis.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/curation.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/8318ccc6-d242-4a38-a3cd-3c9852b46d2c"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
   },
   "mWEOPuMAAAAJ:BqipwSGYUEgC": {
     "id": "robotic-scanning-2025",
@@ -74,10 +182,29 @@
     "venue": "10th Dutch Biomedical Engineering Conference",
     "url": "https://research.utwente.nl/en/publications/automatic-robotic-ultrasound-scanning-for-muscle-segmentation-and/",
     "type": "conference",
-    "pillars": ["vision-imaging", "spatial-intelligence"],
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
     "summary": "Demonstrates an integrated robotic ultrasound workflow for muscle scanning, segmentation and reconstruction.",
     "metadataStatus": "verified",
-    "verifiedWith": ["https://research.utwente.nl/en/publications/automatic-robotic-ultrasound-scanning-for-muscle-segmentation-and/"]
+    "verifiedWith": [
+      "https://research.utwente.nl/en/publications/automatic-robotic-ultrasound-scanning-for-muscle-segmentation-and/"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The abstract explicitly reports ultrasound imaging, attention-enhanced U-Net segmentation and 3D reconstruction.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/curation.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/ae6bb831-e936-49bf-8a3c-728fb2c23ceb"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
   },
   "mWEOPuMAAAAJ:hMod-77fHWUC": {
     "id": "pulse-oximetry-2025",
@@ -85,9 +212,1060 @@
     "venue": "10th Dutch Biomedical Engineering Conference",
     "url": "https://research.utwente.nl/en/publications/a-preliminary-study-of-the-pulse-oximetry-for-early-breast-cancer/",
     "type": "conference",
-    "pillars": ["vision-imaging"],
+    "pillars": [
+      "vision-imaging"
+    ],
     "summary": "Explores optical physiological sensing as an early-stage signal source for breast-cancer detection research.",
     "metadataStatus": "verified",
-    "verifiedWith": ["https://research.utwente.nl/en/publications/a-preliminary-study-of-the-pulse-oximetry-for-early-breast-cancer/"]
+    "verifiedWith": [
+      "https://research.utwente.nl/en/publications/a-preliminary-study-of-the-pulse-oximetry-for-early-breast-cancer/"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Pulse-oximeter optical sensing is an imaging/sensing topic under the supplied definition. The abstract describes preliminary sensor/phantom work, not validated cancer detection or AI.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/curation.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/38f4fc5a-daa8-4354-9a33-7d37a93c59e4"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:lSLTfruPkqcC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Video evaluation is a broad imaging/video topic under the newest instruction. The separately verified abstract reports XGBoost outcome prediction from manually annotated features; learning is supported, not inferred from video.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/b7e98464-ea96-4297-94eb-4b7c6ce0edd7"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:ns9cj8rnVeAC": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "nearest-fit",
+      "confidence": "nearest-fit",
+      "basis": "Surgeon musculoskeletal pain and ergonomic consequences are nearest to motion. This is a survey, not motion tracking or an ML capability.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/ebfae403-ee55-403b-872e-80937f5b9329"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:TFP_iSt0sucC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The abstract explicitly validates deep-learning tumour segmentation against pathology and manual delineations.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/4cdcb96c-2574-4ba4-b63c-2c0bdbc396b5"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:O3NaXMp0MMsC": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Deep-learning attention predicts muscle deformation from sEMG. Ultrasound is a reference measurement, not a reason to add an imaging tag to the prediction contribution.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/551c91cc-2fe6-4ce3-99b6-fc39765e83ab"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:GnPB-g6toBAC": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The abstract explicitly describes deep-learning classification of arm motion using activation and deformation signals; human muscle dynamics is the second topic.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/6452b191-07c8-40e0-9082-5350a2c26e2f"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:iH-uZ7U-co4C": {
+    "pillars": [
+      "vision-imaging"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Robotic ultrasound imaging is explicit. No additional AI, navigation or reconstruction topic is established by the incomplete metadata.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:j3f4tGmQtD8C": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Dual-attention prediction of muscle thickness deformation explicitly links learned prediction with human biomechanics. No full-text or abstract verification for this preprint record.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:k_IJM867U9cC": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "nearest-fit",
+      "confidence": "nearest-fit",
+      "basis": "Pneumatic stepper actuation and robot joint setpoint control fit the broad robot-motion topic. MR safety is context, not an imaging method or ML claim.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/416ceb94-65f0-4767-9598-e71270dcab7e"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:4JMBOYKVnBMC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "A-mode ultrasound bone sensing, a deep-learning U-Net and dynamic bone tracking are explicit. Do not add a fourth spatial tag for 1D peak localization.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/170ef6e4-94f4-4e52-80f2-af773263b5e6"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:r0BpntZqJG4C": {
+    "pillars": [
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "An AR digital surrogate and 3D clinical environment support robot interaction. Spatial is the central topic; no need to add ancillary actuation or imaging-context tags.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/9d85021d-bdfb-44a9-ba22-885b6be33e96"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:RHpTSmoSYBkC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "A-mode ultrasound decoding, cascaded U-Net anatomical recognition and real-time bone tracking are explicit.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/95a5ed09-7eeb-465a-8674-1f32a86abcc9"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:J_g5lzvAfSwC": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "nearest-fit",
+      "confidence": "nearest-fit",
+      "basis": "Bilateral control of cooperating surgical robots is nearest to broad robot motion/control. No ML or image-processing method is evidenced by the title.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:maZDTaKrznsC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Deep learning and tumour segmentation on MRI are explicit title topics; pathology validation is not independently reassessed.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:e5wmG9Sq2KIC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The abstract identifies A-mode ultrasound, CasAtt-UNet prediction of bone peaks and bone tracking for orthopaedic robotics.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/b84ce6c6-05f0-4fdd-8fd0-8801fc713874"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:M3NEmzRMIkIC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The title explicitly specifies deep learning and MRI tumour-volume delineation. No extra spatial topic is needed.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:isC4tDSrTZIC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The title explicitly specifies deep learning and MRI tumour-volume delineation; likely a second listing of the adjacent conference abstract.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:_Qo2XoVZTnwC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Ultrasound with optical tracking measures explicit 3D six-DOF knee kinematics; sensing, spatial pose and anatomical motion are all supported.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/d477a877-00d6-4119-a5ec-d7ce3ccce011"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:HDshCWvjkbEC": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "nearest-fit",
+      "confidence": "nearest-fit",
+      "basis": "The review focuses on non-visual force, vibration and bioelectrical sensing for surgical actions. Nearest fit is biomechanical/motion sensing, not imaging; reviewed neural networks do not establish a dedicated AI contribution.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://doi.org/10.3390/s23198094"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:qUcmZB5y_30C": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Ultrasound and anatomical reconstruction are explicit; reconstruction supports spatial geometry. No ML tag inferred from automation.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:mB3voiENLucC": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Electrical bioimpedance and an extended Kalman filter support physiological brain-motion compensation. EKF is not treated as ML.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/89f0d2b4-9234-4f55-a07b-19477b36420b"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:hFOr9nPyWt4C": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Ultrasound imaging and fetoscope localization/tracking explicitly concern image-based surgical spatial guidance. A particular AI method is not stated.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:35N4QoGY0k4C": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Ultrasound reconstruction for spine surgery is explicit. This TechRxiv listing may be a version of the journal record; no abstract independently checked.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:TQgYirikUcIC": {
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Robotic-assisted ultrasound is an imaging topic; comparative robot control is broad motion/control under the newest instruction. No AI inference.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:ZeXyd9-uunAC": {
+    "pillars": [
+      "learning-reasoning"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Reinforcement-learning guidance is explicit. Navigation, VR and a motion-learning implementation are not inferred from this short title.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:IWHjjKOFINEC": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Motion estimation from electrical bioimpedance is explicit. Extended Kalman filtering alone does not justify a learning tag.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:7PzlFSSx8tAC": {
+    "pillars": [
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Augmented-reality interaction for pedicle screw placement is an explicit spatial topic; robot presence alone does not require additional tags.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:QIV2ME_5wuYC": {
+    "pillars": [
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "VR/haptic training in spatial navigation is explicit. Do not equate visual presentation with an imaging algorithm.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:mVmsd5A6BfQC": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Deep learning and compliant robotic-catheter motion control are explicit; motion is broad robotic control under the newest instruction.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:4DMP91E08xMC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "2D ultrasound and 3D anatomical reconstruction are explicit title topics.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:L8Ckcad2t8MC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Ultrasound imaging and real-time 3D reconstruction are explicit. Automatic scanning alone does not imply ML.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:qxL8FJ1GzNcC": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "LSTM actuator control explicitly supports learning and broad robotic motion; eye surgery does not itself establish an imaging method.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:9ZlFYXVOiuMC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Ultrasound system calibration concerns image-to-robot spatial correspondence; motion profiles are calibration inputs, not a separate motion-analysis topic.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:Wp0gIr-vW9MC": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Deep-learning position control of a catheter under contact explicitly supports learning and broad robot motion/control.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:4TOpqqG69KYC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Robotic ultrasound image calibration explicitly joins imaging with spatial coordinate calibration.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:_kc_bZDykSQC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Robot ultrasound calibration is an imaging/spatial calibration topic. Automatic is not treated as evidence of ML.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:3fE2CSJIrl8C": {
+    "pillars": [
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "3D anatomical shape analysis for instrument design is explicit. Flexible instruments alone do not establish motion analysis or learning.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:KlAtU1dfN6UC": {
+    "pillars": [
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "LSTM hysteresis modelling and environment reconstruction are explicit. Preserve the two dominant topics without an extra actuator-motion tag.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:8k81kl-MbHgC": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Measured tissue interaction forces, workspace and vaginal force/stiffness modelling are explicit human biomechanics. Parameter-based prediction is not called ML.",
+      "evidenceLevel": "primary-abstract",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json",
+        "https://research.utwente.nl/en/publications/c60c0a08-f988-499c-aef3-33fba4fff700"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:MXK_kJrjxJIC": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "LSTM modelling of robotic-catheter hysteresis explicitly concerns learned actuator dynamics and broad robot motion. Environment reconstruction is not stated.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:Zph67rFs4hoC": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "nearest-fit",
+      "confidence": "nearest-fit",
+      "basis": "Vaginal vault interaction is nearest to tissue mechanics/biomechanics; the short clinical abstract title does not establish quantified force measurements or a computational capability.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:Se3iqnhoufwC": {
+    "pillars": [
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "VR surgical training with haptic feedback is an explicit spatial simulation topic; no AI or image-processing method is stated.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:kNdYIx-mwKoC": {
+    "pillars": [
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "VR hysteroscopy simulation is an explicit spatial simulation topic. Pilot-study results are not independently assessed.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:5nxA0vEk-isC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Deep learning, ultrasound imaging and anatomical reconstruction are all explicit title topics.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:YFjsv_pBGBYC": {
+    "pillars": [
+      "vision-imaging",
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Deep learning, ultrasound imaging and anatomical reconstruction are explicit. Likely a duplicate/version of the adjacent conference record, retained separately.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:0EnyYjriUFMC": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "LSTM and robotic-catheter control explicitly support learning and broad motion/control; no geometry or imaging topic is inferred.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:UebtZRa9Y70C": {
+    "pillars": [
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Anatomical statistical shape modelling is a spatial geometry topic. Statistical shape modelling is not automatically labelled AI.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:WF5omc3nYNoC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Autostereoscopic visualization and VR simulation explicitly concern visual depth presentation and spatial simulation, not a validated imaging algorithm.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:W7OEmFMy1HYC": {
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Ultrasound-based anatomical lower-extremity motion tracking is explicit. No 3D registration or ML topic is claimed without further evidence.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:YsMSGLbcyi4C": {
+    "pillars": [
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "nearest-fit",
+      "confidence": "nearest-fit",
+      "basis": "Functional orthopaedic pre-planning is nearest to musculoskeletal function/biomechanics. The institutional page has no accessible abstract; specific kinematic, imaging or AI methods remain unresolved.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:Tyk-4Ss8FVUC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "3D-tracked ultrasound, relative bone positions/orientations and tibiofemoral motion are explicit.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:Y0pCki6q_DkC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "A-mode ultrasound and intraoperative geometric registration are explicit. No ML or motion-analysis topic is inferred.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:UeHWp8X0CEIC": {
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Ultrasound/marker-based measurement of lower-extremity kinematics explicitly supports sensing and anatomical motion; extra geometry methods are not inferred.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:qjMakFHDy7sC": {
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Ultrasound skeletal motion capture and knee tracking are explicit thesis topics. No full thesis was read and no ML method is inferred.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:d1gkVwhDpl0C": {
+    "pillars": [
+      "vision-imaging",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Multi-channel ultrasound and tibiofemoral kinematics measurement are explicit. No additional 3D reconstruction method is stated.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:9yKSN-GCB0IC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "A-mode ultrasound sampled points and registration accuracy/robustness explicitly link sensing and spatial registration.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:LkGwnXOMwfcC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The Chinese title explicitly concerns image-guided percutaneous lung puncture based on spatial localization. Preserve the original ID; no thesis full text was read.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:YOwf2qJgpHMC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "Medical images and image navigation are explicit. iPad implementation alone does not imply AI or motion estimation.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:ufrVoPGSRksC": {
+    "pillars": [
+      "vision-imaging"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "PET detector design and address mapping are explicitly imaging instrumentation. Detector address mapping is not anatomical 3D navigation or AI.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:_FxGoFyzp5QC": {
+    "pillars": [
+      "vision-imaging"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "high",
+      "basis": "The Chinese title explicitly describes LYSO PET detector design and position mapping: imaging instrumentation. Likely bilingual duplicate of the adjacent 2011 record.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:bEWYMUwI8FkC": {
+    "pillars": [
+      "learning-reasoning",
+      "motion-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Deep learning and robotic-catheter motion control are explicit. Metadata is incomplete and may duplicate the 2022 journal record; classification does not verify publication identity.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:dhFuZR0502QC": {
+    "pillars": [
+      "learning-reasoning",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "LSTM and environment reconstruction are explicit. Incomplete authorship/venue may duplicate the 2021 journal record; no claim that this record's abstract was separately read.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json",
+        "maintenance/publications/source-cache/orcid-works.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
+  },
+  "mWEOPuMAAAAJ:eQOLeE2rZwMC": {
+    "pillars": [
+      "vision-imaging",
+      "spatial-intelligence"
+    ],
+    "thematicMatch": {
+      "match": "direct",
+      "confidence": "medium",
+      "basis": "Ultrasound and intraoperative registration are explicit. Simulation/venue/year details remain incomplete; no abstract verification claimed.",
+      "evidenceLevel": "title-metadata-only",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-14"
+    }
   }
 }

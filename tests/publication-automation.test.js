@@ -5,8 +5,9 @@ const os = require("node:os");
 const path = require("node:path");
 const { spawnSync } = require("node:child_process");
 
-test("weekly workflow creates reviewed publication pull requests only for changes", () => {
-  const workflow = fs.readFileSync(".github/workflows/update-publications.yml", "utf8");
+test("publication automation is archived outside active workflows", () => {
+  assert.equal(fs.existsSync(".github/workflows/update-publications.yml"), false);
+  const workflow = fs.readFileSync("maintenance/disabled-workflows/update-publications.yml", "utf8");
   assert.match(workflow, /cron:\s*['"]0 7 \* \* 1['"]/);
   assert.match(workflow, /workflow_dispatch:/);
   assert.match(workflow, /contents:\s*write/);

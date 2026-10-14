@@ -22,9 +22,9 @@ The browser cannot scan a GitHub Pages folder directly. The generated manifest i
 
 ### Source updates
 
-The Monday GitHub workflow refreshes public ORCID and Crossref caches. UT Pure identifiers are read from the Pure Portal entries included in ORCID. It validates the complete site and opens a dated pull request only when cached metadata changes. It never scrapes Google Scholar, deletes baseline records, merges automatically, or pushes directly to `main`.
+Publication automation was disabled on October 14, 2026. Its source is archived in `maintenance/disabled-workflows/`; GitHub Pages deployment remains active. Source-cache and publication updates are now manual. The archived July 2026 Scholar baseline is not a live feed.
 
-Review every automated PR before merging. Check unmatched additions, changed metadata, records absent from sources, and source failures. A failed run leaves the committed publication archive unchanged; inspect the uploaded `publication-update-report` artifact, correct the source or script, and rerun the workflow manually.
+After updating publication data, run `node scripts/build-simple-site.js` to rebuild the concise static page at `/simple/`. Its original counterpart remains available at `/`. See `docs/simple-site.md` for details.
 
 ## People and Projects
 

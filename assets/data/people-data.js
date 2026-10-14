@@ -380,6 +380,42 @@ window.rviPeople = [
     ]
   }
 ];
+// Completed project records, not inferred degree-graduation dates.
+window.rviPeople.push(...[
+  {id: "kris-zegwaart", name: "Kris Zegwaart", year: 2025, years: [2025], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "marijn-van-hilten", name: "Marijn van Hilten", year: 2025, years: [2024, 2025], supervision: "main", role: "MSc project & internship · Main supervisor"},
+  {id: "qingyi-xu", name: "Qingyi Xu", year: 2025, years: [2024, 2025], supervision: "main", role: "MSc project & internship · Main supervisor"},
+  {id: "shixun-liu", name: "Shixun Liu", year: 2025, years: [2025], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "tongli-zhu", name: "Tongli Zhu", year: 2025, years: [2024, 2025], supervision: "main", role: "MSc project & internship · Main supervisor"},
+  {id: "thomas-groenenberg", name: "Thomas Groenenberg", year: 2025, years: [2025], supervision: "intern-exchange", role: "MSc internship · Main supervisor"},
+  {id: "tom-roossink", name: "Tom Roossink", year: 2025, years: [2025], supervision: "intern-exchange", role: "MSc internship · Main supervisor"},
+  {id: "maurits-barkel", name: "Maurits Barkel", year: 2025, years: [2025], supervision: "technical", role: "Technical Medicine M2 · Technical supervisor"},
+  {id: "hugo-hutten", name: "Hugo Hutten", year: 2025, years: [2025], supervision: "technical", role: "Technical Medicine M2 · Technical supervisor"},
+  {id: "sanne-lammes", name: "Sanne Lammes", year: 2025, years: [2025], supervision: "technical", role: "Technical Medicine M2 · Technical supervisor"},
+  {id: "lennard-marx", name: "Lennard Marx", year: 2024, years: [2024], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "ellen-juffermans", name: "Ellen Juffermans", year: 2024, years: [2024], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "zhi-jian-tai", name: "Zhi-Jian Tai", year: 2024, years: [2024], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "alessandro-cappellari", name: "Alessandro Cappellari", year: 2024, years: [2024], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "idse-kuijper", name: "Idse Kuijper", year: 2024, years: [2024], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "mathon-de-raad", name: "Mathon De Raad", year: 2024, years: [2024], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "herjan-barkman", name: "Herjan Barkman", year: 2024, years: [2024], supervision: "main", role: "MSc project · Main supervisor"},
+  {id: "greg-ward", name: "Greg Ward", year: 2024, years: [2024], supervision: "main", role: "BSc project · Main supervisor"},
+  {id: "sam-rotgans", name: "Sam Rotgans", year: 2024, years: [2024], supervision: "main", role: "BSc project · Main supervisor"},
+  {id: "viktor-kulic-golja", name: "Viktor Kulić Golja", year: 2024, years: [2024], supervision: "main", role: "BSc project · Main supervisor"},
+  {id: "evalds-grava", name: "Evalds Grava", year: 2024, years: [2024], supervision: "main", role: "BSc project · Main supervisor"},
+  {id: "pascal-vriend", name: "Pascal Vriend", year: 2024, years: [2024], supervision: "main", role: "BSc project · Main supervisor"},
+  {id: "marloes-pijpker", name: "Marloes Pijpker", year: 2024, years: [2024], supervision: "main", role: "BSc project · Main supervisor"},
+  {id: "florent-nguyen", name: "Florent Nguyen", year: 2024, years: [2024], supervision: "intern-exchange", role: "Exchange internship · Main supervisor"},
+  {id: "guillaume-chabrier", name: "Guillaume Chabrier", year: 2024, years: [2024], supervision: "intern-exchange", role: "Exchange internship · Main supervisor"},
+  {id: "elena-di-pietro", name: "Elena Di Pietro", year: 2024, years: [2024], supervision: "intern-exchange", role: "MSc exchange · Main supervisor"},
+  {id: "jesse-van-der-duin", name: "Jesse van der Duin", year: 2024, years: [2024], supervision: "technical", role: "Technical Medicine M2 · Technical supervisor"},
+  {id: "koen-kuijer", name: "Koen Kuijer", year: 2023, years: [2023], supervision: "technical", role: "Technical Medicine M3 · Technical supervisor"},
+  {id: "mijs-buter", name: "Mijs Buter", year: 2023, years: [2023], supervision: "technical", role: "Technical Medicine M3 · Technical supervisor"},
+  {id: "jacco-engel", name: "Jacco Engel", year: 2023, years: [2023], supervision: "technical", role: "Technical Medicine M2 · Technical supervisor"},
+  {id: "nicolien-heikens", name: "Nicolien Heikens", year: 2023, years: [2023], supervision: "technical", role: "Technical Medicine M2 · Technical supervisor"},
+  {id: "luan-duong", name: "Luan Duong", year: 2022, years: [2022], supervision: "technical", role: "MSc internship · Technical supervisor"}
+].map(function (person) { return {...person, group: "alumni", status: "confirmed"}; }));
+
 window.rviPeopleGroups = [
   {
     "id": "lead",

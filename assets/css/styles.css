@@ -153,6 +153,10 @@ h3 { font-size: 1.1rem; }
 .people-section:first-child { border-top: 0; padding-top: 0; }
 .people-section-heading { margin-bottom: 1rem; color: var(--ink); font-size: 1.4rem; }
 .people-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 2rem; }
+.alumni-year { margin: 1.75rem 0 .75rem; padding-bottom: .5rem; border-bottom: 1px solid var(--line); font-size: 1.2rem; }
+#alumni .people-grid { gap: .5rem 2rem; }
+#alumni .person-card { padding: .65rem 0; }
+#alumni .person-name { line-height: 1.4; }
 #master .people-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
 #master .person-card { padding-block: 1.25rem; border-bottom: 1px solid var(--line); }
 #master .person-card:has(img) { grid-template-columns: 56px minmax(0, 1fr); }

@@ -61,12 +61,10 @@ test("homepage remains compatible with the academic static-site checker", () => 
   assert.match(data, /window\.siteData/);
 });
 
-test("publication archive has visual and compact layouts with image fallback", () => {
-  const renderer = fs.readFileSync("assets/js/publications.js", "utf8");
-  const css = fs.readFileSync("assets/css/styles.css", "utf8");
-  assert.match(renderer, /publication-item \$\{isVisual \? "visual" : "compact"\}/);
-  assert.match(renderer, /publication-thumbnail/);
-  assert.match(renderer, /data-fallback/);
-  assert.match(renderer, /uses-fallback/);
-  assert.match(css, /aspect-ratio:\s*3\s*\/\s*2/);
+test("full publication page has a static continuous bibliography", () => {
+  const html = fs.readFileSync("publications.html", "utf8");
+  assert.match(html, /class="publication-list"/);
+  assert.equal((html.match(/>Article link<\/a>/g) || []).length, 70);
+  assert.doesNotMatch(html, /publication-thumbnail|year-group|Publication records are loading|archive captured|Listed from/);
+  assert.doesNotMatch(html, /src="assets\/js\/publications\.js"/);
 });

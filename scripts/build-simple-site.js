@@ -28,6 +28,13 @@ const target = path.join(root, 'simple/index.html');
 const diagram = '<figure class="research-image focus-diagram"><a href="images/research-directions.png"><img src="images/research-directions.png" width="1280" height="856" alt="Four overlapping research directions: image-guided navigation, robotic vision and imaging, motion tracking, and AR/VR/MR."></a><figcaption>Four connected research directions: image-guided navigation, robotic vision and imaging, motion tracking, and AR/VR/MR.</figcaption></figure>';
 const gallery = '<div class="research-gallery"><figure><a href="images/imaging-motion-research.png"><img src="images/imaging-motion-research.png" width="825" height="930" loading="lazy" alt="Research montage of breast imaging, knee anatomy, fluoroscopy, ultrasound motion tracking and biomechanical modelling."></a><figcaption><strong>Imaging & motion analysis</strong><span>Medical imaging, ultrasound tracking and musculoskeletal modelling.</span></figcaption></figure><figure><a href="images/reconstruction-navigation-research.png"><img src="images/reconstruction-navigation-research.png" width="961" height="872" loading="lazy" alt="Research montage of anatomical volume rendering, tracked image-guided navigation, statistical shape modelling and robotic ultrasound reconstruction."></a><figcaption><strong>3D reconstruction & navigation</strong><span>Anatomical visualisation, shape modelling, image-guided navigation and robotic ultrasound.</span></figcaption></figure></div>';
 const output = html.replace(/<figure class="research-image">.*?<\/figure>/, gallery).replace('</div></section>\n<section id="results">', `</div>${diagram}</section>\n<section id="results">`);
-if (process.argv.includes('--check')) {
-  if (!fs.existsSync(target) || fs.readFileSync(target,'utf8') !== output) { console.error('Simple site needs regeneration.'); process.exitCode = 1; }
-} else { fs.mkdirSync(path.dirname(target), {recursive:true}); fs.writeFileSync(target,output); }
+const fullTarget = path.join(root, 'publications.html');
+const fullCurrent = fs.readFileSync(fullTarget, 'utf8');
+const fullOutput = fullCurrent
+  .replace(/<main id="main"[^>]*>[\s\S]*?<\/main>/, `<main id="main" class="full-publications"><header class="page-hero"><h1>Publications</h1><p><a href="https://scholar.google.com/citations?user=mWEOPuMAAAAJ&amp;hl=en&amp;sortby=pubdate">Google Scholar</a></p></header><section class="section">${bibliography}</section></main>`)
+  .replace(/<script src="assets\/(?:data\/publications-data|js\/publication-filter|js\/publications)\.js"><\/script>/g, '');
+for (const [file, content] of [[target, output], [fullTarget, fullOutput]]) {
+  if (process.argv.includes('--check')) {
+    if (!fs.existsSync(file) || fs.readFileSync(file,'utf8') !== content) { console.error(`${path.relative(root, file)} needs regeneration.`); process.exitCode = 1; }
+  } else { fs.mkdirSync(path.dirname(file), {recursive:true}); fs.writeFileSync(file,content); }
+}

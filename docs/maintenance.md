@@ -2,6 +2,8 @@
 
 ## Homepage Slides
 
+The live homepage now uses the supplied static research-direction diagram in `simple/images/research-directions.png`. The slideshow files and the following instructions are retained for a future return to slideshow presentation; they are not active on the current homepage.
+
 1. Put approved image files in `assets/img/hero-slides/`.
 2. Use JPG, PNG, WebP, AVIF, or SVG. Prefer a 4:3 image at 1600 x 1200 pixels or larger.
 3. Run `node scripts/update-hero-slides.js` from the website root.

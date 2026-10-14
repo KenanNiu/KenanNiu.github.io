@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-10-14",
+  "source": "https://www.ram.eemcs.utwente.nl/index.php/about-us/students",
+  "membership": "Kenan Niu identified the currently open Chrome student-profile tabs as his master's students. Names verified from page headings. Entries deduplicated by RAM profile slug and normalized name.",
+  "privacy": "Only names and public RAM profile links are included. No student photos, emails or project details extracted. All students use the same generic avatar.",
+  "students": [
+    {
+      "id": "dejan-honderd",
+      "name": "Dejan Honderd",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/dejan-honderd"
+    },
+    {
+      "id": "dimitar-dimitrov",
+      "name": "Dimitar Dimitrov",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/dimitar-dimitrov"
+    },
+    {
+      "id": "flim-de-jong",
+      "name": "Flim de Jong",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/flim-de-jong"
+    },
+    {
+      "id": "guus-branderhorst",
+      "name": "Guus Branderhorst",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/guus-branderhorst"
+    },
+    {
+      "id": "isabel-toebes",
+      "name": "Isabel Toebes",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/isabel-toebes"
+    },
+    {
+      "id": "job-meulenbeld",
+      "name": "Job Meulenbeld",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/job-meulenbeld"
+    },
+    {
+      "id": "marco-de-weerd",
+      "name": "Marco de Weerd",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/marco-de-weerd"
+    },
+    {
+      "id": "oscar-peters",
+      "name": "Oscar Peters",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/oscar-peters"
+    },
+    {
+      "id": "sam-wille",
+      "name": "Sam Wille",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/sam-wille"
+    },
+    {
+      "id": "wouter-de-gries",
+      "name": "Wouter de Gries",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/wouter-de-gries"
+    },
+    {
+      "id": "yuqing-liu",
+      "name": "Yuqing Liu",
+      "profile": "https://www.ram.eemcs.utwente.nl/about-us/students/yuqing-liu"
+    }
+  ]
+}

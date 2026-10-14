@@ -18,7 +18,7 @@
       article.id = person.id;
       const image = create("img");
       image.src = person.image;
-      image.alt = "Portrait of " + person.name;
+      image.alt = person.imageAlt || "Portrait of " + person.name;
       image.width = 500;
       image.height = 500;
       image.loading = "lazy";
@@ -27,7 +27,7 @@
       const copy = create("div", "person-copy");
       copy.appendChild(create("h3", "", person.name));
       copy.appendChild(create("p", "role", person.role));
-      copy.appendChild(create("p", "", person.summary));
+      if (person.summary) copy.appendChild(create("p", "", person.summary));
       const links = create("div", "text-links");
       (person.links || []).forEach(function (link) {
         links.appendChild(window.RVI.externalLink(link));
@@ -40,7 +40,10 @@
     section.appendChild(grid);
     container.appendChild(section);
   });
-  const credit = create("p", "people-source", "Information and photographs: ");
+  const credit = create("p", "people-source", "Staff information and photographs: ");
   credit.appendChild(window.RVI.externalLink({label: "Robotics and Mechatronics (RAM), University of Twente", url: "https://www.ram.eemcs.utwente.nl/about-us/staff"}));
   container.appendChild(credit);
+  const studentsCredit = create("p", "people-source", "Student profiles: ");
+  studentsCredit.appendChild(window.RVI.externalLink({label: "RAM students", url: "https://www.ram.eemcs.utwente.nl/about-us/students"}));
+  container.appendChild(studentsCredit);
 })();

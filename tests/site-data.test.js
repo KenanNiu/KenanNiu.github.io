@@ -9,6 +9,20 @@ function load(file) {
   return context.window;
 }
 
+test("master projects have source-backed titles and linked research labels", () => {
+  const people = load("assets/data/people-data.js").rviPeople.filter(p => p.group === "master");
+  const pillars = new Set(load("assets/data/research-data.js").rviResearch.map(p => p.id));
+  for (const person of people) {
+    assert.ok(person.project && person.project.title, person.id + " missing project");
+    assert.match(person.project.url, /^https:\/\/www\.ram\.eemcs\.utwente\.nl\/education\/assignments\//);
+    assert.ok(["MSc assignment", "Capita Selecta"].includes(person.project.type));
+    assert.ok(person.project.pillars.length >= 1 && person.project.pillars.length <= 2);
+    assert.ok(person.project.pillars.every(id => pillars.has(id)));
+    assert.ok(person.project.mappingBasis, person.id + " missing classification evidence");
+  }
+  assert.match(fs.readFileSync("people.html", "utf8"), /assets\/data\/research-data.js/);
+});
+
 test("defines four distinct research pillars", () => {
   const data = load("assets/data/research-data.js").rviResearch;
   assert.equal(data.length, 4);

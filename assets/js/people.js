@@ -25,15 +25,39 @@
       image.decoding = "async";
       article.appendChild(image);
       const copy = create("div", "person-copy");
-      copy.appendChild(create("h3", "", person.name));
-      copy.appendChild(create("p", "role", person.role));
+      const identity = create("div", "person-identity");
+      identity.appendChild(create("h3", "", person.name));
+      if (person.group === "master") {
+        (person.links || []).forEach(function (link) {
+          identity.appendChild(window.RVI.externalLink(link));
+        });
+      }
+      copy.appendChild(identity);
+      copy.appendChild(create("p", "role", person.project ? person.project.type : person.role));
+      if (person.project) {
+        const project = create("p", "student-project-title");
+        project.appendChild(window.RVI.externalLink({label: person.project.title, url: person.project.url}));
+        copy.appendChild(project);
+        const tags = create("ul", "student-research-tags");
+        tags.setAttribute("aria-label", "Research directions");
+        person.project.pillars.forEach(function (id) {
+          const pillar = (window.rviResearch || []).find(function (item) { return item.id === id; });
+          if (!pillar) return;
+          const item = create("li");
+          const link = create("a", "", pillar.title);
+          link.href = "research.html#" + pillar.id;
+          item.appendChild(link);
+          tags.appendChild(item);
+        });
+        copy.appendChild(tags);
+      }
       if (person.summary) copy.appendChild(create("p", "", person.summary));
       const links = create("div", "text-links");
-      (person.links || []).forEach(function (link) {
+      (person.group === "master" ? [] : person.links || []).forEach(function (link) {
         links.appendChild(window.RVI.externalLink(link));
       });
       if (person.email) links.appendChild(window.RVI.externalLink({ label: "Email", url: "mailto:" + person.email }));
-      copy.appendChild(links);
+      if (links.childNodes.length) copy.appendChild(links);
       article.appendChild(copy);
       grid.appendChild(article);
     });

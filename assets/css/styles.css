@@ -151,6 +151,16 @@ h3 { font-size: 1.1rem; }
 .people-section:first-child { border-top: 0; padding-top: 0; }
 .people-section-heading { margin-bottom: 1rem; color: var(--ink); font-size: 1.4rem; }
 .people-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 2rem; }
+#master .people-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
+#master .person-card { padding-block: 1.25rem; border-bottom: 1px solid var(--line); }
+#master .person-card:has(img) { grid-template-columns: 56px minmax(0, 1fr); }
+#master .person-card img { width: 56px; height: 56px; }
+.person-identity { display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem .8rem; }
+.person-identity > a { font-size: .8rem; }
+#master .student-project-title { max-width: 85ch; margin: .5rem 0 .75rem; font-size: 1rem; line-height: 1.5; font-weight: 650; }
+.student-research-tags { display: flex; flex-wrap: wrap; gap: .4rem .6rem; margin: 0; padding: 0; list-style: none; }
+.student-research-tags a { display: inline-block; padding: .25rem .5rem; border-left: 2px solid #57afe1; background: #eef8ff; color: #08618e; font-size: .78rem; line-height: 1.4; text-decoration: none; }
+.student-research-tags a:hover { background: #d9efff; text-decoration: underline; }
 .people-grid .person-card { min-width: 0; grid-template-columns: minmax(0, 1fr); align-items: start; gap: 1rem; padding-block: .5rem; }
 .people-grid .person-card:has(img), .people-grid .person-card:has(.person-placeholder) { grid-template-columns: 80px minmax(0, 1fr); }
 .people-grid .person-card > * { min-width: 0; }

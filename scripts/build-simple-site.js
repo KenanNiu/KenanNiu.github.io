@@ -2,18 +2,19 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
+const { parseOrcidWorks } = require('./lib/publication-sources');
+const { normalizeTitle } = require('./lib/publication-normalizer');
 const root = path.resolve(__dirname, '..');
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(root, 'assets/data/publications-data.js'), 'utf8'), context);
-const publications = context.window.rviPublications;
+const orcid = parseOrcidWorks(JSON.parse(fs.readFileSync(path.join(root, 'maintenance/publications/source-cache/orcid-works.json'), 'utf8')));
+const publications = context.window.rviPublications.map(paper => {
+  const matches = orcid.filter(candidate => candidate.doi && normalizeTitle(candidate.title) === normalizeTitle(paper.title));
+  const dois = [...new Set(matches.map(candidate => candidate.doi))];
+  return { ...paper, doi: paper.doi || (dois.length === 1 ? dois[0] : null) };
+});
 const escape = value => String(value || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const groups = new Map();
-for (const paper of publications) {
-  const year = paper.year || 'Undated';
-  if (!groups.has(year)) groups.set(year, []);
-  groups.get(year).push(paper);
-}
-const bibliography = [...groups].sort((a,b) => (Number(b[0]) || 0) - (Number(a[0]) || 0)).map(([year,papers]) => `<section class="year-group"><h3>${escape(year)}</h3><ol>${papers.map(p => `<li><a href="${escape(p.url)}">${escape(p.title)}</a><p>${escape(p.authors)}</p><p class="venue">${escape(p.venue)}${p.venue ? ' · ' : ''}${escape(p.year)}</p><a class="source" href="${escape(p.scholarUrl)}">Scholar record</a></li>`).join('')}</ol></section>`).join('');
+const bibliography = `<ol class="publication-list">${publications.map(p => `<li><a href="${escape(p.url)}">${escape(p.title)}</a><p>${escape(p.authors)}</p><p class="venue">${escape(p.venue)}${p.venue && p.year ? ' · ' : ''}${escape(p.year)}</p><div class="publication-links">${p.doi ? `<a href="https://doi.org/${escape(p.doi)}">DOI: ${escape(p.doi)}</a>` : ''}<a href="${escape(p.url)}">Article link</a><a class="source" href="${escape(p.scholarUrl)}">Google Scholar</a></div></li>`).join('')}</ol>`;
 const highlights = ['semg-motion-2026','gaze-emg-2025','robotic-ultrasound-2025','hcce-cunet-2025','fluoroscopy-2025'].map(id => publications.find(p => p.id === id)).filter(Boolean).map(p => `<li><a href="${escape(p.url)}">${escape(p.title)}</a><p>${escape(p.summary)}</p></li>`).join('');
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Kenan Niu and RVI Group: research in robotic learning, AI reasoning, vision, spatial intelligence and motion. Complete publication archive."><title>Kenan Niu | RVI Group Research & Publications</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"></head>

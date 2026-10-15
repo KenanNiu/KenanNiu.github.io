@@ -29,6 +29,17 @@ not modify DNS, purchase services, or change repository visibility.
 
 ## HTTPS and Verification
 
+On 2026-10-15, the domain administrator confirmed all five DNS records were
+saved and GitHub reported successful ownership verification of `rvirobotics.com`.
+Retain the `_github-pages-challenge-KenanNiu` TXT record used for verification.
+The Pages API also confirmed `protected_domain_state: verified`. Ownership
+verification is separate from certificate provisioning and HTTPS enforcement.
+
+After DNS setup, the custom domain was removed and immediately re-added once
+to restart provisioning, following GitHub's troubleshooting guidance. Do not
+repeat this as a retry loop. Check the live API and certificate for current
+HTTPS readiness; these setup facts are not a claim that HTTPS is operational.
+
 Retain existing HTTPS enforcement; do not disable it during domain setup.
 The GitHub domain binding alone does not establish that TLS is ready. DNS
 propagation, GitHub DNS checks, and certificate provisioning may remain pending.

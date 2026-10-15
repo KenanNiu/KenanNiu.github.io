@@ -13,7 +13,10 @@ repository root (`/`). The root `CNAME` file contains only this domain.
    routing DNS at Spaceship. Domain ownership verification, if needed, is also
    handled by the domain administrator.
 
-## Expected DNS
+## Configured DNS (2026-10-15)
+
+The domain administrator confirmed these six records are saved at Spaceship:
+five routing records and one ownership-verification TXT record.
 
 | Type | Host | Value |
 | --- | --- | --- |
@@ -22,29 +25,46 @@ repository root (`/`). The root `CNAME` file contains only this domain.
 | A | `@` | `185.199.109.153` |
 | A | `@` | `185.199.110.153` |
 | A | `@` | `185.199.111.153` |
+| TXT | `_github-pages-challenge-KenanNiu` | Retain the existing GitHub-issued verification token. |
 
-Replace conflicting records for these hosts as appropriate. These are expected
-records, not confirmation that DNS has been changed. This repository change does
-not modify DNS, purchase services, or change repository visibility.
+Retain all six records. The TXT token is intentionally not reproduced here.
+This documentation update does not modify DNS, purchase services, or change
+repository visibility.
 
 ## HTTPS and Verification
 
-On 2026-10-15, the domain administrator confirmed all five DNS records were
-saved and GitHub reported successful ownership verification of `rvirobotics.com`.
-Retain the `_github-pages-challenge-KenanNiu` TXT record used for verification.
-The Pages API also confirmed `protected_domain_state: verified`. Ownership
-verification is separate from certificate provisioning and HTTPS enforcement.
+HTTPS was configured and verified on 2026-10-15. The domain administrator
+reported an approved certificate and a certificate-validated `curl --resolve`
+response of HTTP/2 200 at 10:29:53 CEST, then successfully enabled HTTPS
+enforcement. A subsequent Pages API readback independently confirmed:
+
+| Field | Verified value |
+| --- | --- |
+| `status` | `built` |
+| `cname` | `www.rvirobotics.com` |
+| `html_url` | `https://www.rvirobotics.com/` |
+| `source.branch` / `source.path` | `main` / `/` |
+| `protected_domain_state` | `verified` |
+| `https_certificate.state` | `approved` |
+| Certificate domains | `www.rvirobotics.com`, `rvirobotics.com` |
+| Certificate expiry at this check | `2027-01-13` |
+| `https_enforced` | `true` |
 
 After DNS setup, the custom domain was removed and immediately re-added once
 to restart provisioning, following GitHub's troubleshooting guidance. Do not
-repeat this as a retry loop. Check the live API and certificate for current
-HTTPS readiness; these setup facts are not a claim that HTTPS is operational.
+repeat this as a retry loop. Certificate issuance subsequently completed.
 
-Retain existing HTTPS enforcement; do not disable it during domain setup.
-The GitHub domain binding alone does not establish that TLS is ready. DNS
-propagation, GitHub DNS checks, and certificate provisioning may remain pending.
-After routing DNS is updated, check Pages settings and verify the certificate
-and HTTPS response for `www.rvirobotics.com` before declaring HTTPS operational.
+## Maintenance
+
+GitHub Pages manages certificate issuance and automatic renewal. The expiry
+above is a dated snapshot, not a fixed renewal deadline for manual action.
+Keep HTTPS enforcement enabled and retain the configured DNS records, including
+the ownership-verification TXT record.
+
+Do not delete the root `CNAME` file. Keep its exact contents as
+`www.rvirobotics.com` followed by a newline, and preserve publishing from
+`main` at `/`. Do not remove and re-add the domain during routine maintenance.
+Never disable TLS certificate validation to work around a certificate error.
 
 Read back the Pages configuration with:
 

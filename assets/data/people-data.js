@@ -133,8 +133,8 @@ window.rviPeople = [
       "title": "PocketReplica: One-Loop AR Object Capture for On-Device 3D Reconstruction",
       "type": "MSc assignment",
       "url": "https://www.ram.eemcs.utwente.nl/education/assignments/pocketreplica-one-loop-ar-object-capture-device-3d-reconstruction",
-      "pillars": ["spatial-intelligence", "vision-imaging"],
-      "mappingBasis": "AR object capture and visual 3D reconstruction."
+      "pillars": ["spatial-intelligence", "vision-imaging", "digital-twins"],
+      "mappingBasis": "AR object capture and visual 3D reconstruction create digital replicas of physical objects; a geometric foundation for digital twins, not a validated live twin."
     },
     "role": "Master's Student",
     "group": "master",

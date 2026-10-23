@@ -16,21 +16,22 @@ test("master projects have source-backed titles and linked research labels", () 
     assert.ok(person.project && person.project.title, person.id + " missing project");
     assert.match(person.project.url, /^https:\/\/www\.ram\.eemcs\.utwente\.nl\/education\/assignments\//);
     assert.ok(["MSc assignment", "Capita Selecta"].includes(person.project.type));
-    assert.ok(person.project.pillars.length >= 1 && person.project.pillars.length <= 2);
+    assert.ok(person.project.pillars.length >= 1 && person.project.pillars.length <= 3);
     assert.ok(person.project.pillars.every(id => pillars.has(id)));
     assert.ok(person.project.mappingBasis, person.id + " missing classification evidence");
   }
   assert.match(fs.readFileSync("people.html", "utf8"), /assets\/data\/research-data.js/);
 });
 
-test("defines four distinct research pillars", () => {
+test("defines five distinct research capabilities", () => {
   const data = load("assets/data/research-data.js").rviResearch;
-  assert.equal(data.length, 4);
+  assert.equal(data.length, 5);
   assert.deepEqual(Array.from(data, (item) => item.id), [
     "vision-imaging",
     "learning-reasoning",
     "spatial-intelligence",
-    "motion-intelligence"
+    "motion-intelligence",
+    "digital-twins"
   ]);
 });
 
@@ -41,7 +42,8 @@ test("all publications have evidence labels and valid pillar tags", () => {
     "vision-imaging",
     "learning-reasoning",
     "spatial-intelligence",
-    "motion-intelligence"
+    "motion-intelligence",
+    "digital-twins"
   ]);
 
   assert.equal(publications.length, 70);

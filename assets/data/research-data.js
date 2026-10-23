@@ -46,5 +46,17 @@ window.rviResearch = [
     accent: "gold",
     representativePublicationIds: ["semg-motion-2026", "gaze-emg-2025", "muscle-deformation-2025"],
     next: "Generalizable motion representations that connect neuromuscular activity, body dynamics and robotic assistance."
+  },
+  {
+    id: "digital-twins",
+    number: "05",
+    title: "Digital Twins",
+    shortTitle: "Digital Twins",
+    question: "How can digital representations stay connected to physical robots and anatomy to support interaction and prediction?",
+    claim: "Digital twins connect physical measurements, computational models and interactive robotic systems.",
+    summary: "We connect robots and anatomy with digital representations for interaction, simulation and planning. Published work includes an AR-based robot twin, alongside foundations in anatomical reconstruction, biomechanical models and virtual training.",
+    accent: "rose",
+    representativePublicationIds: ["augmented-reality-based-digital-twin-to-control-an-mr-safe-robot-for-breast-biopsy-a-benchmark-study-1n6pk2w", "robotic-ultrasound-2025", "an-augmented-reality-based-interaction-scheme-for-robotic-pedicle-screw-placement-jjmx9s"],
+    next: "Measurement-informed digital twins that combine anatomy, robot state and physical models for predictive planning and human-robot interaction."
   }
 ];

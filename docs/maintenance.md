@@ -14,7 +14,8 @@ The browser cannot scan a GitHub Pages folder directly. The generated manifest i
 
 ## Research and Publications
 
-- Edit the four research pillars in `assets/data/research-data.js`.
+- Edit the five research capabilities in `assets/data/research-data.js`, including `digital-twins`. Keep the shared palette in `assets/css/research-colors.css` aligned.
+- Digital Twins labels cover direct twin research and related modelling, reconstruction or simulation foundations. Record the distinction and evidence in publication curation, project `mappingBasis`, or student project `mappingBasis`; a tag alone does not establish a validated physical-digital feedback loop.
 - Do not edit `assets/data/publications-data.js` directly; it is generated.
 - The reviewed Google Scholar baseline is `maintenance/publications/scholar-2026-07-11.json`.
 - Add DOI, type, pillar, summary, and verification corrections in `maintenance/publications/curation.json`, keyed by Scholar ID.

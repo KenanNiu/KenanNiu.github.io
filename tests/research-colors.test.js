@@ -23,7 +23,7 @@ test('all active research renderers key colours by direction ID', () => {
     assert.match(fs.readFileSync(file,'utf8'),/dataset\.research\s*=/,file);
   }
   const html = fs.readFileSync('simple/index.html','utf8');
-  for (const id of ['vision-imaging','learning-reasoning','spatial-intelligence','motion-intelligence']) {
+  for (const id of ['vision-imaging','learning-reasoning','spatial-intelligence','motion-intelligence','digital-twins']) {
     assert.ok(html.includes(`<article data-research="${id}">`),id);
   }
 });
@@ -31,13 +31,13 @@ test('all active research renderers key colours by direction ID', () => {
 test('shared palette includes static tags and readable approved pastel pairs', () => {
   const css = fs.readFileSync('assets/css/research-colors.css','utf8');
   assert.match(css,/:root \.research-tag\[data-research\]/);
-  const fills = ['#F8E5DF','#F0EDFA','#E7F5F0','#FAF1D8'];
+  const fills = ['#F8E5DF','#F0EDFA','#E7F5F0','#FAF1D8','#FAE8F0'];
   function luminance(hex) {
     const values = hex.slice(1).match(/../g).map(x=>parseInt(x,16)/255).map(x=>x<=.04045?x/12.92:((x+.055)/1.055)**2.4);
     return values[0]*.2126+values[1]*.7152+values[2]*.0722;
   }
   const rules = [...css.matchAll(/\[data-research="([^"]+)"\]\s*\{([^}]+)\}/g)];
-  assert.equal(rules.length,4);
+  assert.equal(rules.length,5);
   rules.forEach((rule,index)=>{
     const fill = rule[2].match(/--research-fill:\s*(#[\dA-Fa-f]+)/)[1];
     const ink = rule[2].match(/--research-ink:\s*(#[\dA-Fa-f]+)/)[1];

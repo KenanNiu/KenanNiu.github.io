@@ -17,7 +17,8 @@ const PILLARS = new Set([
   "vision-imaging",
   "learning-reasoning",
   "spatial-intelligence",
-  "motion-intelligence"
+  "motion-intelligence",
+  "digital-twins"
 ]);
 
 const SCHOLAR_PROFILE_URL = "https://scholar.google.com/citations?hl=en&user=mWEOPuMAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100";

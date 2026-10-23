@@ -99,7 +99,8 @@
     "pillars": [
       "vision-imaging",
       "learning-reasoning",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": "Integrates robotic scanning, contact control, segmentation and reconstruction into an automatic 3D musculoskeletal imaging workflow.",
     "metadataStatus": "verified",
@@ -118,6 +119,14 @@
         "https://doi.org/10.3390/technologies13020070"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Real-time anatomical reconstruction is a modelling foundation for digital twins, not itself a validated closed-loop twin.",
+      "sources": [
+        "https://doi.org/10.3390/technologies13020070"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:RYcK_YlVTxYC": {
@@ -129,7 +138,8 @@
     "type": "journal",
     "pillars": [
       "vision-imaging",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": "Studies bilateral control for autonomous fluoroscopic viewpoint management during simulated catheter insertion.",
     "metadataStatus": "verified",
@@ -148,6 +158,14 @@
         "https://research.utwente.nl/en/publications/41fbb22f-97c7-4e50-9ab7-2b753baa2fba"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Numerical simulation of imaging and catheter insertion is a simulation foundation for digital twins.",
+      "sources": [
+        "https://research.utwente.nl/en/publications/41fbb22f-97c7-4e50-9ab7-2b753baa2fba"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:JV2RwH3_ST0C": {
@@ -185,7 +203,8 @@
     "pillars": [
       "vision-imaging",
       "learning-reasoning",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": "Demonstrates an integrated robotic ultrasound workflow for muscle scanning, segmentation and reconstruction.",
     "metadataStatus": "verified",
@@ -204,6 +223,14 @@
         "https://research.utwente.nl/en/publications/ae6bb831-e936-49bf-8a3c-728fb2c23ceb"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Robotic scanning and reconstruction supply anatomical models for digital-twin research.",
+      "sources": [
+        "https://research.utwente.nl/en/publications/ae6bb831-e936-49bf-8a3c-728fb2c23ceb"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:hMod-77fHWUC": {
@@ -393,7 +420,8 @@
   },
   "mWEOPuMAAAAJ:r0BpntZqJG4C": {
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -406,7 +434,24 @@
         "https://research.utwente.nl/en/publications/9d85021d-bdfb-44a9-ba22-885b6be33e96"
       ],
       "reviewedAt": "2026-10-14"
-    }
+    },
+    "digitalTwinsMatch": {
+      "match": "direct",
+      "basis": "AR virtual surrogate coupled to the physical MR-safe robot for needle positioning; direct digital-twin research.",
+      "sources": [
+        "https://research.utwente.nl/en/publications/augmented-reality-based-digital-twin-to-control-an-mr-safe-robot-/"
+      ],
+      "reviewedAt": "2026-10-23"
+    },
+    "type": "conference",
+    "doi": "10.1109/BioRob60516.2024.10719969",
+    "url": "https://doi.org/10.1109/BioRob60516.2024.10719969",
+    "venue": "2024 IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), 814-819",
+    "summary": "Uses an AR surrogate coupled to an MR-safe robot for needle positioning, comparing gesture-based and auto-targeting control with a joystick in a benchtop study.",
+    "metadataStatus": "verified",
+    "verifiedWith": [
+      "https://research.utwente.nl/en/publications/augmented-reality-based-digital-twin-to-control-an-mr-safe-robot-/"
+    ]
   },
   "mWEOPuMAAAAJ:RHpTSmoSYBkC": {
     "pillars": [
@@ -662,7 +707,8 @@
   },
   "mWEOPuMAAAAJ:7PzlFSSx8tAC": {
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -674,11 +720,20 @@
         "maintenance/publications/source-cache/orcid-works.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "AR planning cues are registered to physical robot poses; related physical-digital interaction rather than a separately validated twin.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:QIV2ME_5wuYC": {
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -690,6 +745,14 @@
         "maintenance/publications/source-cache/orcid-works.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "A VR/haptic environment is a virtual simulation foundation, not a patient-specific live twin.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:mVmsd5A6BfQC": {
@@ -844,7 +907,8 @@
   "mWEOPuMAAAAJ:KlAtU1dfN6UC": {
     "pillars": [
       "learning-reasoning",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -856,11 +920,20 @@
         "maintenance/publications/source-cache/orcid-works.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Learned catheter hysteresis and environment reconstruction provide robot-behaviour models relevant to predictive digital twins.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:8k81kl-MbHgC": {
     "pillars": [
-      "motion-intelligence"
+      "motion-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -873,6 +946,14 @@
         "https://research.utwente.nl/en/publications/c60c0a08-f988-499c-aef3-33fba4fff700"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Tissue force/stiffness modelling provides biomechanical simulation foundations for digital twins.",
+      "sources": [
+        "https://research.utwente.nl/en/publications/c60c0a08-f988-499c-aef3-33fba4fff700"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:MXK_kJrjxJIC": {
@@ -908,7 +989,8 @@
   },
   "mWEOPuMAAAAJ:Se3iqnhoufwC": {
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -920,11 +1002,20 @@
         "maintenance/publications/source-cache/orcid-works.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Virtual surgical training with haptic feedback supplies interactive simulation foundations for digital twins.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:kNdYIx-mwKoC": {
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -935,6 +1026,14 @@
         "maintenance/publications/scholar-2026-07-11.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Virtual hysteroscopy simulation is a training-environment foundation related to digital twins.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:5nxA0vEk-isC": {
@@ -989,7 +1088,8 @@
   },
   "mWEOPuMAAAAJ:UebtZRa9Y70C": {
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -1000,12 +1100,21 @@
         "maintenance/publications/scholar-2026-07-11.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Statistical anatomical shape models are a geometric foundation for anatomy-based digital twins.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:WF5omc3nYNoC": {
     "pillars": [
       "vision-imaging",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -1017,6 +1126,14 @@
         "maintenance/publications/source-cache/orcid-works.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "VR simulation supports surgical visualisation evaluation; related simulation work, not a validated twin.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:W7OEmFMy1HYC": {
@@ -1038,7 +1155,8 @@
   },
   "mWEOPuMAAAAJ:YsMSGLbcyi4C": {
     "pillars": [
-      "motion-intelligence"
+      "motion-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "nearest-fit",
@@ -1050,6 +1168,14 @@
         "maintenance/publications/source-cache/orcid-works.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Functional orthopaedic pre-planning is thematically related to model-based digital-twin planning.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:Tyk-4Ss8FVUC": {
@@ -1238,7 +1364,8 @@
   "mWEOPuMAAAAJ:dhFuZR0502QC": {
     "pillars": [
       "learning-reasoning",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "thematicMatch": {
       "match": "direct",
@@ -1250,6 +1377,14 @@
         "maintenance/publications/source-cache/orcid-works.json"
       ],
       "reviewedAt": "2026-10-14"
+    },
+    "digitalTwinsMatch": {
+      "match": "nearest-fit",
+      "basis": "Learned catheter hysteresis and environment reconstruction provide robot-behaviour models relevant to predictive digital twins.",
+      "sources": [
+        "maintenance/publications/scholar-2026-07-11.json"
+      ],
+      "reviewedAt": "2026-10-23"
     }
   },
   "mWEOPuMAAAAJ:eQOLeE2rZwMC": {

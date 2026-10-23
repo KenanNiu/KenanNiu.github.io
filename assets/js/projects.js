@@ -33,6 +33,20 @@
     const summary = document.createElement("p");
     summary.textContent = project.summary;
     copy.append(status, title, summary);
+    const tags = document.createElement("div");
+    tags.className = "research-tags";
+    tags.setAttribute("aria-label", "Research directions");
+    (project.pillars || []).forEach(function (id) {
+      const direction = (window.rviResearch || []).find(function (item) { return item.id === id; });
+      if (!direction) return;
+      const link = document.createElement("a");
+      link.className = "research-tag";
+      link.dataset.research = id;
+      link.href = "research.html#" + id;
+      link.textContent = direction.title;
+      tags.appendChild(link);
+    });
+    if (tags.childNodes.length) copy.appendChild(tags);
     if (!compact && project.detail) {
       const detail = document.createElement("p");
       detail.textContent = project.detail;

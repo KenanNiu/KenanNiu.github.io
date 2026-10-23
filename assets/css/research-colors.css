@@ -23,6 +23,12 @@
   --research-ink: #6C511C;
 }
 
+[data-research="digital-twins"] {
+  --research-fill: #FAE8F0;
+  --research-border: #BA7996;
+  --research-ink: #773C58;
+}
+
 .research-tags {
   display: flex;
   flex-wrap: wrap;

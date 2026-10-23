@@ -9,7 +9,7 @@ test('every publication has durable topic tags and a documented mapping basis', 
   vm.runInNewContext(fs.readFileSync('assets/data/publications-data.js','utf8'),context);
   const papers = context.window.rviPublications;
   const curation = JSON.parse(fs.readFileSync('maintenance/publications/curation.json','utf8'));
-  const allowed = new Set(['vision-imaging','learning-reasoning','spatial-intelligence','motion-intelligence']);
+  const allowed = new Set(['vision-imaging','learning-reasoning','spatial-intelligence','motion-intelligence','digital-twins']);
   assert.equal(papers.length,70);
   const titles = new Map();
   papers.forEach(p=>{

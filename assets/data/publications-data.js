@@ -127,7 +127,8 @@ window.rviPublications = [
     "doi": "10.3390/machines13060498",
     "pillars": [
       "vision-imaging",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": "Studies bilateral control for autonomous fluoroscopic viewpoint management during simulated catheter insertion.",
     "metadataStatus": "verified",
@@ -244,7 +245,8 @@ window.rviPublications = [
     "pillars": [
       "vision-imaging",
       "learning-reasoning",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": "Integrates robotic scanning, contact control, segmentation and reconstruction into an automatic 3D musculoskeletal imaging workflow.",
     "metadataStatus": "verified",
@@ -303,7 +305,8 @@ window.rviPublications = [
     "pillars": [
       "vision-imaging",
       "learning-reasoning",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": "Demonstrates an integrated robotic ultrasound workflow for muscle scanning, segmentation and reconstruction.",
     "metadataStatus": "verified",
@@ -469,19 +472,20 @@ window.rviPublications = [
     "scholarId": "mWEOPuMAAAAJ:r0BpntZqJG4C",
     "title": "Augmented-reality based digital twin to control an MR safe robot for breast biopsy: A benchmark study",
     "authors": "L Marx, V Groenhuis, S Stramigioli, K Niu",
-    "venue": "2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and…",
+    "venue": "2024 IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), 814-819",
     "year": 2024,
-    "type": "other",
-    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C",
+    "type": "conference",
+    "url": "https://doi.org/10.1109/BioRob60516.2024.10719969",
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C",
-    "doi": null,
+    "doi": "10.1109/BioRob60516.2024.10719969",
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
-    "summary": null,
-    "metadataStatus": "review",
+    "summary": "Uses an AR surrogate coupled to an MR-safe robot for needle positioning, comparing gesture-based and auto-targeting control with a joystick in a benchtop study.",
+    "metadataStatus": "verified",
     "verifiedWith": [
-      "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:r0BpntZqJG4C"
+      "https://research.utwente.nl/en/publications/augmented-reality-based-digital-twin-to-control-an-mr-safe-robot-/"
     ],
     "image": null,
     "fallbackImage": "assets/img/publication-fallbacks/spatial-intelligence.svg",
@@ -490,7 +494,7 @@ window.rviPublications = [
     "imageCredit": null,
     "imageLicense": "unverified",
     "featuredVisual": false,
-    "evidence": "review"
+    "evidence": "published"
   },
   {
     "id": "anatomical-region-recognition-and-real-time-bone-tracking-methods-by-dynamically-decoding-a-mode-ultrasound-signals-1y6snr0",
@@ -937,7 +941,8 @@ window.rviPublications = [
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:7PzlFSSx8tAC",
     "doi": null,
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -965,7 +970,8 @@ window.rviPublications = [
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:QIV2ME_5wuYC",
     "doi": null,
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -1254,7 +1260,8 @@ window.rviPublications = [
     "doi": null,
     "pillars": [
       "learning-reasoning",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -1282,7 +1289,8 @@ window.rviPublications = [
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:8k81kl-MbHgC",
     "doi": null,
     "pillars": [
-      "motion-intelligence"
+      "motion-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -1367,7 +1375,8 @@ window.rviPublications = [
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:Se3iqnhoufwC",
     "doi": null,
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -1395,7 +1404,8 @@ window.rviPublications = [
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:kNdYIx-mwKoC",
     "doi": null,
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -1512,7 +1522,8 @@ window.rviPublications = [
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:UebtZRa9Y70C",
     "doi": null,
     "pillars": [
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -1541,7 +1552,8 @@ window.rviPublications = [
     "doi": null,
     "pillars": [
       "vision-imaging",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -1598,7 +1610,8 @@ window.rviPublications = [
     "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mWEOPuMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWEOPuMAAAAJ:YsMSGLbcyi4C",
     "doi": null,
     "pillars": [
-      "motion-intelligence"
+      "motion-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",
@@ -1973,7 +1986,8 @@ window.rviPublications = [
     "doi": null,
     "pillars": [
       "learning-reasoning",
-      "spatial-intelligence"
+      "spatial-intelligence",
+      "digital-twins"
     ],
     "summary": null,
     "metadataStatus": "review",

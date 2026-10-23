@@ -29,8 +29,8 @@ test("every journal paper from 2022 onward has a local image or fallback", () =>
   });
 });
 
-test("all five RVI fallback assets exist", () => {
-  ["vision-imaging", "learning-reasoning", "spatial-intelligence", "motion-intelligence", "other"].forEach((name) => {
+test("all six RVI fallback assets exist", () => {
+  ["vision-imaging", "learning-reasoning", "spatial-intelligence", "motion-intelligence", "digital-twins", "other"].forEach((name) => {
     assert.ok(fs.existsSync(`assets/img/publication-fallbacks/${name}.svg`));
   });
 });

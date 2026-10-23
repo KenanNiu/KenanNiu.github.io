@@ -1,6 +1,8 @@
 window.rviProjects = [
   {
     id: "robotic-ultrasound-phantom-setup",
+    pillars: ["vision-imaging", "spatial-intelligence"],
+    mappingBasis: "Visual localisation and robotic ultrasound acquisition in a physical phantom setup.",
     title: "Robotic ultrasound acquisition",
     status: "Experimental setup",
     summary: "A robot-mounted ultrasound probe uses depth-camera information and visual markers to locate a scanning target.",
@@ -14,6 +16,8 @@ window.rviProjects = [
   },
   {
     id: "robotic-ultrasound-reconstruction-framework",
+    pillars: ["vision-imaging", "spatial-intelligence", "digital-twins"],
+    mappingBasis: "Anatomical reconstruction provides a geometric foundation for digital twins; this framework is not presented as a complete closed-loop twin.",
     title: "Musculoskeletal ultrasound reconstruction",
     status: "Published research framework",
     summary: "Trajectory generation, hybrid robot control and coarse-to-fine ultrasound segmentation are linked in a framework for 3D musculoskeletal reconstruction.",
@@ -27,6 +31,8 @@ window.rviProjects = [
   },
   {
     id: "ultrasound-scapula-reconstruction",
+    pillars: ["spatial-intelligence", "digital-twins"],
+    mappingBasis: "Ultrasound-derived points and statistical shape modelling build patient-specific anatomical representations for planning; foundational rather than a validated live twin.",
     title: "Ultrasound-based shoulder modelling",
     status: "Reconstruction feasibility study",
     summary: "Ultrasound point clouds and a statistical shape model are combined to reconstruct a scapula for preoperative-planning research.",
@@ -39,6 +45,8 @@ window.rviProjects = [
   },
   {
     id: "ar-pedicle-screw-control-interface",
+    pillars: ["spatial-intelligence", "digital-twins"],
+    mappingBasis: "A virtual anatomical model and control interface are connected to a physical robot; thematic physical-digital interaction, not a claim of a complete digital twin.",
     title: "AR interaction for robotic screw placement",
     status: "Research prototype",
     summary: "An augmented-reality interface overlays drilling controls and a vertebra model on a laboratory robotic pedicle-screw-placement setup.",
@@ -54,6 +62,8 @@ window.rviProjects = [
   },
   {
     id: "a-mode-ultrasound-knee-tracking",
+    pillars: ["motion-intelligence", "digital-twins"],
+    mappingBasis: "Tracked measurements update registered bone poses, supporting measurement-informed anatomical models for digital-twin research.",
     title: "A-mode ultrasound knee tracking",
     status: "Experimental measurement system",
     summary: "Multiple A-mode ultrasound sensors, optical tracking and bone-model registration are combined to measure knee kinematics.",
@@ -67,6 +77,8 @@ window.rviProjects = [
   },
   {
     id: "lung-biopsy-phantom-guidance",
+    pillars: ["vision-imaging", "spatial-intelligence"],
+    mappingBasis: "Tracked-needle image guidance and physical phantom accuracy testing.",
     title: "Tracked needle guidance in a phantom",
     status: "Bench prototype",
     summary: "An image-guided lung biopsy research setup uses a tracked needle and a tank phantom for interactive guidance and accuracy testing.",

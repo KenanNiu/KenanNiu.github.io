@@ -4,7 +4,7 @@ window.rviSite = {
   institution: "University of Twente",
   affiliation: "Robotics and Mechatronics Group",
   manifesto: "Robots that perceive, predict and reason.",
-  summary: "We study how robotic systems can develop grounded intelligence through vision, learning, spatial understanding and motion.",
+  summary: "We study how robotic systems can develop grounded intelligence through vision, learning, spatial understanding, motion and digital twins.",
   navigation: [
     { label: "Home", url: "index.html" },
     { label: "Research", url: "research.html" },

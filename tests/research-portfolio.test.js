@@ -9,8 +9,8 @@ test('research projects use unique source-audited local assets', () => {
   vm.runInNewContext(fs.readFileSync('assets/data/projects-data.js', 'utf8'), context);
   const projects = context.window.rviProjects;
   const approved = new Map(manifest.assets.map(asset => [asset.id, asset]));
-  assert.equal(projects.length, 6);
-  assert.equal(new Set(projects.map(project => project.id)).size, 6);
+  assert.equal(projects.length, 9);
+  assert.equal(new Set(projects.map(project => project.id)).size, 9);
   assert.equal(manifest.source.slideCount, 115);
   projects.forEach(project => {
     const asset = approved.get(project.id);

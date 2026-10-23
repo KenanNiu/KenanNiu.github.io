@@ -2,7 +2,9 @@
 
 ## Homepage Slides
 
-The Full Website homepage now uses a source-audited robotic-ultrasound setup photograph in `assets/img/orthopedics/`. The concise site retains its supplied research-direction diagram. The slideshow files and the following instructions are retained for a future return to slideshow presentation; they are not active on the current homepage.
+The Full Website homepage rotates through the source-audited project images in `assets/data/projects-data.js` every 3 seconds. Each unique `image.src` is included once, with its caption and original-image link. The `homeHero: true` project appears first. Add or remove a project's image to maintain this carousel; no GIF export is needed. Playback pauses on hover, keyboard focus and hidden browser tabs; reduced-motion settings disable autoplay initially. Previous, next and play/pause controls remain available. Without JavaScript, the original setup image remains visible. The concise site retains its supplied research-direction diagram.
+
+The older placeholder slideshow folder and generator below are retained but are not used by the current homepage carousel.
 
 1. Put approved image files in `assets/img/hero-slides/`.
 2. Use JPG, PNG, WebP, AVIF, or SVG. Prefer a 4:3 image at 1600 x 1200 pixels or larger.
@@ -35,7 +37,9 @@ After updating publication data, run `node scripts/build-simple-site.js` to rebu
 - Add systems, public demos, and project links in `assets/data/projects-data.js`.
 - Do not invent names, roles, results, metrics, or media links.
 
-The six research systems in `projects-data.js` correspond to the native images listed in `maintenance/orthopedics-assets.json`. Keep slide evidence and scientific interpretation consistent when changing summaries or captions. Retain `object-fit: contain` so scientific labels and plots are not cropped. Only confirmed people render publicly; placeholder member data is retained privately in the source dataset but not shown.
+The nine research systems in `projects-data.js` correspond to the native images listed in `maintenance/orthopedics-assets.json`. Keep slide evidence and scientific interpretation consistent when changing summaries or captions. Retain `object-fit: contain` so scientific labels and plots are not cropped. Only confirmed people render publicly; placeholder member data is retained privately in the source dataset but not shown.
+
+The homepage curates seven works. Set `home: true` and a unique numeric `homeOrder` to choose and order them; the first is the wide featured row and the remaining works form the compact grid. There is no hidden three-item limit. Keep the separate `homeHero` image selection unchanged unless replacing the top-of-page image is intentional. New native exports record their source slide, embedded filename and SHA-256 in the manifest; the source PowerPoint and videos stay private.
 
 ## Paper Figures
 

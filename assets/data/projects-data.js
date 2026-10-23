@@ -16,6 +16,8 @@ window.rviProjects = [
   },
   {
     id: "robotic-ultrasound-reconstruction-framework",
+    home: true,
+    homeOrder: 1,
     pillars: ["vision-imaging", "spatial-intelligence", "digital-twins"],
     mappingBasis: "Anatomical reconstruction provides a geometric foundation for digital twins; this framework is not presented as a complete closed-loop twin.",
     title: "Musculoskeletal ultrasound reconstruction",
@@ -31,6 +33,8 @@ window.rviProjects = [
   },
   {
     id: "ultrasound-scapula-reconstruction",
+    home: true,
+    homeOrder: 7,
     pillars: ["spatial-intelligence", "digital-twins"],
     mappingBasis: "Ultrasound-derived points and statistical shape modelling build patient-specific anatomical representations for planning; foundational rather than a validated live twin.",
     title: "Ultrasound-based shoulder modelling",
@@ -54,6 +58,7 @@ window.rviProjects = [
     url: "https://doi.org/10.3390/jimaging8100273",
     linkLabel: "Related interaction study (2022)",
     home: true,
+    homeOrder: 4,
     image: {
       src: "assets/img/orthopedics/ar-pedicle-screw-control-interface.png", width: 1280, height: 720,
       alt: "Augmented-reality drilling control panel overlaid on a laboratory robot setup with a virtual vertebra.",
@@ -69,6 +74,7 @@ window.rviProjects = [
     summary: "Multiple A-mode ultrasound sensors, optical tracking and bone-model registration are combined to measure knee kinematics.",
     detail: "Developed during Kenan Niu's PhD research, the system was investigated in cadaveric experiments comparing reconstructed motion with bone-pin measurements.",
     home: true,
+    homeOrder: 5,
     image: {
       src: "assets/img/orthopedics/a-mode-ultrasound-knee-tracking.png", width: 1392, height: 633,
       alt: "A-mode ultrasound knee-tracking workflow showing sensor holders, detected points, registered bone models and anatomical reference frames.",
@@ -87,6 +93,57 @@ window.rviProjects = [
       src: "assets/img/orthopedics/lung-biopsy-phantom-guidance.jpeg", width: 921, height: 638,
       alt: "Tracked biopsy needle above a transparent tank containing a stone target, chopsticks and foam supports.",
       caption: "Tracked biopsy needle and physical target used in a bench phantom experiment."
+    }
+  },
+  {
+    id: "mr-safe-robot-digital-model",
+    home: true,
+    homeOrder: 2,
+    pillars: ["digital-twins", "spatial-intelligence"],
+    mappingBasis: "A virtual representation of a physical MR-safe robot supports geometric inspection and planning; the linked AR study is related work, not the source of this specific model image.",
+    title: "Digital modelling for MR-safe robotic biopsy",
+    status: "Research platform",
+    summary: "A virtual Sunram 7 robot model represents the needle mechanism and target geometry. Related AR research couples a virtual robot with its physical counterpart for needle positioning.",
+    detail: "The presentation places the model within a system overview linking imaging, calibration and path planning. This image is a model view, not an AR-control screenshot or evidence of clinical deployment.",
+    url: "https://doi.org/10.1109/BioRob60516.2024.10719969",
+    linkLabel: "Related digital-twin study (2024)",
+    image: {
+      src: "assets/img/orthopedics/mr-safe-robot-digital-model.png", width: 856, height: 630,
+      alt: "Digital Sunram 7 robot model, needle mechanism and target phantom in a three-dimensional coordinate frame.",
+      caption: "Virtual robot model from the MR-guided biopsy system overview. Research presentation, slide 32."
+    }
+  },
+  {
+    id: "multi-class-ultrasound-segmentation",
+    home: true,
+    homeOrder: 3,
+    pillars: ["learning-reasoning", "vision-imaging"],
+    mappingBasis: "A learned model segments musculoskeletal structures in ultrasound images; the comparison panel is qualitative, not a standalone numerical performance claim.",
+    title: "AI segmentation of musculoskeletal ultrasound",
+    status: "Published method",
+    summary: "HCCE-CUNet separates musculoskeletal structures in ultrasound images. The original comparison panel shows predicted masks alongside reference segmentations and other networks.",
+    url: "https://doi.org/10.1109/TMRB.2025.3617959",
+    linkLabel: "Segmentation paper (2025)",
+    image: {
+      src: "assets/img/orthopedics/multi-class-ultrasound-segmentation.png", width: 1020, height: 611,
+      alt: "Ultrasound examples, reference masks and qualitative multiclass segmentation comparisons with all original column labels.",
+      caption: "Qualitative segmentation examples. Sun et al., HCCE-CUNet; research presentation, slide 65."
+    }
+  },
+  {
+    id: "dynamic-anatomical-shape-modelling",
+    home: true,
+    homeOrder: 6,
+    pillars: ["digital-twins", "motion-intelligence", "spatial-intelligence"],
+    mappingBasis: "Statistical models of 4D CT anatomy represent temporal shape variation; modelling foundations for digital twins, not a validated real-time twin.",
+    title: "4D anatomical shape modelling",
+    status: "Postdoctoral research",
+    summary: "4D CT sequences and statistical shape models describe anatomical variation over time. The illustrated mean scapula model comes from work using a 33-frame sequence.",
+    detail: "The presentation describes registration across datasets, PCA modes and later bilinear-PCA extrapolation tools. The still shown here is the mean model, not a prediction result or accuracy benchmark.",
+    image: {
+      src: "assets/img/orthopedics/dynamic-anatomical-shape-modelling.png", width: 506, height: 519,
+      alt: "Mean scapula surface model from the presentation section on 4D CT and statistical anatomical modelling.",
+      caption: "Mean anatomical model from 4D CT shape modelling. Collaborative postdoctoral work, 2018-2019; slide 103."
     }
   }
 ];

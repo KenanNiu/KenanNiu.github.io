@@ -255,6 +255,29 @@ h3 { font-size: 1.1rem; }
 .manifesto-copy { padding: 2.75rem 2rem; }
 .manifesto-copy h1 { font-size: 3rem; }
 .manifesto-copy > p:not(.eyebrow) { font-size: 1rem; }
+.manifesto-copy > p.brand-purpose { max-width: 580px; margin-bottom: 1rem; color: var(--ink); font-size: 1.6rem; line-height: 1.35; font-weight: 650; }
+.purpose-statements { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem; }
+.mission-visuals { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; width: 100%; margin: 0 auto 2.5rem; }
+.mission-artwork { min-width: 0; margin: 0; }
+.mission-artwork a { display: block; }
+.mission-artwork img { display: block; width: 100%; height: auto; }
+.mission-artwork figcaption { margin-top: .6rem; color: var(--muted); font-size: .75rem; }
+.purpose-statements > div { min-width: 0; }
+.purpose-statements h2 { max-width: 470px; margin-bottom: 1rem; font-size: 1.65rem; }
+.purpose-statements p:not(.eyebrow), .intelligence-themes p { color: var(--muted); }
+.purpose-statements p:last-child { margin-bottom: 0; }
+.intelligence-agenda { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.intelligence-themes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+.intelligence-themes > div { min-width: 0; }
+.intelligence-themes h3 { margin-bottom: .6rem; font-size: 1rem; }
+.intelligence-themes p { margin-bottom: 0; font-size: .92rem; }
+.mission-vision + #research { border-top: 1px solid var(--line); }
+@media (max-width: 760px) {
+  .mission-visuals { grid-template-columns: minmax(0, 1fr); }
+  .purpose-statements, .intelligence-themes { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .purpose-statements h2 { font-size: 1.4rem; }
+  .manifesto-copy > p.brand-purpose { font-size: 1.4rem; }
+}
 .home-research-diagram { display: grid; align-items: center; justify-items: center; padding: 2rem 1rem; }
 .home-research-diagram figure { width: 100%; max-width: 360px; margin: 0; padding: .8rem; background: #fff; color: var(--ink); }
 .home-research-diagram img { width: 100%; height: auto; max-height: 270px; object-fit: contain; }

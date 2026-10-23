@@ -12,6 +12,21 @@ const pages = [
   "about.html"
 ];
 
+test("homepage introduces mission and vision before its five capabilities", () => {
+  const html = fs.readFileSync("index.html", "utf8");
+  assert.match(html, /Towards human-inspired robotic intelligence/);
+  assert.match(html, /id="mission-vision"/);
+  assert.ok(html.indexOf('id="mission-vision"') < html.indexOf('id="research"'));
+  ["Our mission", "Our vision", "Human motion intelligence", "Decision-making intelligence", "Neuromorphic intelligence"].forEach(text => assert.ok(html.includes(text), text));
+  assert.match(html, /long-term research/);
+  assert.match(html, /hero-carousel\.js/);
+  assert.match(html, /class="mission-artwork"/);
+  assert.ok(fs.existsSync("assets/img/rvi-brand-concept.png"));
+  assert.ok(fs.existsSync("assets/img/rvi-sensing-digital-twin-concept.png"));
+  assert.equal((html.match(/class="mission-artwork"/g) || []).length, 2);
+  assert.match(html, /AI-generated brand concept/);
+});
+
 test("all pages expose shared navigation and accessible landmarks", () => {
   pages.forEach((page) => {
     const html = fs.readFileSync(page, "utf8");

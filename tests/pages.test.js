@@ -6,6 +6,7 @@ const pages = [
   "index.html",
   "research.html",
   "publications.html",
+  "awards.html",
   "people.html",
   "projects.html",
   "education.html",
@@ -25,6 +26,27 @@ test("homepage introduces mission and vision before its five capabilities", () =
   assert.ok(fs.existsSync("assets/img/rvi-sensing-digital-twin-concept.png"));
   assert.equal((html.match(/class="mission-artwork"/g) || []).length, 2);
   assert.match(html, /AI-generated brand concept/);
+});
+
+test("dedicated awards page distinguishes four outcomes with paper and primary-source links", () => {
+  const html = fs.readFileSync("awards.html", "utf8");
+  assert.doesNotMatch(fs.readFileSync("index.html", "utf8"), /<section id="awards"/);
+  const awards = html.match(/<section id="awards"[\s\S]*?<\/section>/);
+  assert.ok(awards, "static awards section exists without JavaScript");
+  const section = awards[0];
+  assert.match(html, /Awards &amp; Recognition/);
+  ["winner", "runner-up", "finalist", "honorable-mention"].forEach(status => {
+    assert.equal((section.match(new RegExp(`data-outcome="${status}"`, "g")) || []).length, 1);
+  });
+  ["10.1109/BioRob60516.2024.10719969", "10.1109/ICAR58858.2023.10406449", "10.1109/ISMR48347.2022.9807524", "10.1109/LRA.2021.3061069"].forEach(doi => assert.ok(section.includes(`href="https://doi.org/${doi}"`)));
+  assert.equal((section.match(/>Award source<\/a>/g) || []).length, 4);
+  assert.match(section, /Journal recognition/);
+  assert.match(section, /announced at ICRA 2022/);
+});
+
+test("every full website page links to Awards", () => {
+  pages.forEach(page => assert.match(fs.readFileSync(page, "utf8"), /href="awards\.html"/));
+  require("node:child_process").execFileSync(process.execPath, ["scripts/generate-awards.js", "--check"]);
 });
 
 test("all pages expose shared navigation and accessible landmarks", () => {

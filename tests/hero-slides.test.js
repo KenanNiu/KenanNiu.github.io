@@ -22,6 +22,8 @@ test("autoplay stops for reduced motion, hover, or focus", () => {
   assert.equal(core.shouldAutoplay({ reducedMotion: false, hovered: true, focused: false }), false);
   assert.equal(core.shouldAutoplay({ reducedMotion: false, hovered: false, focused: true }), false);
   assert.equal(core.shouldAutoplay({ reducedMotion: false, hovered: false, focused: false }), true);
+  assert.equal(core.shouldAutoplay({ paused: true }), false);
+  assert.equal(core.shouldAutoplay({ hidden: true }), false);
 });
 
 test("generated manifest matches sorted slide folder", () => {

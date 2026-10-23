@@ -1,13 +1,4 @@
 (function () {
-  const media = document.getElementById("hero-slideshow");
-  const heroProject = (window.rviProjects || []).find(function (project) { return project.homeHero; });
-  if (media && heroProject && window.rviCreateResearchFeature) {
-    media.textContent = "";
-    media.appendChild(window.rviCreateResearchFeature(heroProject, true).querySelector("figure"));
-    const image = media.querySelector("img");
-    image.loading = "eager";
-    image.fetchPriority = "high";
-  }
   const pillars = document.getElementById("home-pillars");
   if (pillars && window.rviResearch) {
     pillars.textContent = "";
@@ -22,7 +13,7 @@
   const evidence = document.getElementById("home-evidence");
   if (evidence && window.rviProjects && window.rviCreateResearchFeature) {
     evidence.textContent = "";
-    window.rviProjects.filter(function (project) { return project.home; }).slice(0, 3).forEach(function (project) {
+    window.rviProjects.filter(function (project) { return project.home; }).sort(function (a, b) { return a.homeOrder - b.homeOrder; }).forEach(function (project) {
       evidence.appendChild(window.rviCreateResearchFeature(project, true));
     });
   }

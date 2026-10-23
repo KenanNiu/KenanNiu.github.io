@@ -8,7 +8,7 @@
   }
 
   function shouldAutoplay(state) {
-    return !state.reducedMotion && !state.hovered && !state.focused;
+    return !state.reducedMotion && !state.hovered && !state.focused && !state.paused && !state.hidden;
   }
 
   window.RVISlideshow = {

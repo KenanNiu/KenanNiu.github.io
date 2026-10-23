@@ -1,0 +1,56 @@
+[
+  {
+    "id": "biorob-2024-finalist",
+    "year": 2024,
+    "event": "BioRob",
+    "outcome": "finalist",
+    "label": "Finalist",
+    "award": "IEEE RAS/EMBS Best Paper Award",
+    "category": "Conference finalist",
+    "paper": "Augmented-Reality Based Digital Twin to Control an MR Safe Robot for Breast Biopsy: A Benchmark Study",
+    "authors": "Lennard Marx, Vincent Groenhuis, Stefano Stramigioli and Kenan Niu",
+    "doi": "https://doi.org/10.1109/BioRob60516.2024.10719969",
+    "source": "https://www.biorob2024.org/wp-content/uploads/sites/27/Biorob-Awards-Selections-003.pdf"
+  },
+  {
+    "id": "icar-2023-video",
+    "year": 2023,
+    "event": "ICAR",
+    "outcome": "winner",
+    "label": "Winner",
+    "award": "Best Video Award",
+    "category": "Conference award",
+    "paper": "A Comparative Study for Control of Semi-Automatic Robotic-Assisted Ultrasound System in Spine Surgery",
+    "authors": "Ayoob Davoodi, Ruixuan Li, Yuyu Cai, Kenan Niu, Gianni Borghesan and Emmanuel Vander Poorten",
+    "doi": "https://doi.org/10.1109/ICAR58858.2023.10406449",
+    "source": "https://www.mech.kuleuven.be/en/pma/research/ras/rasnews/ayoob-davoodi-wins-best-video-award-at-icar-2023-in-abu-dhabi-uae"
+  },
+  {
+    "id": "ismr-2022-runner-up",
+    "year": 2022,
+    "event": "ISMR",
+    "outcome": "runner-up",
+    "label": "Runner-up",
+    "award": "Best Student Paper Award",
+    "category": "Second place",
+    "paper": "Quantitative Assessment of Calibration Motion Profiles in Robotic-Assisted Ultrasound System",
+    "authors": "Maarten Schoovaerts, Ruixuan Li, Kenan Niu and Emmanuel Vander Poorten",
+    "doi": "https://doi.org/10.1109/ISMR48347.2022.9807524",
+    "source": "https://h2020faros.eu/post/2022-04-22-ismr-prize/"
+  },
+  {
+    "id": "ral-2021-honorable-mention",
+    "year": 2021,
+    "event": "IEEE RA-L",
+    "outcome": "honorable-mention",
+    "label": "Honorable Mention",
+    "award": "RA-L Best Paper Award",
+    "category": "Journal recognition",
+    "paper": "Hysteresis Modeling of Robotic Catheters Based on Long Short-Term Memory Network for Improved Environment Reconstruction",
+    "authors": "Di Wu, Yao Zhang, Mouloud Ourak, Kenan Niu, Jenny Dankelman and Emmanuel Vander Poorten",
+    "note": "2021 journal recognition, announced at ICRA 2022 on 26 May 2022.",
+    "doi": "https://doi.org/10.1109/LRA.2021.3061069",
+    "source": "https://www.ieee-ras.org/publications/ra-l/ra-l-paper-awards/",
+    "announcement": "https://www.mech.kuleuven.be/en/news/2021-honorable-mention-from-ieee-robotics-and-automation-letters"
+  }
+]

@@ -1,5 +1,11 @@
 # RVI Group Website Maintenance
 
+## Awards & Recognition
+
+The dedicated `awards.html` page is generated from `assets/data/awards.json`. Do not edit the generated page by hand. To add a verified award, duplicate one JSON record and update its unique `id`, `year`, `event`, `award`, `paper`, `authors`, `doi` and primary `source` URL. Keep `outcome` and `label` paired: `winner` / `Winner`, `runner-up` / `Runner-up`, `finalist` / `Finalist`, or `honorable-mention` / `Honorable Mention`. Use `category` to distinguish conference awards, finalists and journal recognition. Optional `note` and `announcement` fields can explain ceremony dates or link to an additional announcement. Do not count a finalist as a winner or a journal recognition as a conference paper award.
+
+Run `node scripts/generate-awards.js`, then `node scripts/generate-awards.js --check`. Records sort newest first automatically. The generated page includes its content without JavaScript and reuses the homepage header/footer. Regenerate after changing the homepage navigation. Preview `awards.html` locally before publishing.
+
 ## Homepage Slides
 
 The Full Website homepage rotates through the source-audited project images in `assets/data/projects-data.js` every 3 seconds. Each unique `image.src` is included once, with its caption and original-image link. The `homeHero: true` project appears first. Add or remove a project's image to maintain this carousel; no GIF export is needed. Playback pauses on hover, keyboard focus and hidden browser tabs; reduced-motion settings disable autoplay initially. Previous, next and play/pause controls remain available. Without JavaScript, the original setup image remains visible. The concise site retains its supplied research-direction diagram.
